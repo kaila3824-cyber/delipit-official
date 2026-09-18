@@ -32,4 +32,4 @@ GitHub Pages:
 - 利用規約・プライバシーポリシーは一般的な公開準備用文面です。事業上の要件や実際のデータ処理が確定した段階で、必要に応じて専門家確認を行ってください。
 
 
-v4.5.3.3: MANUAL / GAMIFICATION pages added; navigation and sitemap updated.
+v4.5.4.3: MANUAL / GAMIFICATION pages added; navigation and sitemap updated.
