@@ -19,12 +19,85 @@
 .cta{margin:52px auto 60px;padding:36px 20px}.foot{align-items:flex-start;flex-direction:column}
 }
 @media(max-width:430px){.wrap{width:min(var(--max),calc(100% - 28px))}.grid{grid-template-columns:1fr 1fr}.card{padding:15px;min-height:142px}.num{font-size:10px}.card h3{font-size:16px}.hero h1{font-size:39px}}
-.manual-hero{padding:72px 0 44px}.manual-hero h1{font-size:clamp(38px,7vw,64px);line-height:1.15;margin:10px 0 14px}.manual-grid,.feature-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.manual-card{background:linear-gradient(145deg,#15191d,#0e1012);border:1px solid #2c2d2f;border-radius:16px;padding:24px}.manual-card h3{margin:6px 0 8px}.manual-card p,.muted{color:#aaa;margin:0}.steps{counter-reset:step;display:grid;gap:12px}.step{position:relative;padding:20px 20px 20px 64px;background:#101214;border:1px solid #292b2d;border-radius:14px}.step:before{counter-increment:step;content:counter(step);position:absolute;left:18px;top:18px;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:#e5ae42;color:#15110a;font-weight:900}.shot{width:100%;display:block;border-radius:14px;border:1px solid #34302a;margin:18px 0}.shot.phone{width:min(100%,430px);margin:20px auto;box-shadow:0 18px 48px rgba(0,0,0,.32)}.shot-pair{display:grid;grid-template-columns:repeat(2,minmax(0,430px));justify-content:center;gap:18px;margin:20px auto}.shot-pair .shot{margin:0}@media(max-width:780px){.shot-pair{grid-template-columns:1fr}.shot-pair .shot{width:min(100%,430px);margin:0 auto}}.notice{border:1px solid #5a451f;background:#17130c;border-radius:14px;padding:18px;color:#d5c9ad}.toc{display:flex;gap:9px;flex-wrap:wrap;margin-top:24px}.toc a{border:1px solid #4c3b20;color:#e8c46f;border-radius:999px;padding:7px 12px;font-size:12px}.status{display:inline-flex;border:1px solid #6b5124;background:#17130c;color:#f0c35e;border-radius:999px;padding:7px 12px;font-size:12px;font-weight:850}.feature-list .card{min-height:auto}@media(max-width:780px){.manual-hero{padding:48px 0 30px}.manual-grid,.feature-list{grid-template-columns:1fr}.step{padding-left:58px}}</style></head><body><header><div class="wrap nav"><a class="brand" href="index.html"><img src="assets/delipit-logo.png" alt="DELIPIT"></a><nav class="navlinks"><a href="index.html">公式サイト</a><a href="manual.html">使い方</a><a href="gamification.html">ゲーム機能</a><a class="btn" href="https://app.delipit.jp/" target="_blank" rel="noopener noreferrer">無料で使う</a></nav></div></header><main><section class="manual-hero"><div class="wrap"><div class="eyebrow">DELIPIT MANUAL</div><h1>使い方</h1><p class="lead">初めてでも迷わないように、現在のDELIPITで実装されている基本機能をまとめました。必要なところだけ確認できます。</p><div class="toc"><a href="#start">はじめに</a><a href="#daily">実績入力</a><a href="#monthly">月間</a><a href="#log">記録</a><a href="#annual">年間</a><a href="#settings">設定</a><a href="#backup">バックアップ</a></div></div></section>
+.manual-hero{padding:72px 0 44px}.manual-hero h1{font-size:clamp(38px,7vw,64px);line-height:1.15;margin:10px 0 14px}.manual-grid,.feature-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.manual-card{background:linear-gradient(145deg,#15191d,#0e1012);border:1px solid #2c2d2f;border-radius:16px;padding:24px}.manual-card h3{margin:6px 0 8px}.manual-card p,.muted{color:#aaa;margin:0}.steps{counter-reset:step;display:grid;gap:12px}.step{position:relative;padding:20px 20px 20px 64px;background:#101214;border:1px solid #292b2d;border-radius:14px}.step:before{counter-increment:step;content:counter(step);position:absolute;left:18px;top:18px;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:#e5ae42;color:#15110a;font-weight:900}.shot{width:100%;display:block;border-radius:14px;border:1px solid #34302a;margin:18px 0}.shot.phone{width:min(100%,430px);margin:20px auto;box-shadow:0 18px 48px rgba(0,0,0,.32)}.manual-shots{display:grid;grid-template-columns:1fr;gap:18px;max-width:430px;margin:20px auto}.manual-shots figure{margin:0}.manual-shots .shot{margin:0}.manual-shots figcaption{font-size:12px;color:#aaa;margin-top:8px;text-align:center}.notice{border:1px solid #5a451f;background:#17130c;border-radius:14px;padding:18px;color:#d5c9ad}.toc{display:flex;gap:9px;flex-wrap:wrap;margin-top:24px}.toc a{border:1px solid #4c3b20;color:#e8c46f;border-radius:999px;padding:7px 12px;font-size:12px}.status{display:inline-flex;border:1px solid #6b5124;background:#17130c;color:#f0c35e;border-radius:999px;padding:7px 12px;font-size:12px;font-weight:850}.feature-list .card{min-height:auto}@media(max-width:780px){.manual-hero{padding:48px 0 30px}.manual-grid,.feature-list{grid-template-columns:1fr}.step{padding-left:58px}}
+/* v4.5.6 shared navigation */
+.site-header{position:sticky;top:0;z-index:100;background:rgba(8,9,9,.94);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid #202020}
+.site-header .nav{height:68px;display:flex;align-items:center;gap:28px}
+.site-header .brand{flex:0 0 auto}.site-header .brand img{width:154px;display:block}
+.desktop-nav{display:flex;align-items:center;gap:24px;margin-left:auto;font-size:13px;color:#c7c7c7}
+.desktop-nav a{color:#c7c7c7;text-decoration:none;white-space:nowrap}.desktop-nav a:hover{color:#f3c45e}
+.nav-actions{display:flex;align-items:center;gap:10px}.header-app{white-space:nowrap}
+.menu-toggle{display:none;width:42px;height:42px;border:1px solid #4c3b20;border-radius:10px;background:#111315;padding:10px;cursor:pointer}
+.menu-toggle span{display:block;height:2px;background:#f3c45e;margin:4px 0;border-radius:2px;transition:.2s}
+.menu-toggle[aria-expanded="true"] span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.menu-toggle[aria-expanded="true"] span:nth-child(2){opacity:0}
+.menu-toggle[aria-expanded="true"] span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+.mobile-menu{display:none;border-top:1px solid #202020;background:rgba(8,9,9,.98)}
+.mobile-menu.open{display:block}
+.mobile-menu-inner{display:grid;padding-top:8px;padding-bottom:12px}
+.mobile-menu a{display:block;padding:13px 2px;border-bottom:1px solid #1f1f1f;color:#ddd;text-decoration:none;font-size:14px}
+@media(max-width:900px){
+  .desktop-nav{display:none}.menu-toggle{display:block}.site-header .nav{height:64px;gap:12px}
+  .site-header .brand img{width:132px}.nav-actions{margin-left:auto}.header-app{min-height:40px;padding:0 13px;font-size:12px}
+}
+@media(max-width:390px){
+  .site-header .brand img{width:116px}.header-app{padding:0 10px;font-size:11px}.menu-toggle{width:40px;height:40px}
+}
+
+</style></head><body><header class="site-header">
+<div class="wrap nav">
+  <a class="brand" href="index.html" aria-label="DELIPIT ホーム"><img src="assets/delipit-logo.png" alt="DELIPIT"></a>
+  <nav class="desktop-nav" aria-label="メインナビゲーション">
+    <a href="index.html">ホーム</a>
+    <a href="index.html#features">機能</a>
+    <a href="manual.html">マニュアル</a>
+    <a href="gamification.html">ゲーム機能</a>
+    <a href="index.html#faq">FAQ</a>
+  </nav>
+  <div class="nav-actions">
+    <a class="btn header-app" href="https://app.delipit.jp/" target="_blank" rel="noopener noreferrer">無料で使う</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="メニューを開く"><span></span><span></span><span></span></button>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu" aria-label="スマートフォン用メニュー">
+  <div class="wrap mobile-menu-inner">
+    <a href="index.html">ホーム</a>
+    <a href="index.html#features">機能</a>
+    <a href="manual.html">使い方・マニュアル</a>
+    <a href="gamification.html">ゲーム機能</a>
+    <a href="index.html#faq">FAQ</a>
+  </div>
+</nav>
+</header><main><section class="manual-hero"><div class="wrap"><div class="eyebrow">DELIPIT MANUAL</div><h1>使い方</h1><p class="lead">初めてでも迷わないように、現在のDELIPITで実装されている基本機能をまとめました。必要なところだけ確認できます。</p><div class="toc"><a href="#start">はじめに</a><a href="#daily">実績入力</a><a href="#monthly">月間</a><a href="#log">記録</a><a href="#annual">年間</a><a href="#settings">設定</a><a href="#backup">バックアップ</a></div></div></section>
 <section class="section" id="start"><div class="wrap"><div class="eyebrow">START GUIDE</div><h2>初めて使う方へ。</h2><p class="lead">最初に「設定」で、目標・インボイス・税率・配送種類・単価を確認します。設定ができたら、その日の配送実績を入力してDELIPITを使い始められます。</p><div class="manual-card" style="margin-top:22px"><span class="num">01</span><h3>まずは設定から</h3><p>自分の契約内容に合わせて目標や単価を登録します。月ごとの単価変更にも対応しています。</p><p style="margin-top:18px"><a class="btn" href="#settings">設定方法を見る ↓</a></p></div><div class="notice" style="margin-top:20px">契約条件や税務上の扱いは利用者ごとに異なります。DELIPITの計算結果は管理・確認のための参考値として利用し、正式な会計・税務処理は契約書や専門家等をご確認ください。</div></div></section>
 <section class="section" id="daily"><div class="wrap"><div class="eyebrow">DAILY ENTRY</div><h2>今日の実績を入力する。</h2><img class="shot" src="assets/screen-daily-entry.jpg" alt="DELIPIT 今日の実績入力画面"><div class="manual-grid"><div class="manual-card"><span class="num">01</span><h3>荷物ごとの個数を入力</h3><p>設定している荷物種別ごとに、その日の配完数を入力します。</p></div><div class="manual-card"><span class="num">02</span><h3>売上を自動計算</h3><p>登録した単価をもとに、その日の配送実績と売上を確認できます。</p></div></div></div></section>
 <section class="section" id="monthly"><div class="wrap"><div class="eyebrow">MONTHLY VIEW</div><h2>今月の積み上がりを見る。</h2><img class="shot" src="assets/screen-monthly-view.jpg" alt="DELIPIT 月間集計画面"><p class="lead">月間の売上、稼働日数、平均日当、目標への進捗などをまとめて確認できます。</p></div></section>
 <section class="section" id="log"><div class="wrap"><div class="eyebrow">SNAPSHOT / FIELD LOG</div><h2>内訳と毎日の記録を振り返る。</h2><img class="shot" src="assets/screen-snapshot-log.jpg" alt="DELIPIT 月間内訳と記録画面"><div class="manual-grid"><div class="manual-card"><h3>SNAPSHOT</h3><p>荷物種別ごとの実績など、月間の内訳を確認します。</p></div><div class="manual-card"><h3>FIELD LOG</h3><p>日々入力してきた配送記録を一覧で振り返ります。</p></div></div></div></section>
 <section class="section" id="annual"><div class="wrap"><div class="eyebrow">ANNUAL VIEW</div><h2>一年の成果を確認する。</h2><img class="shot" src="assets/screen-annual-view.jpg" alt="DELIPIT 年間収支画面"><p class="lead">月ごとの記録を年間で集計し、売上や経費の積み上がりを確認できます。</p></div></section>
-<section class="section" id="settings"><div class="wrap"><div class="eyebrow">SETTINGS</div><h2>自分の契約に合わせる。</h2><p class="lead">設定では、目標・インボイス・税率と、月ごとの配送種類・単価を管理できます。</p><img class="shot phone" src="assets/manual-settings-goals-tax.jpg" alt="DELIPIT 目標・インボイス・税率設定画面"><div class="manual-grid"><div class="manual-card"><span class="num">01</span><h3>目標は共通設定</h3><p>月間売上目標、1日の目標、月の想定稼働日数を入力します。</p></div><div class="manual-card"><span class="num">02</span><h3>インボイス対応</h3><p>ONの場合、4種類の税抜売上合計に指定税率を加算します。画面の案内どおり1日分の税額は1円未満切り捨てとなり、その他売上には加算されません。変更は新しい記録に適用されます。</p></div></div><h3 style="margin-top:42px">月別の単価設定</h3><div class="shot-pair"><img class="shot" src="assets/manual-settings-rates-1.jpg" alt="DELIPIT 月別単価設定画面 前半"><img class="shot" src="assets/manual-settings-rates-2.jpg" alt="DELIPIT 月別単価設定画面 後半"></div><div class="steps"><div class="step"><strong>単価を設定する月を選ぶ</strong><div class="muted">設定した単価は、次に単価を設定した月まで引き継がれます。</div></div><div class="step"><strong>使う配送種類だけ表示</strong><div class="muted">使わない種類は「この種類を表示する」のチェックを外して保存できます。入力欄・種類別集計・記録一覧の個数表示が非表示になります。</div></div><div class="step"><strong>名前と税抜単価を入力</strong><div class="muted">配送種類の名前は自由に変更できます。契約内容に合わせて税抜単価を入力します。</div></div><div class="step"><strong>設定を保存</strong><div class="muted">「設定を保存」を押して反映します。</div></div></div><div class="notice" style="margin-top:20px"><strong>過去の記録は守られます。</strong><br>単価設定を変更しても記録済みの売上は変更されません。また、過去の記録には記録時の配送種類名が残ります。</div></div></section>
+<section class="section" id="settings"><div class="wrap"><div class="eyebrow">SETTINGS</div><h2>自分の契約に合わせる。</h2><p class="lead">設定では、目標・インボイス・税率と、月ごとの配送種類・単価を管理できます。</p><img class="shot phone" src="assets/manual-settings-goals-tax.jpg" alt="DELIPIT 目標・インボイス・税率設定画面"><div class="manual-grid"><div class="manual-card"><span class="num">01</span><h3>目標は共通設定</h3><p>月間売上目標、1日の目標、月の想定稼働日数を入力します。</p></div><div class="manual-card"><span class="num">02</span><h3>インボイス対応</h3><p>ONの場合、4種類の税抜売上合計に指定税率を加算します。画面の案内どおり1日分の税額は1円未満切り捨てとなり、その他売上には加算されません。変更は新しい記録に適用されます。</p></div></div><h3 style="margin-top:42px">月別の単価設定</h3><div class="manual-shots">
+<figure><img class="shot" src="assets/manual-rates-step1.jpg" alt="DELIPIT 月別単価設定 対象月と種類1"><figcaption>対象月を選び、配送種類ごとの名称・単価を設定します。</figcaption></figure>
+<figure><img class="shot" src="assets/manual-rates-step2.jpg" alt="DELIPIT 月別単価設定 種類2と種類3"><figcaption>必要な配送種類だけ表示し、それぞれ名称と税抜単価を設定します。</figcaption></figure>
+<figure><img class="shot" src="assets/manual-rates-step3.jpg" alt="DELIPIT 月別単価設定 種類4と保存ボタン"><figcaption>最後に「設定を保存」を押して反映します。</figcaption></figure>
+</div><div class="steps"><div class="step"><strong>単価を設定する月を選ぶ</strong><div class="muted">設定した単価は、次に単価を設定した月まで引き継がれます。</div></div><div class="step"><strong>使う配送種類だけ表示</strong><div class="muted">使わない種類は「この種類を表示する」のチェックを外して保存できます。入力欄・種類別集計・記録一覧の個数表示が非表示になります。</div></div><div class="step"><strong>名前と税抜単価を入力</strong><div class="muted">配送種類の名前は自由に変更できます。契約内容に合わせて税抜単価を入力します。</div></div><div class="step"><strong>設定を保存</strong><div class="muted">「設定を保存」を押して反映します。</div></div></div><div class="notice" style="margin-top:20px"><strong>過去の記録は守られます。</strong><br>単価設定を変更しても記録済みの売上は変更されません。また、過去の記録には記録時の配送種類名が残ります。</div></div></section>
 <section class="section" id="backup"><div class="wrap"><div class="eyebrow">DATA / BACKUP</div><h2>データを書き出して守る。</h2><img class="shot phone" src="assets/manual-backup.jpg" alt="DELIPIT データ管理・バックアップ画面"><p class="lead">現在の記録は、この端末のブラウザに保存されます。機種変更やブラウザデータ削除に備えて、定期的にバックアップしてください。</p><div class="steps"><div class="step"><strong>「データを書き出す」を押す</strong><div class="muted">バックアップファイルを書き出します。書き出し後は、ファイルが端末に保存されたことも確認してください。</div></div><div class="step"><strong>バックアップを保管</strong><div class="muted">機種変更・端末故障・ブラウザデータ削除に備え、失わない場所に保管します。</div></div><div class="step"><strong>必要なときに「バックアップを読み込む」</strong><div class="muted">保存してあるバックアップファイルから記録を読み込みます。</div></div></div><div class="notice" style="margin-top:20px"><strong>重要：</strong>画面に表示されるバックアップ日時は書き出し操作の日時です。バックアップ完了後は、ファイル自体が端末に保存されていることを確認してください。</div></div></section>
-<section class="section"><div class="wrap"><div class="eyebrow">NEED HELP?</div><h2>困ったときは。</h2><div class="manual-grid"><div class="manual-card"><h3>公式メール</h3><p><a href="mailto:info@delipit.jp" style="color:#e8c46f">info@delipit.jp</a></p></div><div class="manual-card"><h3>公式X</h3><p><a href="https://x.com/DELIPIT_JP" target="_blank" rel="noopener noreferrer" style="color:#e8c46f">@DELIPIT_JP</a></p></div></div><p class="sample-note">※掲載画面・機能は開発状況により変更される場合があります。</p></div></section></main><footer><div class="wrap foot"><img src="assets/delipit-logo.png" alt="DELIPIT"><div class="fine"><span>© 2026 DELIPIT / REVERIE</span><a href="mailto:info@delipit.jp">info@delipit.jp</a><a href="https://x.com/DELIPIT_JP" target="_blank" rel="noopener noreferrer">X @DELIPIT_JP</a><a href="index.html">公式サイト</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシーポリシー</a></div></div></footer></body></html>
+<section class="section"><div class="wrap"><div class="eyebrow">NEED HELP?</div><h2>困ったときは。</h2><div class="manual-grid"><div class="manual-card"><h3>公式メール</h3><p><a href="mailto:info@delipit.jp" style="color:#e8c46f">info@delipit.jp</a></p></div><div class="manual-card"><h3>公式X</h3><p><a href="https://x.com/DELIPIT_JP" target="_blank" rel="noopener noreferrer" style="color:#e8c46f">@DELIPIT_JP</a></p></div></div><p class="sample-note">※掲載画面・機能は開発状況により変更される場合があります。</p></div></section></main><footer><div class="wrap foot"><img src="assets/delipit-logo.png" alt="DELIPIT"><div class="fine"><span>© 2026 DELIPIT / REVERIE</span><a href="mailto:info@delipit.jp">info@delipit.jp</a><a href="https://x.com/DELIPIT_JP" target="_blank" rel="noopener noreferrer">X @DELIPIT_JP</a><a href="index.html">公式サイト</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシーポリシー</a></div></div></footer><script>
+(() => {
+  const button = document.querySelector('.menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  if (!button || !menu) return;
+  const closeMenu = () => {
+    menu.classList.remove('open');
+    button.setAttribute('aria-expanded','false');
+    button.setAttribute('aria-label','メニューを開く');
+  };
+  button.addEventListener('click', () => {
+    const open = !menu.classList.contains('open');
+    menu.classList.toggle('open', open);
+    button.setAttribute('aria-expanded', String(open));
+    button.setAttribute('aria-label', open ? 'メニューを閉じる' : 'メニューを開く');
+  });
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
+  window.addEventListener('resize', () => { if (window.innerWidth > 900) closeMenu(); });
+})();
+</script>
+</body></html>
