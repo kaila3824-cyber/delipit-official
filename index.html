@@ -45,7 +45,7 @@
 }
 @media(max-width:430px){.wrap{width:min(var(--max),calc(100% - 28px))}.grid{grid-template-columns:1fr 1fr}.card{padding:15px;min-height:142px}.num{font-size:10px}.card h3{font-size:16px}.hero h1{font-size:39px}}
 
-/* v4.5.7 shared navigation */
+/* v4.5.8 shared navigation */
 .site-header{position:sticky;top:0;z-index:100;background:rgba(8,9,9,.94);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid #202020}
 .site-header .nav{height:68px;display:flex;align-items:center;gap:28px}
 .site-header .brand{flex:0 0 auto}.site-header .brand img{width:154px;display:block}
@@ -69,8 +69,7 @@
   .site-header .brand img{width:116px}.header-app{padding:0 10px;font-size:11px}.menu-toggle{width:40px;height:40px}
 }
 
-
-/* v4.5.7: top page = product introduction, manual = operation guide */
+/* v4.5.8 top/detail separation */
 .showcase-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:28px}
 .showcase-shot{overflow:hidden;border:1px solid #2c2c2c;border-radius:18px;background:#0d0f10;padding:10px}
 .showcase-shot img{display:block;width:100%;height:auto;border-radius:12px}
@@ -79,7 +78,6 @@
 .exp-callout strong{display:block;color:#f3c45e;font-size:clamp(22px,4vw,34px);letter-spacing:.05em}
 .exp-callout span{display:block;margin-top:7px;color:#bdbdbd}
 @media(max-width:760px){.showcase-grid{grid-template-columns:1fr;gap:14px}.showcase-shot{max-width:430px;margin:0 auto}.section-actions .btn{width:100%;max-width:430px}}
-
 </style>
 </head>
 <body>
@@ -109,12 +107,28 @@
 </nav>
 </header>
 <main id="top">
-<section class="section manual-cta" id="manual-guide">
+<section class="hero"><div class="wrap"><img class="hero-logo" src="assets/delipit-logo-tagline.png" alt="DELIPIT DRIVE MORE. CONTROL YOUR DAY."><div class="eyebrow">DELIVERY MANAGEMENT WEB APP</div><h1>今日の成果を、見えるものに。</h1><p>配完数、売上、実績、そして成長。DELIPITは、毎日の配送を記録し、働いた成果を見える化するドライバーのための配送管理Webアプリです。</p><div class="actions"><a class="btn" href="https://app.delipit.jp/" target="_blank" rel="noopener noreferrer">無料で使ってみる</a><a class="btn ghost" href="#story">DELIPITについて</a></div></div></section>
+
+<section class="section"><div class="wrap statement"><div class="eyebrow">BEYOND THE COUNT</div><h2>配完数だけで、終わらせない。</h2><p><strong>今日、何個配った？</strong><br>配送の仕事をしていると、まず気になるのは毎日の配完数。でも、その数字の先には、今日の売上、今月の実績、そしてこれまで積み上げてきた成果があります。</p><p>DELIPITなら毎日の配送実績を入力することで、自分の仕事を数字として残し、振り返ることができます。</p></div></section>
+
+<section class="section" id="features"><div class="wrap"><div class="eyebrow">FEATURES</div><h2>毎日の配送を、ひとつのコックピットに。</h2><p class="lead">入力はできるだけ少なく。今日・今月・これまでが見える。現場で続けられることを軸にした設計です。</p><div class="grid"><article class="card"><span class="num">01</span><h3>配送実績</h3><p>荷物種別ごとの配完数を入力。日々の実績をまとめて管理。</p></article><article class="card"><span class="num">02</span><h3>売上計算</h3><p>設定した単価から売上を自動計算。毎日の成果を金額でも確認。</p></article><article class="card"><span class="num">03</span><h3>日次・月次集計</h3><p>配完数や売上を日・月単位で確認。積み上がりを把握。</p></article><article class="card"><span class="num">04</span><h3>グラフ</h3><p>日々の数字を視覚化し、実績の変化を見やすく。</p></article><article class="card"><span class="num">05</span><h3>柔軟な設定</h3><p>荷物名称・単価・税率・インボイスなど、自分の契約に合わせて設定。</p></article><article class="card"><span class="num">06</span><h3>バックアップ</h3><p>入力データをバックアップし、必要なときに読み込み。</p></article></div></div></section>
+
+<section class="section" id="interface">
 <div class="wrap">
-  <div class="eyebrow">MANUAL</div>
-  <h2>使い方に迷ったら、ここから。</h2>
-  <p class="lead">初期設定、毎日の実績入力、単価・税率設定、バックアップまで、実際の画面を使って案内しています。</p>
-  <div class="section-actions"><a class="btn" href="manual.html">使い方・マニュアルを見る →</a></div>
+<div class="eyebrow">REAL INTERFACE</div>
+<h2>必要な数字を、迷わず確認。</h2>
+<p class="lead">毎日の入力から月間・年間の振り返りまで。DELIPITは配送の成果をひとつの流れで見える化します。</p>
+<div class="showcase-grid"><div class="showcase-shot"><img src="assets/screen-daily-entry.jpg" alt="DELIPIT 今日の実績入力画面" loading="lazy"></div>
+<div class="showcase-shot"><img src="assets/screen-monthly-view.jpg" alt="DELIPIT 月間集計画面" loading="lazy"></div>
+<div class="showcase-shot"><img src="assets/screen-snapshot-log.jpg" alt="DELIPIT 月間内訳と記録画面" loading="lazy"></div></div>
+<div class="section-actions"><a class="btn" href="manual.html">詳しい使い方を見る →</a></div>
+</div>
+</section><section class="section manual-cta" id="manual-guide">
+<div class="wrap">
+<div class="eyebrow">MANUAL</div>
+<h2>使い方に迷ったら、マニュアルへ。</h2>
+<p class="lead">初期設定、実績入力、単価・税率設定、バックアップなど、具体的な操作方法を実際の画面で案内しています。</p>
+<div class="section-actions"><a class="btn" href="manual.html">使い方・マニュアルを見る →</a></div>
 </div>
 </section>
 
@@ -122,13 +136,11 @@
 
 <section class="section" id="gamification">
 <div class="wrap">
-  <div class="eyebrow">GAMIFICATION — COMING SOON</div>
-  <h2>今日の1個を、ただの1個で終わらせない。</h2>
-  <p class="lead">DELIPITでは、配送の積み重ねを経験値や達成として残すゲーム機能を開発中です。競う相手は他人ではなく、昨日までの自分。</p>
-  <div class="exp-callout"><strong>1 DELIVERY = 1 EXP</strong><span>届けた1個を、自分の経験値として残す。</span></div>
-  <div class="section-actions">
-    <a class="btn" href="gamification.html">ゲーム機能について詳しく見る →</a>
-  </div>
+<div class="eyebrow">GAMIFICATION — COMING SOON</div>
+<h2>今日の1個を、ただの1個で終わらせない。</h2>
+<p class="lead">配送の積み重ねを経験値や達成として残すゲーム機能を開発中です。競う相手は他人ではなく、昨日までの自分。</p>
+<div class="exp-callout"><strong>1 DELIVERY = 1 EXP</strong><span>届けた1個を、自分の経験値として残す。</span></div>
+<div class="section-actions"><a class="btn" href="gamification.html">ゲーム機能について詳しく見る →</a></div>
 </div>
 </section>
 
