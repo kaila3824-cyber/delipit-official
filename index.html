@@ -45,7 +45,7 @@
 }
 @media(max-width:430px){.wrap{width:min(var(--max),calc(100% - 28px))}.grid{grid-template-columns:1fr 1fr}.card{padding:15px;min-height:142px}.num{font-size:10px}.card h3{font-size:16px}.hero h1{font-size:39px}}
 
-/* v4.5.11 shared navigation */
+/* v4.5.12 shared navigation */
 .site-header{position:sticky;top:0;z-index:100;background:rgba(8,9,9,.94);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid #202020}
 .site-header .nav{height:68px;display:flex;align-items:center;gap:28px}
 .site-header .brand{flex:0 0 auto}.site-header .brand img{width:154px;display:block}
@@ -69,17 +69,7 @@
   .site-header .brand img{width:116px}.header-app{padding:0 10px;font-size:11px}.menu-toggle{width:40px;height:40px}
 }
 
-
-/* v4.5.11 — top page/detail page separation */
-.single-screen-preview{width:min(100%,430px);margin:28px auto 0;padding:10px;border:1px solid #2c2c2c;border-radius:20px;background:#0d0f10}
-.single-screen-preview img{display:block;width:100%;height:auto;border-radius:13px}
-.section-actions{display:flex;justify-content:center;margin-top:26px}
-.exp-callout{margin:28px auto 0;max-width:680px;padding:22px;border:1px solid #60491e;border-radius:16px;background:linear-gradient(180deg,rgba(243,196,94,.09),rgba(243,196,94,.025));text-align:center}
-.exp-callout strong{display:block;color:#f3c45e;font-size:clamp(22px,4vw,34px);letter-spacing:.05em}
-.exp-callout span{display:block;margin-top:7px;color:#bdbdbd}
-@media(max-width:760px){.section-actions .btn{width:100%;max-width:430px}}
-
-</style>
+.single-screen-preview{width:min(100%,430px);margin:28px auto 0;padding:10px;border:1px solid #2c2c2c;border-radius:20px;background:#0d0f10}.single-screen-preview img{display:block;width:100%;height:auto;border-radius:13px}.section-actions{display:flex;justify-content:center;margin-top:26px}.exp-callout{margin:28px auto 0;max-width:680px;padding:22px;border:1px solid #60491e;border-radius:16px;background:linear-gradient(180deg,rgba(243,196,94,.09),rgba(243,196,94,.025));text-align:center}.exp-callout strong{display:block;color:#f3c45e;font-size:clamp(22px,4vw,34px);letter-spacing:.05em}.exp-callout span{display:block;margin-top:7px;color:#bdbdbd}@media(max-width:760px){.section-actions .btn{width:100%;max-width:430px}}</style>
 </head>
 <body>
 <header class="site-header">
@@ -114,36 +104,21 @@
 
 <section class="section" id="features"><div class="wrap"><div class="eyebrow">FEATURES</div><h2>毎日の配送を、ひとつのコックピットに。</h2><p class="lead">入力はできるだけ少なく。今日・今月・これまでが見える。現場で続けられることを軸にした設計です。</p><div class="grid"><article class="card"><span class="num">01</span><h3>配送実績</h3><p>荷物種別ごとの配完数を入力。日々の実績をまとめて管理。</p></article><article class="card"><span class="num">02</span><h3>売上計算</h3><p>設定した単価から売上を自動計算。毎日の成果を金額でも確認。</p></article><article class="card"><span class="num">03</span><h3>日次・月次集計</h3><p>配完数や売上を日・月単位で確認。積み上がりを把握。</p></article><article class="card"><span class="num">04</span><h3>グラフ</h3><p>日々の数字を視覚化し、実績の変化を見やすく。</p></article><article class="card"><span class="num">05</span><h3>柔軟な設定</h3><p>荷物名称・単価・税率・インボイスなど、自分の契約に合わせて設定。</p></article><article class="card"><span class="num">06</span><h3>バックアップ</h3><p>入力データをバックアップし、必要なときに読み込み。</p></article></div></div></section>
 
-<section class="section" id="interface">
-<div class="wrap">
-  <div class="eyebrow">REAL INTERFACE</div>
-  <h2>実際のDELIPIT画面。</h2>
-  <p class="lead">トップページでは代表画面だけを紹介します。各画面の操作方法や設定方法はマニュアルにまとめています。</p>
-  <div class="single-screen-preview">
-    <img src="assets/screen-daily-entry.jpg" alt="DELIPIT 今日の実績入力画面" loading="lazy">
-  </div>
-  <div class="section-actions"><a class="btn" href="manual.html">使い方・マニュアルを見る →</a></div>
-</div>
-</section><section class="section manual-cta" id="manual-guide">
-<div class="wrap">
-  <div class="eyebrow">MANUAL</div>
-  <h2>操作方法は、マニュアルに集約。</h2>
-  <p class="lead">実績入力、月間・年間の確認、単価・税率設定、バックアップなど、具体的な使い方を実画面で案内しています。</p>
-  <div class="section-actions"><a class="btn" href="manual.html">マニュアルを開く →</a></div>
-</div>
-</section>
+<section class="section" id="interface"><div class="wrap">
+<div class="eyebrow">REAL INTERFACE</div><h2>実際のDELIPIT画面。</h2>
+<p class="lead">毎日の実績入力や売上確認を、スマートフォンからシンプルに。トップでは代表画面だけを紹介し、具体的な操作方法はマニュアルにまとめています。</p>
+<div class="single-screen-preview"><img src="assets/screen-daily-entry.jpg" alt="DELIPIT 今日の実績入力画面" loading="lazy"></div>
+<div class="section-actions"><a class="btn" href="manual.html">使い方・マニュアルを見る →</a></div>
+</div></section>
 
 <section class="section"><div class="wrap"><div class="eyebrow">MOTIVATION</div><h2>毎日の配送を、少しだけ楽しく。</h2><div class="quote"><p>今日も、いつもと同じ一日だった。<br>そんな配送の毎日を、少しだけ変えたい。</p></div><div class="statement" style="margin-top:30px"><p>配送の仕事は、荷物を積んで、届けて、また次の日も届ける。同じことの繰り返しに感じて、気づけばただ仕事をこなすだけになってしまうこともあります。</p><p>でも、今日届けた1個も、100個も、積み重ねれば大きな実績になる。昨日より多かった。今月はここまで積み上がった。自己ベストを更新した。<strong>数字として残すことで、いつもの一日に小さな達成感が生まれます。</strong></p><p><strong>DELIPITは、今日の仕事を「ただこなした一日」で終わらせない。</strong><br>成果を残し、積み重ねを見えるようにすることで、いつもの配送に小さな達成感を。そんなツールを目指しています。</p></div></div></section>
 
-<section class="section" id="gamification">
-<div class="wrap">
-  <div class="eyebrow">GAMIFICATION — COMING SOON</div>
-  <h2>今日の1個を、ただの1個で終わらせない。</h2>
-  <p class="lead">配送の積み重ねを経験値や達成として残すゲーム機能を開発中です。詳しい機能構成は専用ページで紹介しています。</p>
-  <div class="exp-callout"><strong>1 DELIVERY = 1 EXP</strong><span>届けた1個を、自分の経験値として残す。</span></div>
-  <div class="section-actions"><a class="btn" href="gamification.html">ゲーム機能について詳しく見る →</a></div>
-</div>
-</section>
+<section class="section" id="gamification"><div class="wrap">
+<div class="eyebrow">GAMIFICATION — COMING SOON</div><h2>今日の1個を、ただの1個で終わらせない。</h2>
+<p class="lead">配送の積み重ねを経験値や達成として残すゲーム機能を開発中です。仕事そのものを変えなくても、毎日の成果の見え方は変えられる。</p>
+<div class="exp-callout"><strong>1 DELIVERY = 1 EXP</strong><span>届けた1個を、自分の経験値として残す。</span></div>
+<div class="section-actions"><a class="btn" href="gamification.html">ゲーム機能について詳しく見る →</a></div>
+</div></section>
 
 <section class="section" id="story"><div class="wrap"><div class="eyebrow">DELIPIT STORY</div><h2>すべては、配完数のメモから始まりました。</h2><div class="storyline"><div class="origin"><img src="assets/delipit-symbol.png" alt="DELIPIT symbol"><div class="eyebrow">BUILT FROM THE FIELD</div></div><div class="storycopy"><p>委託ドライバーとして仕事を始めた頃、毎日の配完数をメモするところから始まりました。</p><p class="big">「今日、実際いくら稼いだんだろう？」</p><p>仕事を続けるうちに、正確な金額が知りたくなりました。そこで自分でスプレッドシートを作り、荷物ごとの単価と配完数から、その日の売上や月間の実績を確認するようになりました。</p><p>数字が積み上がっていく。売上が見える。昨日と今日を比べられる。もともと数字や金額を見ることでモチベーションが上がることもあり、それ自体が仕事を続ける楽しみのひとつになっていきました。</p><p>記録を続けると、同じように見える毎日の裏で、大きな成果が積み上がっていることに気づきます。毎日の配送も、積み重ねれば数千、数万という実績になる。残して振り返ることで、「自分はこんなに届けてきたんだ」と実感できます。</p><p class="big">「今日の1個を、ただの1個で終わらせない。」</p><p>配送は同じことの繰り返しになりやすい仕事です。だからこそ成果を見えるようにして、少しでも達成感や楽しさにつなげたい。<strong style="color:#f0c35e">仕事そのものは同じでも、仕事の楽しみ方は変えられる。</strong></p><p class="big">「これをもっと簡単に、もっと楽しくできないだろうか。」</p><p>その発想から生まれたのが、DELIPITです。</p><p><strong style="color:#f0c35e">DELIPITは現在も、現役の委託ドライバーが実際の配送現場で使いながら開発しています。</strong></p></div></div></div></section>
 
