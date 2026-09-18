@@ -45,15 +45,6 @@
 }
 
 
-/* v4.5.15 — DELIPIT share section */
-.share-card{margin-top:24px;padding:24px;border:1px solid #2c2c2c;border-radius:18px;background:linear-gradient(180deg,#171819,#111213)}
-.share-copy{display:grid;gap:8px;margin-bottom:20px}
-.share-copy strong{color:#f2bd55;font-size:18px;line-height:1.5}
-.share-copy span{color:#c9c6bf;line-height:1.8}
-.share-delipit-btn{border:0;cursor:pointer;font:inherit}
-.share-note{margin:14px 0 0;color:#8e8e8e;font-size:13px;line-height:1.7}
-@media(max-width:760px){.share-delipit-btn{width:100%}}
-
 </style></head><body><header class="site-header">
 <div class="wrap nav">
   <a class="brand" href="index.html" aria-label="DELIPIT ホーム"><img src="assets/delipit-logo.png" alt="DELIPIT"></a>
@@ -91,22 +82,6 @@
 </div><div class="steps"><div class="step"><strong>単価を設定する月を選ぶ</strong><div class="muted">設定した単価は、次に単価を設定した月まで引き継がれます。</div></div><div class="step"><strong>使う配送種類だけ表示</strong><div class="muted">使わない種類は「この種類を表示する」のチェックを外して保存できます。入力欄・種類別集計・記録一覧の個数表示が非表示になります。</div></div><div class="step"><strong>名前と税抜単価を入力</strong><div class="muted">配送種類の名前は自由に変更できます。契約内容に合わせて税抜単価を入力します。</div></div><div class="step"><strong>設定を保存</strong><div class="muted">「設定を保存」を押して反映します。</div></div></div><div class="notice" style="margin-top:20px"><strong>過去の記録は守られます。</strong><br>単価設定を変更しても記録済みの売上は変更されません。また、過去の記録には記録時の配送種類名が残ります。</div></div></section>
 <section class="section" id="backup"><div class="wrap"><div class="eyebrow">DATA / BACKUP</div><h2>データを書き出して守る。</h2><img class="shot phone" src="assets/manual-backup.jpg" alt="DELIPIT データ管理・バックアップ画面"><p class="lead">現在の記録は、この端末のブラウザに保存されます。機種変更やブラウザデータ削除に備えて、定期的にバックアップしてください。</p><div class="steps"><div class="step"><strong>「データを書き出す」を押す</strong><div class="muted">バックアップファイルを書き出します。書き出し後は、ファイルが端末に保存されたことも確認してください。</div></div><div class="step"><strong>バックアップを保管</strong><div class="muted">機種変更・端末故障・ブラウザデータ削除に備え、失わない場所に保管します。</div></div><div class="step"><strong>必要なときに「バックアップを読み込む」</strong><div class="muted">保存してあるバックアップファイルから記録を読み込みます。</div></div></div><div class="notice" style="margin-top:20px"><strong>重要：</strong>画面に表示されるバックアップ日時は書き出し操作の日時です。バックアップ完了後は、ファイル自体が端末に保存されていることを確認してください。</div></div></section>
 <section class="section"><div class="wrap"><div class="eyebrow">NEED HELP?</div><h2>困ったときは。</h2><div class="manual-grid"><div class="manual-card"><h3>公式メール</h3><p><a href="mailto:info@delipit.jp" style="color:#e8c46f">info@delipit.jp</a></p></div><div class="manual-card"><h3>公式X</h3><p><a href="https://x.com/DELIPIT_JP" target="_blank" rel="noopener noreferrer" style="color:#e8c46f">@DELIPIT_JP</a></p></div></div><p class="sample-note">※掲載画面・機能は開発状況により変更される場合があります。</p></div></section></main>
-<section class="section" id="share-delipit">
-  <div class="wrap">
-    <div class="eyebrow">SHARE DELIPIT</div>
-    <h2>他の人にDELIPITを教える</h2>
-    <p class="lead">DELIPITを他のドライバーに紹介したいときは、下のボタンから公式サイトを共有できます。</p>
-    <div class="share-card">
-      <div class="share-copy">
-        <strong>配送を、もっと見える化。もっと楽しく。</strong>
-        <span>配完数・売上・実績を管理できる配送管理Webアプリ「DELIPIT」。基本無料で使えます。</span>
-      </div>
-      <button class="btn share-delipit-btn" id="shareDelipitButton" type="button">DELIPITを共有する</button>
-      <p class="share-note" id="shareDelipitStatus">共有方法の表示は、ご利用の端末・OSによって異なります。</p>
-    </div>
-  </div>
-</section>
-
 <footer><div class="wrap foot"><img src="assets/delipit-logo.png" alt="DELIPIT"><div class="fine"><span>© 2026 DELIPIT / REVERIE</span><a href="mailto:info@delipit.jp">info@delipit.jp</a><a href="https://x.com/DELIPIT_JP" target="_blank" rel="noopener noreferrer">X @DELIPIT_JP</a><a href="index.html">公式サイト</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシーポリシー</a></div></div></footer><script>
 (() => {
   const button = document.querySelector('.menu-toggle');
@@ -125,38 +100,6 @@
   });
   menu.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
   window.addEventListener('resize', () => { if (window.innerWidth > 900) closeMenu(); });
-})();
-</script>
-
-<script>
-(function () {
-  const button = document.getElementById('shareDelipitButton');
-  const status = document.getElementById('shareDelipitStatus');
-  if (!button) return;
-
-  const shareData = {
-    title: 'DELIPIT｜配送管理アプリ',
-    text: '配送の配完数・売上・実績を管理できるWebアプリ「DELIPIT」。基本無料で使えます。',
-    url: 'https://delipit.jp/'
-  };
-
-  button.addEventListener('click', async function () {
-    try {
-      if (navigator.share) {
-        await navigator.share(shareData);
-        return;
-      }
-      if (navigator.clipboard && window.isSecureContext) {
-        await navigator.clipboard.writeText(shareData.text + '\n' + shareData.url);
-        status.textContent = '紹介文とURLをコピーしました。';
-        return;
-      }
-      status.textContent = 'https://delipit.jp/ をコピーして共有してください。';
-    } catch (error) {
-      if (error && error.name === 'AbortError') return;
-      status.textContent = '共有できませんでした。https://delipit.jp/ をコピーして共有してください。';
-    }
-  });
 })();
 </script>
 
