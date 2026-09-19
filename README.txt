@@ -1,7 +1,7 @@
 DELIPIT 公式サイト / GitHub Pages deployment package
 
-Version: v4.4
-Updated: 2026-09-18
+Version: v5.0 + AdSense review preparation
+Updated: 2026-09-20
 
 公開構成:
 - delipit.jp = DELIPIT公式サイト
@@ -33,3 +33,10 @@ GitHub Pages:
 
 
 v4.5.11.3: MANUAL / GAMIFICATION pages added; navigation and sitemap updated.
+
+
+AdSense審査準備 (2026-09-20):
+- AdSense site verification code (ca-pub-9142850138364995) をHTML各ページの head に追加
+- ルートに ads.txt を追加
+- privacy.html の広告項目をGoogle AdSense導入に合わせて更新
+- 自動広告の設定変更・広告枠の追加は行っていません
