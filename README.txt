@@ -1,6 +1,6 @@
 DELIPIT 公式サイト / GitHub Pages deployment package
 
-Version: v5.0 + AdSense review preparation
+Version: v5.1 + GA4 privacy policy preparation
 Updated: 2026-09-20
 
 公開構成:
@@ -40,3 +40,12 @@ AdSense審査準備 (2026-09-20):
 - ルートに ads.txt を追加
 - privacy.html の広告項目をGoogle AdSense導入に合わせて更新
 - 自動広告の設定変更・広告枠の追加は行っていません
+
+
+v5.1 GA4プライバシーポリシー対応 (2026-09-20):
+- privacy.html に Google Analytics 4（GA4）の利用目的・取得される一般的な技術情報を明記
+- DELIPIT独自イベントで配送件数・売上・単価・経費・税額・支払金額・メモ・バックアップ内容等の業務データを送信しない方針を明記
+- 氏名・メールアドレス等の直接識別情報をDELIPIT独自計測項目として送信しない方針を明記
+- Cookie等の利用と、地域・利用形態に応じた同意対応方針を追記
+- Google AdSenseの記載を独立項目として維持
+- GA4測定タグそのものは公式サイトには追加していません（Webアプリ側のAnalytics実装とは分離）
