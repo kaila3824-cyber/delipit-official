@@ -49,3 +49,12 @@ v5.1 GA4プライバシーポリシー対応 (2026-09-20):
 - Cookie等の利用と、地域・利用形態に応じた同意対応方針を追記
 - Google AdSenseの記載を独立項目として維持
 - GA4測定タグそのものは公式サイトには追加していません（Webアプリ側のAnalytics実装とは分離）
+
+v5.2 TOP current-app sync (2026-09-21):
+- TOPのGAMIFICATION — COMING SOON表記を削除し、実装済みDELIPIT GAMEとして更新
+- FEATURESを現行DELIPITに合わせ、配送実績・売上 / 経費・入金 / 月間・年間収支 / 消費税 / GAME MODE / 設定・バックアップへ再整理
+- 最新実機スクリーンショット（配送入力 / DRIVER STATUS）をTOPへ反映
+- GAME MODEが任意であり、OFFでも基本機能を利用できる旨を明記
+- meta description / OGP / X descriptionを現行機能に合わせて更新
+- manual.htmlは複数会社対応・カレンダー等の確定後に最終更新するため今回は変更なし
+- privacy.html / terms.html / AdSense / GA4プライバシー記載 / CNAME等は変更なし
