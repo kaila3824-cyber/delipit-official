@@ -60,8 +60,12 @@ v5.2 TOP current-app sync (2026-09-21):
 - privacy.html / terms.html / AdSense / GA4プライバシー記載 / CNAME等は変更なし
 
 
-v5.2.1 TOP minor update (2026-09-21)
+v5.2.2 TOP minor update (2026-09-21)
 - ADD TO HOME SCREEN icon updated to current DELIPIT app icon
 - Simplified browser/home-screen installation wording
 - Simplified automatic update wording
 - No changes to manual, terms, privacy, GA4, AdSense, CNAME or app logic
+
+
+[v5.2.2]
+- GAME SYSTEMページのACTUAL GAME SCREEN注記から「開発中」を削除。現行実装済みの実機表示例として表現を更新。
