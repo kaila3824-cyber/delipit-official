@@ -58,3 +58,10 @@ v5.2 TOP current-app sync (2026-09-21):
 - meta description / OGP / X descriptionを現行機能に合わせて更新
 - manual.htmlは複数会社対応・カレンダー等の確定後に最終更新するため今回は変更なし
 - privacy.html / terms.html / AdSense / GA4プライバシー記載 / CNAME等は変更なし
+
+
+v5.2.1 TOP minor update (2026-09-21)
+- ADD TO HOME SCREEN icon updated to current DELIPIT app icon
+- Simplified browser/home-screen installation wording
+- Simplified automatic update wording
+- No changes to manual, terms, privacy, GA4, AdSense, CNAME or app logic
