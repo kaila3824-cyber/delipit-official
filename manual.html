@@ -121,6 +121,31 @@ img,video,svg{max-width:100%;height:auto}
   main :where(pre,code){max-width:100%;overflow-wrap:anywhere}
 }
 
+
+/* v5.3.4 Reading layout refinement
+   Center the reading block; keep long-form text itself left aligned. */
+@media (max-width:780px){
+  :where(.hero p,.lead,.section-lead,.screen-copy p,.profile-copy p){
+    width:min(100%,31em);
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+  }
+
+  /* Intro/feature sections: restore visual focus toward the center without
+     turning long Japanese paragraphs into centered text. */
+  :where(.section > .wrap > p,.section > .wrap > .lead){
+    width:min(100%,31em);
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+@media (min-width:781px){
+  :where(.hero p,.lead,.section-lead,.screen-copy p,.profile-copy p){
+    max-width:720px;
+  }
+}
+
 </style><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9142850138364995" crossorigin="anonymous"></script>
 </head><body><header class="site-header">
 <div class="wrap nav">
