@@ -1,6 +1,6 @@
 DELIPIT 公式サイト / GitHub Pages deployment package
 
-Version: v5.3.0 + PIT CREW
+Version: v5.3.1 + PIT CREW Key Visual
 Updated: 2026-09-21
 
 公開構成:
@@ -79,3 +79,8 @@ v5.3.0 PIT CREW:
 - GAME SYSTEM内のPIT CREW説明をコンパクト化し、専用ページへの導線を追加
 - sitemap.xml に PIT CREWページを追加
 - 既存のDELIPIT / GAME SYSTEM / MANUAL / AdSense / GA4関連は維持
+
+v5.3.1 PIT CREW Key Visual:
+- PIT CREWのメインビジュアルを採用版へ差し替え
+- pitcrew.html HERO と gamification.html PIT CREW導線で共通使用
+- レイアウト・コピー・既存機能は変更なし
