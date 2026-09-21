@@ -1,6 +1,6 @@
 DELIPIT 公式サイト / GitHub Pages deployment package
 
-Version: v5.3.7 + Scoped Mobile Centering
+Version: v5.3.1 + PIT CREW Key Visual
 Updated: 2026-09-21
 
 公開構成:
@@ -84,36 +84,3 @@ v5.3.1 PIT CREW Key Visual:
 - PIT CREWのメインビジュアルを採用版へ差し替え
 - pitcrew.html HERO と gamification.html PIT CREW導線で共通使用
 - レイアウト・コピー・既存機能は変更なし
-
-v5.3.2 Mobile Typography:
-- サイト全体の日本語改行ルールを調整
-- 見出しの意味単位に近い折返しを改善
-- 本文のスマホ可読性（行間・折返し）を微調整
-- PIT CREW HEROの「相棒を。」が分断されにくいよう調整
-- 既存文章・画像・機能・リンク・ブランドUIは維持
-
-v5.3.3 Responsive Refinement:
-- スマホ / タブレット / PC / 大型画面での表示を最適化
-- PCでは本文が横に伸びすぎない最大幅を設定
-- スマホでは見出し・本文・ボタン・画像の収まりを改善
-- 390px以下の狭い画面も追加調整
-- PIT CREWのプロフィール / MOMENTSを画面幅ごとに最適化
-- MANUALの表・長文のスマホ可読性を改善
-- 現行の黒×ゴールドUI、文章、画像、機能、リンクは維持
-
-v5.3.5 Mobile Readability:
-- v5.3.4は不採用とし、v5.3.3をベースに再調整
-- スマホのセクション見出し / EYEBROWを中央軸へ変更
-- 長文本文は左揃えを維持しつつ、明確に狭い中央カラムへ変更
-- TOPページは実機スクリーンショットで差が分かる強さに調整
-- PIT CREWの既存中央構成は維持
-- PC / タブレットのv5.3.3レスポンシブ仕様は維持
-- 文章内容・画像・リンク・機能は変更なし
-
-v5.3.7 Scoped Mobile Centering
-- v5.3.5をベースに再構築（v5.3.6の広範囲な中央揃えCSSは不使用）
-- スマホのセクション見出し・キャッチコピーのみ中央揃え
-- TOP冒頭の中央構成を維持
-- カード本文、STORY、固定費説明、表、FAQ内部、UPDATE等は元の専用レイアウトを維持
-- descendant全体へtext-align:centerを当てない
-- PC/タブレット、文章、画像、リンク、機能は変更なし
