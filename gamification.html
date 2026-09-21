@@ -106,42 +106,67 @@ img,video,svg{max-width:100%;height:auto}
 }
 
 
-/* v5.3.6 Mobile centered presentation
-   Promotional pages use one centered visual axis.
-   Cards/components keep their own local alignment rules. */
+/* v5.3.7 — scoped mobile centering
+   IMPORTANT: no descendant-wide text-align rules.
+   Only direct section intro elements are centered. */
 @media (max-width:780px){
-  main .section > .wrap{
-    text-align:center;
-  }
 
-  main .section > .wrap > :where(.eyebrow,h1,h2,h3,.lead,p){
+  /* Standard promotional section intro: center only the immediate intro elements. */
+  main .section > .wrap > .eyebrow,
+  main .section > .wrap > h1,
+  main .section > .wrap > h2,
+  main .section > .wrap > .section-title,
+  main .section > .wrap > .section-lead {
+    text-align:center;
     margin-left:auto;
     margin-right:auto;
-    text-align:center;
   }
 
-  /* Restore a comfortable width: v5.3.5 was intentionally too narrow. */
-  main .section > .wrap > :where(.lead,p){
-    width:100%;
-    max-width:36em;
-  }
-
-  /* Nested editorial/feature copy follows the same centered axis. */
-  main :where(.screen-copy,.profile-copy,.philosophy,.duo,.hero){
+  /* TOP hero / opening copy: this was the successful part of v5.3.6. */
+  main .hero .eyebrow,
+  main .hero h1,
+  main .hero h2,
+  main .hero .lead,
+  main .hero > p,
+  main .hero-copy > .eyebrow,
+  main .hero-copy > h1,
+  main .hero-copy > h2,
+  main .hero-copy > h3,
+  main .hero-copy > p {
     text-align:center;
-  }
-  main :where(.screen-copy p,.profile-copy p,.philosophy p,.duo .lead,.hero p){
-    width:100%;
-    max-width:36em;
     margin-left:auto;
     margin-right:auto;
-    text-align:center;
   }
 
-  /* Component-local copy should not be globally forced. */
-  main :where(.card,.feature-card,.moment,.duo-card,.cta) p{
-    width:auto;
-    max-width:none;
+  /* Keep a comfortable mobile reading width without creating a narrow column. */
+  main .hero .lead,
+  main .hero > p,
+  main .hero-copy > p,
+  main .section > .wrap > .section-lead {
+    width:100%;
+    max-width:38em;
+  }
+
+  /* Explicit safety rails: component internals retain their original alignment. */
+  main .card p,
+  main .feature-card p,
+  main .moment p,
+  main .duo-card p,
+  main .cta p,
+  main details,
+  main details p,
+  main table,
+  main td,
+  main th,
+  main .story p,
+  main .story-copy p,
+  main .story-card p,
+  main .install-card p,
+  main .cost-card p,
+  main .faq p,
+  main .update-list,
+  main .update-list p {
+    text-align:initial;
   }
 }
 

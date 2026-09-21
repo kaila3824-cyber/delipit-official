@@ -1,6 +1,6 @@
 DELIPIT 公式サイト / GitHub Pages deployment package
 
-Version: v5.3.6 + Centered Mobile
+Version: v5.3.7 + Scoped Mobile Centering
 Updated: 2026-09-21
 
 公開構成:
@@ -110,11 +110,10 @@ v5.3.5 Mobile Readability:
 - PC / タブレットのv5.3.3レスポンシブ仕様は維持
 - 文章内容・画像・リンク・機能は変更なし
 
-v5.3.6 Centered Mobile:
-- スマホのTOP / GAME SYSTEM / PIT CREWを中央軸で統一
-- EYEBROW / 見出し / 小見出し / 紹介本文を中央揃え
-- v5.3.5で狭くした本文幅を緩和し、縦長になりすぎないよう調整
-- MANUAL / 利用規約 / プライバシーポリシーは読みやすい左揃えを維持
-- カード内など各コンポーネント固有の配置は維持
-- PC / タブレットのレスポンシブ仕様は維持
-- 文章内容・画像・リンク・機能は変更なし
+v5.3.7 Scoped Mobile Centering
+- v5.3.5をベースに再構築（v5.3.6の広範囲な中央揃えCSSは不使用）
+- スマホのセクション見出し・キャッチコピーのみ中央揃え
+- TOP冒頭の中央構成を維持
+- カード本文、STORY、固定費説明、表、FAQ内部、UPDATE等は元の専用レイアウトを維持
+- descendant全体へtext-align:centerを当てない
+- PC/タブレット、文章、画像、リンク、機能は変更なし
