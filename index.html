@@ -117,57 +117,6 @@
 .contact-accordion-body .wrap{width:100%;max-width:none;padding:24px 0 0}
 .contact-accordion-body .contact-form{margin-top:24px}
 
-
-/* =========================================================
-   DELIPIT v5.4.0 — DEVICE SPLIT
-   Base: v5.3.1 stable
-   Mobile <= 767px: v5.3.1 untouched
-   Desktop >= 768px: independent desktop presentation layer
-   ========================================================= */
-
-@media (min-width: 768px) {
-  /* PCは広すぎる行長を抑え、中央の読みやすい領域に収める */
-  main > .wrap,
-  main .section > .wrap {
-    width: min(1120px, calc(100% - 64px));
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* PCの見出しはスマホより少し余裕を持たせる。
-     本文やカード内部へは波及させない。 */
-  main .section > .wrap > .eyebrow {
-    margin-bottom: 12px;
-  }
-
-  main .section > .wrap > h1,
-  main .section > .wrap > h2 {
-    max-width: 920px;
-  }
-
-  /* PCで主要グリッドが存在する場合のみ横幅を活かす。
-     HTML構造やスマホ側の列数は変更しない。 */
-  main .features-grid,
-  main .feature-grid,
-  main .cards-grid {
-    gap: 20px;
-  }
-
-  /* 画像がPCで不必要に巨大化しないための上限。
-     元の比率・配置は維持。 */
-  main img {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
-@media (min-width: 1180px) {
-  main > .wrap,
-  main .section > .wrap {
-    width: min(1160px, calc(100% - 96px));
-  }
-}
-
 </style>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9142850138364995" crossorigin="anonymous"></script>
 </head>
@@ -229,7 +178,7 @@
 <div class="section-actions"><a class="btn" href="gamification.html">GAME SYSTEMを詳しく見る →</a></div>
 </div></section>
 
-<section class="section accordion-section">
+<section class="section accordion-section" id="story">
 <details class="story-accordion">
 <summary><span class="accordion-heading"><span class="eyebrow">DELIPIT STORY</span><span class="accordion-title">すべては、配完数のメモから始まりました。</span></span><span class="accordion-plus" aria-hidden="true"></span></summary>
 <div class="accordion-body"><div class="wrap"><div class="storyline"><div class="origin"><img src="assets/delipit-symbol.png" alt="DELIPIT symbol"><div class="eyebrow">BUILT FROM THE FIELD</div></div><div class="storycopy"><p>委託ドライバーとして仕事を始めた頃、毎日の配完数をメモするところから始まりました。</p><p class="big">「今日、実際いくら稼いだんだろう？」</p><p>仕事を続けるうちに、正確な金額が知りたくなりました。そこで自分でスプレッドシートを作り、荷物ごとの単価と配完数から、その日の売上や月間の実績を確認するようになりました。</p><p>数字が積み上がっていく。売上が見える。昨日と今日を比べられる。もともと数字や金額を見ることでモチベーションが上がることもあり、それ自体が仕事を続ける楽しみのひとつになっていきました。</p><p>記録を続けると、同じように見える毎日の裏で、大きな成果が積み上がっていることに気づきます。毎日の配送も、積み重ねれば数千、数万という実績になる。残して振り返ることで、「自分はこんなに届けてきたんだ」と実感できます。</p><p class="big">「今日の1個を、ただの1個で終わらせない。」</p><p>配送は同じことの繰り返しになりやすい仕事です。だからこそ成果を見えるようにして、少しでも達成感や楽しさにつなげたい。<strong style="color:#f0c35e">仕事そのものは同じでも、仕事の楽しみ方は変えられる。</strong></p><p class="big">「これをもっと簡単に、もっと楽しくできないだろうか。」</p><p>その発想から生まれたのが、DELIPITです。</p><p><strong style="color:#f0c35e">DELIPITは現在も、現役の委託ドライバーが実際の配送現場で使いながら開発しています。</strong></p></div></div></div></div>
@@ -243,7 +192,7 @@
 </details>
 </section>
 
-<section class="section"><div class="wrap"><div class="eyebrow">FLEXIBLE</div><h2>あなたの配送スタイルに合わせて。</h2><div class="fit"><article class="card"><h3>特定の配送会社専用ではありません。</h3><p>荷物種別や名称、単価などを設定し、さまざまな委託配送の働き方で使えるサービスを目指しています。</p></article><article class="card"><h3>現場の声で、育てていく。</h3><p>DELIPITは現在βテスト中。実際の利用をもとに、必要な機能や使いやすさを継続して改善していきます。</p></article></div></div></section>
+<section class="section"><div class="wrap"><div class="eyebrow">FLEXIBLE</div><h2>あなたの配送スタイルに合わせて。</h2><div class="fit"><article class="card"><h3>特定の配送会社専用ではありません。</h3><p>荷物種別や名称、単価などを設定し、さまざまな委託配送の働き方で使えるサービスを目指しています。</p></article><article class="card"><h3>現場の声で、育てていく。</h3><p>DELIPITは、実際の利用をもとに、必要な機能や使いやすさを継続して改善していきます。</p></article></div></div></section>
 
 <section class="section" id="faq"><div class="wrap faq"><div class="eyebrow">FAQ</div><h2>よくある質問</h2><details><summary>料金はかかりますか？</summary><p>DELIPITは基本機能を無料で提供する方針です。サービスの運営・開発費には広告収益を活用します。</p></details><details><summary>アプリのインストールは必要ですか？</summary><p>DELIPITはWebアプリのため、App Store / Google Playからのインストールは不要です。ブラウザからそのまま利用でき、スマートフォンではホーム画面に追加してアプリのように起動する使い方をおすすめしています。</p></details><details><summary>iPhone・Androidで使えますか？</summary><p>スマートフォンのブラウザから利用できます。ホーム画面への追加にも対応しています。端末やブラウザによって表示・動作が異なる場合があります。</p></details><details><summary>どの配送会社でも使えますか？</summary><p>特定の配送会社専用ではありません。荷物名称や単価などを設定して利用できますが、契約形態によっては現行仕様が合わない場合があります。</p></details><details><summary>インボイス設定には対応していますか？</summary><p>税率やインボイスに関する設定機能を用意しています。</p></details><details><summary>不具合や機能要望は送れますか？</summary><p>はい。公式メールまたは公式Xからご連絡いただけます。</p></details></div></section>
 

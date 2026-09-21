@@ -1,6 +1,6 @@
 DELIPIT 公式サイト / GitHub Pages deployment package
 
-Version: v5.4.0 DEVICE SPLIT
+Version: v5.3.1 + PIT CREW Key Visual
 Updated: 2026-09-21
 
 公開構成:
@@ -84,12 +84,3 @@ v5.3.1 PIT CREW Key Visual:
 - PIT CREWのメインビジュアルを採用版へ差し替え
 - pitcrew.html HERO と gamification.html PIT CREW導線で共通使用
 - レイアウト・コピー・既存機能は変更なし
-
-
-v5.4.0 DEVICE SPLIT
-- Base: v5.3.1 stable
-- Smartphone (<=767px): v5.3.1 display is preserved; no new mobile typography/line-break rules
-- PC/Tablet (>=768px): independent desktop-only layout layer
-- No global paragraph centering or forced line-break correction
-- No content, image, link, GAME, PIT CREW, manual, terms, or privacy changes
-- Future UI tuning should be made separately inside mobile or desktop media queries
