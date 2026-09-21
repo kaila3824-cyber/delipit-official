@@ -1,6 +1,6 @@
 DELIPIT 公式サイト / GitHub Pages deployment package
 
-Version: v5.3.2 + Mobile Typography
+Version: v5.3.3 + Responsive Refinement
 Updated: 2026-09-21
 
 公開構成:
@@ -91,3 +91,12 @@ v5.3.2 Mobile Typography:
 - 本文のスマホ可読性（行間・折返し）を微調整
 - PIT CREW HEROの「相棒を。」が分断されにくいよう調整
 - 既存文章・画像・機能・リンク・ブランドUIは維持
+
+v5.3.3 Responsive Refinement:
+- スマホ / タブレット / PC / 大型画面での表示を最適化
+- PCでは本文が横に伸びすぎない最大幅を設定
+- スマホでは見出し・本文・ボタン・画像の収まりを改善
+- 390px以下の狭い画面も追加調整
+- PIT CREWのプロフィール / MOMENTSを画面幅ごとに最適化
+- MANUALの表・長文のスマホ可読性を改善
+- 現行の黒×ゴールドUI、文章、画像、機能、リンクは維持

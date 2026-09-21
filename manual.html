@@ -70,6 +70,57 @@
   }
 }
 
+
+/* v5.3.3 Responsive refinement
+   Preserve DELIPIT's existing visual language while optimizing each viewport. */
+html{-webkit-text-size-adjust:100%}
+img,video,svg{max-width:100%;height:auto}
+:where(.wrap,.container,.section-inner){margin-left:auto;margin-right:auto}
+:where(p,.lead,.section-lead,.hero p,.screen-copy p,.profile-copy p,.philosophy p){
+  text-wrap:pretty;
+}
+@media (min-width:1180px){
+  :where(.wrap,.container,.section-inner){max-width:1120px}
+  :where(.hero p,.lead,.section-lead){max-width:760px}
+  :where(.section h2,.hero h1){text-wrap:balance}
+}
+@media (min-width:781px) and (max-width:1179px){
+  :where(.wrap,.container,.section-inner){width:min(100% - 48px,1040px)}
+  :where(.hero p,.lead,.section-lead){max-width:700px}
+}
+@media (max-width:780px){
+  body{overflow-x:hidden}
+  :where(.wrap,.container,.section-inner){width:min(100% - 28px,100%)}
+  :where(.hero,.section){overflow:hidden}
+  :where(.hero p,.lead,.section-lead,.screen-copy p,.profile-copy p,.philosophy p){
+    max-width:34em;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  :where(.hero h1,.section h2,.cta h2){
+    text-wrap:balance;
+    overflow-wrap:normal;
+  }
+  :where(.btn,.cta a[role="button"]){max-width:100%}
+  :where(.card,.feature-card,.screen-shot,.screen-copy){min-width:0}
+}
+@media (max-width:390px){
+  :where(.wrap,.container,.section-inner){width:min(100% - 22px,100%)}
+  :where(.hero h1){font-size:clamp(31px,9.4vw,42px)}
+  :where(.section h2){font-size:clamp(27px,8vw,38px)}
+  :where(.btn){padding-left:14px;padding-right:14px}
+}
+
+
+/* Manual responsive reading width */
+@media (min-width:900px){
+  main :where(p,li){max-width:78ch}
+}
+@media (max-width:780px){
+  main :where(table){display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  main :where(pre,code){max-width:100%;overflow-wrap:anywhere}
+}
+
 </style><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9142850138364995" crossorigin="anonymous"></script>
 </head><body><header class="site-header">
 <div class="wrap nav">
