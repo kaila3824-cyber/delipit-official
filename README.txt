@@ -1,6 +1,6 @@
 DELIPIT 公式サイト / GitHub Pages deployment package
 
-Version: v5.3.1 + PIT CREW Key Visual
+Version: v5.3.2 + Mobile Typography
 Updated: 2026-09-21
 
 公開構成:
@@ -84,3 +84,10 @@ v5.3.1 PIT CREW Key Visual:
 - PIT CREWのメインビジュアルを採用版へ差し替え
 - pitcrew.html HERO と gamification.html PIT CREW導線で共通使用
 - レイアウト・コピー・既存機能は変更なし
+
+v5.3.2 Mobile Typography:
+- サイト全体の日本語改行ルールを調整
+- 見出しの意味単位に近い折返しを改善
+- 本文のスマホ可読性（行間・折返し）を微調整
+- PIT CREW HEROの「相棒を。」が分断されにくいよう調整
+- 既存文章・画像・機能・リンク・ブランドUIは維持
