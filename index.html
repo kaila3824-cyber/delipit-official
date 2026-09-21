@@ -117,6 +117,57 @@
 .contact-accordion-body .wrap{width:100%;max-width:none;padding:24px 0 0}
 .contact-accordion-body .contact-form{margin-top:24px}
 
+
+/* =========================================================
+   DELIPIT v5.4.0 — DEVICE SPLIT
+   Base: v5.3.1 stable
+   Mobile <= 767px: v5.3.1 untouched
+   Desktop >= 768px: independent desktop presentation layer
+   ========================================================= */
+
+@media (min-width: 768px) {
+  /* PCは広すぎる行長を抑え、中央の読みやすい領域に収める */
+  main > .wrap,
+  main .section > .wrap {
+    width: min(1120px, calc(100% - 64px));
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* PCの見出しはスマホより少し余裕を持たせる。
+     本文やカード内部へは波及させない。 */
+  main .section > .wrap > .eyebrow {
+    margin-bottom: 12px;
+  }
+
+  main .section > .wrap > h1,
+  main .section > .wrap > h2 {
+    max-width: 920px;
+  }
+
+  /* PCで主要グリッドが存在する場合のみ横幅を活かす。
+     HTML構造やスマホ側の列数は変更しない。 */
+  main .features-grid,
+  main .feature-grid,
+  main .cards-grid {
+    gap: 20px;
+  }
+
+  /* 画像がPCで不必要に巨大化しないための上限。
+     元の比率・配置は維持。 */
+  main img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1180px) {
+  main > .wrap,
+  main .section > .wrap {
+    width: min(1160px, calc(100% - 96px));
+  }
+}
+
 </style>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9142850138364995" crossorigin="anonymous"></script>
 </head>
