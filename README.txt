@@ -1,6 +1,6 @@
 DELIPIT 公式サイト / GitHub Pages deployment package
 
-Version: v5.3.5 + Mobile Readability
+Version: v5.3.6 + Centered Mobile
 Updated: 2026-09-21
 
 公開構成:
@@ -108,4 +108,13 @@ v5.3.5 Mobile Readability:
 - TOPページは実機スクリーンショットで差が分かる強さに調整
 - PIT CREWの既存中央構成は維持
 - PC / タブレットのv5.3.3レスポンシブ仕様は維持
+- 文章内容・画像・リンク・機能は変更なし
+
+v5.3.6 Centered Mobile:
+- スマホのTOP / GAME SYSTEM / PIT CREWを中央軸で統一
+- EYEBROW / 見出し / 小見出し / 紹介本文を中央揃え
+- v5.3.5で狭くした本文幅を緩和し、縦長になりすぎないよう調整
+- MANUAL / 利用規約 / プライバシーポリシーは読みやすい左揃えを維持
+- カード内など各コンポーネント固有の配置は維持
+- PC / タブレットのレスポンシブ仕様は維持
 - 文章内容・画像・リンク・機能は変更なし

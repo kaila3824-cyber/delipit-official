@@ -105,6 +105,46 @@ img,video,svg{max-width:100%;height:auto}
   }
 }
 
+
+/* v5.3.6 Mobile centered presentation
+   Promotional pages use one centered visual axis.
+   Cards/components keep their own local alignment rules. */
+@media (max-width:780px){
+  main .section > .wrap{
+    text-align:center;
+  }
+
+  main .section > .wrap > :where(.eyebrow,h1,h2,h3,.lead,p){
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+  }
+
+  /* Restore a comfortable width: v5.3.5 was intentionally too narrow. */
+  main .section > .wrap > :where(.lead,p){
+    width:100%;
+    max-width:36em;
+  }
+
+  /* Nested editorial/feature copy follows the same centered axis. */
+  main :where(.screen-copy,.profile-copy,.philosophy,.duo,.hero){
+    text-align:center;
+  }
+  main :where(.screen-copy p,.profile-copy p,.philosophy p,.duo .lead,.hero p){
+    width:100%;
+    max-width:36em;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+  }
+
+  /* Component-local copy should not be globally forced. */
+  main :where(.card,.feature-card,.moment,.duo-card,.cta) p{
+    width:auto;
+    max-width:none;
+  }
+}
+
 </style><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9142850138364995" crossorigin="anonymous"></script>
 </head><body>
 <header class="site-header"><div class="wrap nav"><a class="brand" href="index.html"><img src="assets/delipit-logo.png" alt="DELIPIT"></a><nav class="desktop-nav" aria-label="メインナビゲーション"><a href="index.html#about">DELIPITとは</a><a href="index.html#features">機能</a><a href="manual.html">マニュアル</a><a href="gamification.html">ゲーム機能</a><a href="pitcrew.html">PIT CREW</a></nav><div class="nav-actions"><a class="btn" href="https://app.delipit.jp/" target="_blank" rel="noopener noreferrer">DELIPITを開く</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="メニューを開く">☰</button></div></div><nav id="mobile-menu" class="mobile-menu wrap" aria-label="スマートフォン用メニュー"><a href="index.html">トップ</a><a href="index.html#about">DELIPITとは</a><a href="index.html#features">機能</a><a href="manual.html">使い方・マニュアル</a><a href="gamification.html">ゲーム機能</a><a href="pitcrew.html">PIT CREW</a></nav></header>
