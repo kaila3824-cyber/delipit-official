@@ -1,6 +1,6 @@
 DELIPIT 公式サイト / GitHub Pages deployment package
 
-Version: v5.3.4 + Reading Layout
+Version: v5.3.5 + Mobile Readability
 Updated: 2026-09-21
 
 公開構成:
@@ -101,10 +101,11 @@ v5.3.3 Responsive Refinement:
 - MANUALの表・長文のスマホ可読性を改善
 - 現行の黒×ゴールドUI、文章、画像、機能、リンクは維持
 
-v5.3.4 Reading Layout:
-- v5.3.3のレスポンシブ最適化は維持
-- スマホの長文は左揃えのまま、文章ブロック自体を中央配置
-- TOPの説明文を中心に読み幅を再調整
-- 長文の中央揃えは行わず可読性を優先
-- PIT CREW / GAME SYSTEM / MANUAL等にも共通の読み幅ルールを適用
-- 文章内容・画像・リンク・機能・ブランドUIは変更なし
+v5.3.5 Mobile Readability:
+- v5.3.4は不採用とし、v5.3.3をベースに再調整
+- スマホのセクション見出し / EYEBROWを中央軸へ変更
+- 長文本文は左揃えを維持しつつ、明確に狭い中央カラムへ変更
+- TOPページは実機スクリーンショットで差が分かる強さに調整
+- PIT CREWの既存中央構成は維持
+- PC / タブレットのv5.3.3レスポンシブ仕様は維持
+- 文章内容・画像・リンク・機能は変更なし

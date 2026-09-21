@@ -68,27 +68,40 @@ img,video,svg{max-width:100%;height:auto}
 }
 
 
-/* v5.3.4 Reading layout refinement
-   Center the reading block; keep long-form text itself left aligned. */
+/* v5.3.5 Mobile readability refinement */
 @media (max-width:780px){
-  :where(.hero p,.lead,.section-lead,.screen-copy p,.profile-copy p){
-    width:min(100%,31em);
+  /* Section hierarchy gets a clear centered visual axis. */
+  main :where(.eyebrow){
+    text-align:center;
+  }
+  main :where(.section h1,.section h2,.section h3){
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    text-wrap:balance;
+  }
+
+  /* Long-form copy stays left aligned, but becomes a deliberately narrower
+     centered reading column instead of spanning almost the full screen. */
+  main :where(.section p,.section .lead,.section .section-lead,
+              .screen-copy p,.profile-copy p,.philosophy p){
+    width:calc(100% - 32px);
+    max-width:31em;
     margin-left:auto;
     margin-right:auto;
     text-align:left;
   }
 
-  /* Intro/feature sections: restore visual focus toward the center without
-     turning long Japanese paragraphs into centered text. */
-  :where(.section > .wrap > p,.section > .wrap > .lead){
-    width:min(100%,31em);
-    margin-left:auto;
-    margin-right:auto;
+  /* Keep UI/card-local copy governed by the component itself. */
+  main :where(.card,.feature-card,.moment,.duo-card,.cta) p{
+    width:auto;
+    max-width:none;
   }
 }
-@media (min-width:781px){
-  :where(.hero p,.lead,.section-lead,.screen-copy p,.profile-copy p){
-    max-width:720px;
+@media (max-width:390px){
+  main :where(.section p,.section .lead,.section .section-lead,
+              .screen-copy p,.profile-copy p,.philosophy p){
+    width:calc(100% - 28px);
   }
 }
 

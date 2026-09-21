@@ -181,46 +181,67 @@ img,video,svg{max-width:100%;height:auto}
 }
 
 
-/* v5.3.4 Reading layout refinement
-   Center the reading block; keep long-form text itself left aligned. */
+/* v5.3.5 Mobile readability refinement */
 @media (max-width:780px){
-  :where(.hero p,.lead,.section-lead,.screen-copy p,.profile-copy p){
-    width:min(100%,31em);
+  /* Section hierarchy gets a clear centered visual axis. */
+  main :where(.eyebrow){
+    text-align:center;
+  }
+  main :where(.section h1,.section h2,.section h3){
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    text-wrap:balance;
+  }
+
+  /* Long-form copy stays left aligned, but becomes a deliberately narrower
+     centered reading column instead of spanning almost the full screen. */
+  main :where(.section p,.section .lead,.section .section-lead,
+              .screen-copy p,.profile-copy p,.philosophy p){
+    width:calc(100% - 32px);
+    max-width:31em;
     margin-left:auto;
     margin-right:auto;
     text-align:left;
   }
 
-  /* Intro/feature sections: restore visual focus toward the center without
-     turning long Japanese paragraphs into centered text. */
-  :where(.section > .wrap > p,.section > .wrap > .lead){
-    width:min(100%,31em);
-    margin-left:auto;
-    margin-right:auto;
-  }
-}
-@media (min-width:781px){
-  :where(.hero p,.lead,.section-lead,.screen-copy p,.profile-copy p){
-    max-width:720px;
-  }
-}
-
-
-@media (max-width:780px){
-  main .section :where(p,.lead){
-    max-width:31em;
-    margin-left:auto;
-    margin-right:auto;
-  }
-  main .section :where(h2,h3,.eyebrow){
-    max-width:31rem;
-    margin-left:auto;
-    margin-right:auto;
+  /* Keep UI/card-local copy governed by the component itself. */
+  main :where(.card,.feature-card,.moment,.duo-card,.cta) p{
+    width:auto;
+    max-width:none;
   }
 }
 @media (max-width:390px){
-  main .section :where(p,.lead){
-    max-width:29em;
+  main :where(.section p,.section .lead,.section .section-lead,
+              .screen-copy p,.profile-copy p,.philosophy p){
+    width:calc(100% - 28px);
+  }
+}
+
+
+/* TOP page: stronger mobile editorial layout */
+@media (max-width:780px){
+  main .section > .wrap{
+    text-align:center;
+  }
+  main .section > .wrap > :where(.eyebrow,h2,h3){
+    text-align:center;
+  }
+  main .section > .wrap > :where(p,.lead){
+    width:calc(100% - 34px);
+    max-width:30em;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+  }
+  /* Short gold subheads work better as centered hooks. */
+  main .section > .wrap > h3{
+    max-width:30em;
+  }
+}
+@media (max-width:390px){
+  main .section > .wrap > :where(p,.lead){
+    width:calc(100% - 30px);
   }
 }
 
