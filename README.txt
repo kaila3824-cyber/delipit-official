@@ -1,7 +1,7 @@
 DELIPIT 公式サイト / GitHub Pages deployment package
 
-Version: v5.1 + GA4 privacy policy preparation
-Updated: 2026-09-20
+Version: v5.3.0 + PIT CREW
+Updated: 2026-09-21
 
 公開構成:
 - delipit.jp = DELIPIT公式サイト
@@ -69,3 +69,13 @@ v5.2.2 TOP minor update (2026-09-21)
 
 [v5.2.2]
 - GAME SYSTEMページのACTUAL GAME SCREEN注記から「開発中」を削除。現行実装済みの実機表示例として表現を更新。
+
+
+v5.3.0 PIT CREW:
+- PIT CREW専用ページ pitcrew.html を追加
+- PITO / RONA のプロフィールと各4ポーズを掲載
+- ユーザー提供の既存8画像は新規生成せず、白背景のみ透過処理して配置
+- PIT CREWメインビジュアルにPITO + RONAの2ショットを採用
+- GAME SYSTEM内のPIT CREW説明をコンパクト化し、専用ページへの導線を追加
+- sitemap.xml に PIT CREWページを追加
+- 既存のDELIPIT / GAME SYSTEM / MANUAL / AdSense / GA4関連は維持
