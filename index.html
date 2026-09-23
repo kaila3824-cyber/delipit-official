@@ -117,6 +117,13 @@
 .contact-accordion-body .wrap{width:100%;max-width:none;padding:24px 0 0}
 .contact-accordion-body .contact-form{margin-top:24px}
 
+
+/* v5.3.2 — NOTE / COLUMN official link */
+.note-column{display:grid;grid-template-columns:.92fr 1.08fr;gap:18px;align-items:stretch;margin-top:30px}
+.note-intro,.note-latest{background:linear-gradient(145deg,#151719,#0d0f10);border:1px solid #34302a;border-radius:18px;padding:28px}
+.note-intro{border-color:#4a391c}.note-intro p,.note-latest p{color:#aaa;margin:10px 0 0}.note-intro .btn{margin-top:22px}.note-latest{display:flex;flex-direction:column;justify-content:center}.note-latest .tag{margin-bottom:7px}.note-latest h3{font-size:clamp(21px,3vw,29px);line-height:1.45;margin:0 0 10px;color:#f4f1ea}.note-latest a{color:#f0c35e;font-weight:800;margin-top:16px;display:inline-block}
+@media(max-width:760px){.note-column{grid-template-columns:1fr}.note-intro,.note-latest{padding:22px}.note-intro .btn{width:100%}}
+
 </style>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9142850138364995" crossorigin="anonymous"></script>
 </head>
@@ -193,6 +200,8 @@
 </section>
 
 <section class="section"><div class="wrap"><div class="eyebrow">FLEXIBLE</div><h2>あなたの配送スタイルに合わせて。</h2><div class="fit"><article class="card"><h3>特定の配送会社専用ではありません。</h3><p>荷物種別や名称、単価などを設定し、さまざまな委託配送の働き方で使えるサービスを目指しています。</p></article><article class="card"><h3>現場の声で、育てていく。</h3><p>DELIPITは、実際の利用をもとに、必要な機能や使いやすさを継続して改善していきます。</p></article></div></div></section>
+
+<section class="section" id="note"><div class="wrap"><div class="eyebrow">NOTE / COLUMN</div><h2>配送の現場から、DELIPITのことを書く。</h2><p class="lead">現役の業務委託配送DRIVERとして働きながら、DELIPITを開発しています。配送の仕事のこと、DELIPITを作った理由、開発の中で考えたこと。公式サイトだけでは伝えきれない話を、noteに残していきます。</p><div class="note-column"><article class="note-intro"><div class="eyebrow">DELIPIT NOTE</div><h3>SORA｜DELIPIT開発者</h3><p>配送の現場と開発の両方から、DELIPITができていく過程を記録しています。</p><a class="btn" href="https://note.com/delipit" target="_blank" rel="noopener noreferrer">noteを読む →</a></article><article class="note-latest"><div class="tag">NEW / 2026.09.23</div><h3>配送員が、配送管理アプリを作り始めた話。</h3><p>自分の仕事を、もっと管理しやすくしたかった。そこからDELIPITが始まりました。</p><a href="https://note.com/delipit/n/n9308fc56d425" target="_blank" rel="noopener noreferrer">この記事を読む →</a></article></div></div></section>
 
 <section class="section" id="faq"><div class="wrap faq"><div class="eyebrow">FAQ</div><h2>よくある質問</h2><details><summary>料金はかかりますか？</summary><p>DELIPITは基本機能を無料で提供する方針です。サービスの運営・開発費には広告収益を活用します。</p></details><details><summary>アプリのインストールは必要ですか？</summary><p>DELIPITはWebアプリのため、App Store / Google Playからのインストールは不要です。ブラウザからそのまま利用でき、スマートフォンではホーム画面に追加してアプリのように起動する使い方をおすすめしています。</p></details><details><summary>iPhone・Androidで使えますか？</summary><p>スマートフォンのブラウザから利用できます。ホーム画面への追加にも対応しています。端末やブラウザによって表示・動作が異なる場合があります。</p></details><details><summary>どの配送会社でも使えますか？</summary><p>特定の配送会社専用ではありません。荷物名称や単価などを設定して利用できますが、契約形態によっては現行仕様が合わない場合があります。</p></details><details><summary>インボイス設定には対応していますか？</summary><p>税率やインボイスに関する設定機能を用意しています。</p></details><details><summary>不具合や機能要望は送れますか？</summary><p>はい。公式メールまたは公式Xからご連絡いただけます。</p></details></div></section>
 
@@ -294,7 +303,7 @@
 
 <section class="cta"><img src="assets/delipit-symbol.png" alt="" style="width:92px;height:92px;object-fit:contain"><div class="eyebrow">START TODAY</div><h2>今日の1個を、ただの1個で終わらせない。</h2><p>今日の配完も、売上も、毎日の積み重ねも。あなたが届けたその1個も、ちゃんと実績です。</p><a class="btn" href="https://app.delipit.jp/" target="_blank" rel="noopener noreferrer">無料で使ってみる</a></section></div>
 </main>
-<footer><div class="wrap foot"><img src="assets/delipit-logo.png" alt="DELIPIT"><div class="fine"><span>© 2026 DELIPIT / REVERIE</span><a href="mailto:info@delipit.jp">info@delipit.jp</a><a href="https://x.com/DELIPIT_JP" target="_blank" rel="noopener noreferrer">X @DELIPIT_JP</a><a href="manual.html">使い方・マニュアル</a><a href="gamification.html">ゲーム機能</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシーポリシー</a></div></div></footer>
+<footer><div class="wrap foot"><img src="assets/delipit-logo.png" alt="DELIPIT"><div class="fine"><span>© 2026 DELIPIT / REVERIE</span><a href="mailto:info@delipit.jp">info@delipit.jp</a><a href="https://x.com/DELIPIT_JP" target="_blank" rel="noopener noreferrer">X @DELIPIT_JP</a><a href="manual.html">使い方・マニュアル</a><a href="gamification.html">ゲーム機能</a><a href="https://note.com/delipit" target="_blank" rel="noopener noreferrer">note</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシーポリシー</a></div></div></footer>
 <script>
 (() => {
   const button = document.querySelector('.menu-toggle');
