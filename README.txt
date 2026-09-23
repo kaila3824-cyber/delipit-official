@@ -84,3 +84,11 @@ v5.3.1 PIT CREW Key Visual:
 - PIT CREWのメインビジュアルを採用版へ差し替え
 - pitcrew.html HERO と gamification.html PIT CREW導線で共通使用
 - レイアウト・コピー・既存機能は変更なし
+
+v5.3.3 NOTE navigation + latest article auto update (2026-09-23):
+- PC / mobile navigationに「NOTE / COLUMN」「シェア」を追加
+- NOTE最新記事カードを note RSS (https://note.com/delipit/rss) と連動
+- GitHub Actionsが毎時17分ごろにRSSを確認し、新記事があればindex.htmlを自動更新・commit/push
+- Actions画面の「Update latest note article」から手動実行も可能
+- 初回導入時はGitHub repository Settings > Actions > General > Workflow permissions が Read and write permissions になっていることを確認
+- 既存デザイン、AdSense、規約、GA4方針、アプリ導線は変更なし
