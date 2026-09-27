@@ -92,3 +92,10 @@ v5.3.3 NOTE navigation + latest article auto update (2026-09-23):
 - Actions画面の「Update latest note article」から手動実行も可能
 - 初回導入時はGitHub repository Settings > Actions > General > Workflow permissions が Read and write permissions になっていることを確認
 - 既存デザイン、AdSense、規約、GA4方針、アプリ導線は変更なし
+
+
+V38 website refresh (2026-09-27)
+- manual.html rebuilt for Production V38 with screenshot placeholders
+- gamification.html rebuilt for Production V38 with screenshot placeholders
+- privacy.html updated for local browser storage/backup and external inquiry form processing
+- index.html manual/game descriptions aligned with V38
