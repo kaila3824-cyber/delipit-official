@@ -99,3 +99,10 @@ V38 website refresh (2026-09-27)
 - gamification.html rebuilt for Production V38 with screenshot placeholders
 - privacy.html updated for local browser storage/backup and external inquiry form processing
 - index.html manual/game descriptions aligned with V38
+
+
+V38 MANUAL REBUILD (2026-09-27)
+- quickstart.html added
+- manual.html rebuilt with current V38 screenshots
+- gamification.html rebuilt with current V38 GAME screenshots
+- V38 screenshot assets added under assets/
