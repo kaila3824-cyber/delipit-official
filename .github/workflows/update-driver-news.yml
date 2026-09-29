@@ -1,0 +1,47 @@
+name: Update DRIVER NEWS
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 06:17 / 12:17 / 18:17 / 00:17 JST
+    - cron: '17 21,3,9,15 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: driver-news-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Update news data
+        run: python scripts/update_driver_news.py
+
+      - name: Validate JSON
+        run: python -m json.tool data/driver-news.json > /dev/null
+
+      - name: Commit only when data changed
+        shell: bash
+        run: |
+          if git diff --quiet -- data/driver-news.json; then
+            echo "No DRIVER NEWS changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/driver-news.json
+          git commit -m "chore: update DRIVER NEWS"
+          git push
