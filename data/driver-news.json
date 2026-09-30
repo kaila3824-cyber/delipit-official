@@ -1,6 +1,13 @@
 {
-  "generatedAt": "2026-09-30T20:15:00+09:00",
+  "generatedAt": "2026-09-30T20:20:16+09:00",
   "items": [
+    {
+      "title": "消費税法施行規則第五条第一項第一号の規定に基づき国税庁長官が指定する書類を定める件（国税庁告示第一号）（令和８年３月31日）",
+      "publishedAt": "2026-03-31",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/kokuji/r0803/02.htm",
+      "category": "法令・制度"
+    },
     {
       "title": "「事業用自動車総合安全プラン2030」を策定しました",
       "publishedAt": "2026-03-31",
@@ -37,6 +44,20 @@
       "category": "安全"
     },
     {
+      "title": "国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令第五条第四項、法人税法施行規則第三十六条の四第六項、地方法人税法施行規則第七条第六項及び消費税法施行規則第二十三条の四第五項の規定に基づき国税庁長官が定めるファイル形式を定める件（平成30年国税庁告示第14号）の一部を改正する件（国税庁告示第12号）（令和6年5月31日）",
+      "publishedAt": "2024-05-31",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/kokuji/r0605/01.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "「納税に関する総合案内」を更新しました（令和6年5月21日）",
+      "publishedAt": "2024-05-21",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/taxes/nozei/annai/index.htm",
+      "category": "税・お金"
+    },
+    {
       "title": "第3回「貨物軽自動車運送事業適正化協議会」を開催します",
       "publishedAt": "2023-12-22",
       "sourceName": "国土交通省",
@@ -44,10 +65,500 @@
       "category": "安全"
     },
     {
+      "title": "地方公共団体の特別会計が地方公営企業法の規定を適用する特別会計に移行した場合の消費税の課税関係について（文書回答事例）（令和５年4月14日）",
+      "publishedAt": "2023-04-14",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/about/organization/nagoya/bunshokaito/shotoku/230329/index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "令和４年分所得税の確定申告関係書類を掲載しました（令和４年12月9日）",
+      "publishedAt": "2022-12-09",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r04.htm",
+      "category": "税・お金"
+    },
+    {
       "title": "貨物軽自動車運送事業における軽乗用車の使用について",
       "publishedAt": "2022-10-24",
       "sourceName": "国土交通省",
       "sourceUrl": "https://www.mlit.go.jp/report/press/jidosha04_hh_000260.html",
+      "category": "法令・制度"
+    },
+    {
+      "title": "国税庁ホームページでの所得税等の申告書等作成・e-Taxがますます便利に！（令和４年８月12日）",
+      "publishedAt": "2022-08-12",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/r4_smart_shinkoku/index.htm",
+      "category": "税・お金"
+    },
+    {
+      "title": "「電子帳簿保存法Ｑ＆Ａ（一問一答）～令和４年１月１日以後に保存等を開始する方～」を掲載しました。",
+      "publishedAt": "2022-01-01",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/4-3.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "令和３年12月27日付課総10－51ほか4課共同「『電子帳簿保存法取扱通達の制定について』の一部改正について」（法令解釈通達）等の趣旨説明について（令和４年１月１日施行分）",
+      "publishedAt": "2021-12-27",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/031227/index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "「電子帳簿保存法取扱通達の制定について」の一部改正について（法令解釈通達）（令和３年12月27日）（令和４年１月１日施行分）",
+      "publishedAt": "2021-12-27",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/tsutatsu/kobetsu/sonota/kaiseir031227/index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令第五条第四項、法人税法施行規則第三十六条の三の二第六項及び第三十七条の十五の二第六項、地方法人税法施行規則第八条第六項並びに消費税法施行規則第二十三条の四第五項の規定に基づき国税庁長官が定めるファイル形式を定める件（平成30年国税庁告示第14号）の一部を改正する件（国税庁告示第25号）（令和3年8月6日）",
+      "publishedAt": "2021-08-06",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/kokuji/r0308/01.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "「電子帳簿保存法取扱通達の制定について」の一部改正について（法令解釈通達）（令和３年7月16日）（令和４年１月１日施行分）",
+      "publishedAt": "2021-07-16",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/tsutatsu/kobetsu/sonota/kaiseir030628/index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "令和３年７月９日付課総10－10ほか7課共同「『電子帳簿保存法取扱通達の制定について』の一部改正について」（法令解釈通達）等の趣旨説明について（令和４年１月１日施行分）",
+      "publishedAt": "2021-07-09",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/030628/index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "「電子帳簿保存法関係申請書等の様式の制定について」の一部改正について（法令解釈通達）（令和3年7月9日）",
+      "publishedAt": "2021-07-09",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/tsutatsu/kobetsu/sonota/kaiseir030701/index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "譲渡制限株式（自己株式）の取得対価を会社法第141条の規定に基づき供託した場合のみなし配当に係る源泉所得税の納期限について（文書回答事例） (令和3年4月28日)",
+      "publishedAt": "2021-04-28",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/about/organization/tokyo/bunshokaito/gensenshotoku/210428/index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "「令和３年４月源泉所得税の改正のあらまし」を掲載しました(PDF/862KB)（令和3年4月26日）",
+      "publishedAt": "2021-04-26",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/gensen/0021004-072.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "「消費税法改正のお知らせ（令和３年４月）」の掲載について(令和３年４月７日)（PDF/265KB）",
+      "publishedAt": "2021-04-07",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/shohi/r03kaisei.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "令和３年２月９日付課法２－６「『消費税法等の施行に伴う法人税の取扱いについて』の一部改正について」（法令解釈通達）の趣旨説明について",
+      "publishedAt": "2021-02-09",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/joho-zeikaishaku/hojin/210209/index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "令和２年度税制改正（法人税関係及び消費税関係）に関する動画掲載について（令和2年11月30日）",
+      "publishedAt": "2020-11-30",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/about/organization/osaka/topics/setsumeikai/kaisei-hojin/r02_osaka02.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "電子帳簿保存法Q&A（一問一答）（令和2年6月30日）",
+      "publishedAt": "2020-06-30",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/07index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "「電子帳簿保存法取扱通達の制定について」の一部改正について（法令解釈通達）（令和2年6月30日）",
+      "publishedAt": "2020-06-30",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/tsutatsu/kobetsu/sonota/kaiseir02xx/index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "新型コロナウイルス感染症等の影響に対応するための国税関係法律の臨時特例に関する法律関係通達（所得税編）の制定について（法令解釈通達）（令和2年6月29日）",
+      "publishedAt": "2020-06-29",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/2006xx/index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "「租税特別措置法に係る所得税の取扱いについて」の一部改正について（法令解釈通達）（令和2年6月29日）",
+      "publishedAt": "2020-06-29",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/kaisei/200629/index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "「所得税基本通達の制定について」の一部改正について（法令解釈通達）（令和2年6月29日）",
+      "publishedAt": "2020-06-29",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/kaisei/200629/index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "令和元年分所得税等、消費税及び贈与税の確定申告状況等について（PDF/679KB）（令和2年6月26日）",
+      "publishedAt": "2020-06-26",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/information/release/kokuzeicho/2020/kakushin_jokyo/pdf/0020006-081.pdf",
+      "category": "税・お金"
+    },
+    {
+      "title": "「所得金額調整控除に関するFAQ（源泉所得税関係）」を掲載しました（令和2年6月26日）（PDF/229KB）",
+      "publishedAt": "2020-06-26",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/pdf/0020006-075.pdf",
+      "category": "税・お金"
+    },
+    {
+      "title": "消費税法基本通達等の一部改正等について（法令解釈通達）（令和2年6月22日）",
+      "publishedAt": "2020-06-22",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/tsutatsu/kihon/shohi/kaisei/0020006-036/index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "岩手県、宮城県、福島県、茨城県、栃木県及び長野県の一部の地域内に納税地がある個人の皆様への予定納税額の通知書の発送見合わせについて(PDF/124KB)（令和2年6月1日）",
+      "publishedAt": "2020-06-01",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/topics/pdf/0020005-062.pdf",
+      "category": "税・お金"
+    },
+    {
+      "title": "国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令第五条第三項、法人税法施行規則第三十六条の三の二第六項及び第三十七条の十五の二第六項、地方法人税法施行規則第八条第六項並びに消費税法施行規則第二十三条の二第五項の規定に基づき国税庁長官が定めるファイル形式を定める件（平成30年告示第14号）の一部を改正する件（国税庁告示第6号）（令和2年5月29日）",
+      "publishedAt": "2020-05-29",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/kokuji/r0205/index_02.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "「ひとり親控除及び寡婦控除に関するFAQ（源泉所得税関係）」を掲載しました（令和2年5月29日）（PDF/658KB）",
+      "publishedAt": "2020-05-29",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/pdf/0020004-145.pdf",
+      "category": "税・お金"
+    },
+    {
+      "title": "新型コロナウイルス感染症に関連して使用人等が使用者から支給を受ける見舞金の所得税の取扱いについて（法令解釈通達）（令和2年5月15日）",
+      "publishedAt": "2020-05-15",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/2005xx/index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "（納税証明書を取得される方へ）オンライン請求により納税証明書の取得が可能です（PDF/86KB）（令和2年5月1日）",
+      "publishedAt": "2020-05-01",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/kansensho/pdf/0020004-098.pdf",
+      "category": "税・お金"
+    },
+    {
+      "title": "新型コロナウイルス感染症等の影響に対応するための国税関係法律の臨時特例に関する法律による納税の猶予の特例の取扱いについて（法令解釈通達）（令和2年5月1日）",
+      "publishedAt": "2020-05-01",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/tsutatsu/kobetsu/chosyu/200428/01.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "納税緩和措置等について（新型コロナウイルス感染症関連）（令和2年4月24日）",
+      "publishedAt": "2020-04-24",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/kansensho/index.htm#a0020004-124",
+      "category": "税・お金"
+    },
+    {
+      "title": "「消費税法改正のお知らせ（令和2年4月）」の掲載について（PDF/372KB）（令和2年4月8日）",
+      "publishedAt": "2020-04-08",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/shohi/r02kaisei.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "令和元年分確定申告期の確定申告会場のお知らせ（令和2年3月16日）",
+      "publishedAt": "2020-03-16",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/information/other/data/r01/kakushin_kaijo/index.htm",
+      "category": "税・お金"
+    },
+    {
+      "title": "個人の事業用資産についての贈与税・相続税の納税猶予及び免除に関する質疑応答事例について（情報）（PDF/2,063KB）（令和2年1月17日）",
+      "publishedAt": "2020-01-17",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/jigyo-shokei/pdf/0019012-113.pdf",
+      "category": "税・お金"
+    },
+    {
+      "title": "岩手県、宮城県、福島県、茨城県、栃木県及び長野県の一部の地域内に納税地がある個人の皆様への申告書用紙等の発送について(PDF/127KB)（令和2年1月16日）",
+      "publishedAt": "2020-01-16",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/topics/pdf/0019012-155.pdf",
+      "category": "税・お金"
+    },
+    {
+      "title": "所得税及び復興特別所得税の準確定申告のe-Tax対応について（令和2年1月6日）",
+      "publishedAt": "2020-01-06",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/jyunkaku/index.htm",
+      "category": "税・お金"
+    },
+    {
+      "title": "「令和元年分 確定申告特集」（令和2年1月6日）",
+      "publishedAt": "2020-01-06",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/index.htm",
+      "category": "税・お金"
+    },
+    {
+      "title": "ＱＲコード付納税証明書確認コーナーの不具合の解消について",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/taxes/nozei/nozei-shomei/index.htm",
+      "category": "税・お金"
+    },
+    {
+      "title": "非上場株式等についての贈与税・相続税の納税猶予及び免除の特例措置等に関する質疑応答事例について（情報）（平成30年12月19日）(PDF/1,497KB)（平成30年12月20日）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/joho-zeikaishaku/sozoku/181219/pdf/01.pdf",
+      "category": "税・お金"
+    },
+    {
+      "title": "非上場株式等についての贈与税・相続税の納税猶予及び免除の特例措置等に関する質疑応答事例について（情報）（PDF/3,388KB）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/joho-zeikaishaku/sozoku/pdf/0020007-054_02.pdf",
+      "category": "税・お金"
+    },
+    {
+      "title": "非上場株式等についての贈与税・相続税の納税猶予・免除（法人版事業承継税制）のあらまし（令和7年5月）等",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/01.htm#tokurei_aramashi",
+      "category": "法令・制度"
+    },
+    {
+      "title": "電子帳簿保存法に関する「お問い合わせの多いご質問」に質問を追加しました",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/4-3.htm#a0023011-017",
+      "category": "法令・制度"
+    },
+    {
+      "title": "道路交通法の規定に基づき都道府県公安委員会の指定を受けた法人等が認定を受けて行う運転免許証の更新時等の教育及び検査の手数料に係る消費税の取扱いについて（文書回答事例）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/bunshokaito/shohi/220309/index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "計量法関係法令改正後の器差検定を中心とした指定検定機関が行う特定計量器の検定に係る手数料の消費税の取扱いについて（文書回答事例）（平成30年12月26日）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/bunshokaito/shohi/181213/index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "複数の固定資産を交換した場合の所得税法第58条に規定する交換の特例の適用について（文書回答事例）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/about/organization/tokyo/bunshokaito/joto-sanrin/230802/index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "給与所得の確定申告がさらに簡単に！【利用者用ページ】を更新しました",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/kyuyogensenjoho-top/userpage.htm",
+      "category": "税・お金"
+    },
+    {
+      "title": "給与所得の確定申告がさらに簡単に！",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/kyuyogensenjoho-top.htm",
+      "category": "税・お金"
+    },
+    {
+      "title": "納税者の税務コンプライアンスの維持・向上に向けた取組について（PDF/2,083KB）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/shinkoku/hojin/sanko/pdf/0020011-113.pdf",
+      "category": "税・お金"
+    },
+    {
+      "title": "納税地の特例等に関する手続の変更について（PDF/85KB）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/pdf/0022012-068.pdf",
+      "category": "税・お金"
+    },
+    {
+      "title": "米国の永住権の放棄により所有する有価証券について譲渡があったものとみなされて外国所得税を課された場合の有価証券の取得費について（文書回答事例）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/law/bunshokaito/joto-sanrin/220318/index.htm",
+      "category": "税・お金"
+    },
+    {
+      "title": "税務調査手続に関するFAQ（一般納税者向け）の改訂について",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/information/other/data/h24/nozeikankyo/ippan.htm",
+      "category": "税・お金"
+    },
+    {
+      "title": "生命保険契約に基づき支払を受ける復帰支援一時金の所得税法上の取扱いについて（文書回答事例）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/about/organization/tokyo/bunshokaito/shotoku/210602/index.htm",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日米租税条約関係）を掲載しました（PDF/182KB）（令和元年9月6日）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/gensen/0019008-055.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日ロシア新租税条約）を掲載しました（PDF/319KB）（平成30年10月10日）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/gensen/0018009-087.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日リトアニア租税条約）を掲載しました（PDF/254KB）（平成30年9月3日）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/gensen/0018008-069.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日モロッコ租税条約）を掲載しました（PDF/194KB)",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/gensen/0022003-209.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日ペルー租税条約関係）を掲載しました（PDF/191KB）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/gensen/0021002-102.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日ベルギー新租税条約）を掲載しました(PDF/296KB)(平成31年1月21日)",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/gensen/0019001-001.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日トルクメニスタン新租税条約）（PDF/335KB）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/pdf/0025010-131.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日デンマーク新租税条約）を掲載しました(PDF/300KB)(平成31年1月4日)",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/gensen/0018012-177.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日セルビア租税条約）を掲載しました（PDF/138KB）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/gensen/0021011-081.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日スペイン租税条約）を掲載しました（PDF/210KB）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/gensen/0021005-108.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日ジョージア新租税条約）を掲載しました（PDF/202KB）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/gensen/0021006-196_02.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日ジャマイカ租税条約関係）を掲載しました(PDF/196KB)",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/gensen/0020009-005.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日クロアチア租税協定関係）を掲載しました(PDF/215KB)(令和元年9月5日)",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/gensen/0019008-072.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日ギリシャ租税条約）（PDF/165KB）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/gensen/0024011-055.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日キルギス新租税協定）（PDF/375KB）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/pdf/0026007-029.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日オーストリア新租税条約）を掲載しました（PDF/297KB）（平成30年10月29日）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/gensen/0018010-006.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日エストニア租税条約）を掲載しました（PDF/247KB）（平成30年10月1日）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/gensen/0018009-019.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日エクアドル租税条約関係）を掲載しました(PDF/214KB)(令和元年12月26日)",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/gensen/0019012-054.pdf",
+      "category": "法令・制度"
+    },
+    {
+      "title": "源泉所得税の改正のあらまし（日ウルグアイ租税条約）を掲載しました（PDF/201KB）",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/gensen/0021006-196_01.pdf",
       "category": "法令・制度"
     }
   ]
