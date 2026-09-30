@@ -1,4 +1,47 @@
 {
-  "generatedAt": "2026-09-30T08:25:39+09:00",
-  "items": []
+  "generatedAt": "2026-09-30T12:32:01+09:00",
+  "items": [
+    {
+      "title": "�����ŋy�ѕ������ʏ����ł̏��m��\\����e-Tax�Ή��ɂ��āi�ߘa2�N1��6���j",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/jyunkaku/index.htm",
+      "category": "税・お金"
+    },
+    {
+      "title": "���Œ��z�[���y�[�W�ł̏����œ��̐\\�������쐬�Ee-Tax���܂��܂��֗��ɁI�i�ߘa�S�N�W��12���j",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/r4_smart_shinkoku/index.htm",
+      "category": "税・お金"
+    },
+    {
+      "title": "�ߘa�T�N���̊m��\\���̓}�C�i���o�[�J�[�h��e-Tax�ł���ɕ֗��ɁI",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/r5_smart_shinkoku/index.htm",
+      "category": "税・お金"
+    },
+    {
+      "title": "�u�����Ő\\����e-Tax�������p���������I�v���f�ڂ��܂���(PDF/635KB)",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/pdf/0021006-164.pdf",
+      "category": "税・お金"
+    },
+    {
+      "title": "�u�ҕt���̐U���ʒm��e-Tax�Ŏ󂯎��܂��I�I�v���f�ڂ��܂���",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/publication/pamph/sonota/0023012-197.pdf",
+      "category": "税・お金"
+    },
+    {
+      "title": "e-Tax�̉��P�ӌ��i�A���P�[�g�j�̕�W�ɂ���",
+      "publishedAt": "",
+      "sourceName": "国税庁",
+      "sourceUrl": "https://www.nta.go.jp/information/other/data/r04/e-Tax_enquete/index.htm",
+      "category": "税・お金"
+    }
+  ]
 }
