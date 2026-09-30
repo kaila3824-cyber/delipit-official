@@ -1,47 +1,54 @@
 {
-  "generatedAt": "2026-09-30T18:32:41+09:00",
+  "generatedAt": "2026-09-30T20:15:00+09:00",
   "items": [
     {
-      "title": "�����ŋy�ѕ������ʏ����ł̏��m��\\����e-Tax�Ή��ɂ��āi�ߘa2�N1��6���j",
-      "publishedAt": "",
-      "sourceName": "国税庁",
-      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/jyunkaku/index.htm",
-      "category": "税・お金"
+      "title": "「事業用自動車総合安全プラン2030」を策定しました",
+      "publishedAt": "2026-03-31",
+      "sourceName": "国土交通省",
+      "sourceUrl": "https://www.mlit.go.jp/report/press/jidosha02_hh_000752.html",
+      "category": "安全"
     },
     {
-      "title": "���Œ��z�[���y�[�W�ł̏����œ��̐\\�������쐬�Ee-Tax���܂��܂��֗��ɁI�i�ߘa�S�N�W��12���j",
-      "publishedAt": "",
-      "sourceName": "国税庁",
-      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/r4_smart_shinkoku/index.htm",
-      "category": "税・お金"
+      "title": "流通業務の総合化及び効率化の促進に関する法律及び貨物自動車運送事業法の一部を改正する法律の施行に伴う関係政令を閣議決定",
+      "publishedAt": "2025-08-05",
+      "sourceName": "国土交通省",
+      "sourceUrl": "https://www.mlit.go.jp/report/press/tokatsu01_hh_000932.html",
+      "category": "法令・制度"
     },
     {
-      "title": "�ߘa�T�N���̊m��\\���̓}�C�i���o�[�J�[�h��e-Tax�ł���ɕ֗��ɁI",
-      "publishedAt": "",
-      "sourceName": "国税庁",
-      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/r5_smart_shinkoku/index.htm",
-      "category": "税・お金"
+      "title": "物流改正法の一部施行に伴う関係政令を閣議決定（軽トラック事業者の貨物軽自動車安全管理者の選任等）",
+      "publishedAt": "2025-01-28",
+      "sourceName": "国土交通省",
+      "sourceUrl": "https://www.mlit.go.jp/report/press/jidosha04_hh_000317.html",
+      "category": "法令・制度"
     },
     {
-      "title": "�u�����Ő\\����e-Tax�������p���������I�v���f�ڂ��܂���(PDF/635KB)",
-      "publishedAt": "",
-      "sourceName": "国税庁",
-      "sourceUrl": "https://www.nta.go.jp/publication/pamph/pdf/0021006-164.pdf",
-      "category": "税・お金"
+      "title": "貨物軽自動車運送事業における安全対策を強化するための制度改正を行いました",
+      "publishedAt": "2024-10-01",
+      "sourceName": "国土交通省",
+      "sourceUrl": "https://www.mlit.go.jp/report/press/jidosha02_hh_000665.html",
+      "category": "法令・制度"
     },
     {
-      "title": "�u�ҕt���̐U���ʒm��e-Tax�Ŏ󂯎��܂��I�I�v���f�ڂ��܂���",
-      "publishedAt": "",
-      "sourceName": "国税庁",
-      "sourceUrl": "https://www.nta.go.jp/publication/pamph/sonota/0023012-197.pdf",
-      "category": "税・お金"
+      "title": "第4回「貨物軽自動車運送事業適正化協議会」を開催します",
+      "publishedAt": "2024-07-29",
+      "sourceName": "国土交通省",
+      "sourceUrl": "https://www.mlit.go.jp/report/press/jidosha02_hh_000655.html",
+      "category": "安全"
     },
     {
-      "title": "e-Tax�̉��P�ӌ��i�A���P�[�g�j�̕�W�ɂ���",
-      "publishedAt": "",
-      "sourceName": "国税庁",
-      "sourceUrl": "https://www.nta.go.jp/information/other/data/r04/e-Tax_enquete/index.htm",
-      "category": "税・お金"
+      "title": "第3回「貨物軽自動車運送事業適正化協議会」を開催します",
+      "publishedAt": "2023-12-22",
+      "sourceName": "国土交通省",
+      "sourceUrl": "https://www.mlit.go.jp/report/press/jidosha02_hh_000614.html",
+      "category": "安全"
+    },
+    {
+      "title": "貨物軽自動車運送事業における軽乗用車の使用について",
+      "publishedAt": "2022-10-24",
+      "sourceName": "国土交通省",
+      "sourceUrl": "https://www.mlit.go.jp/report/press/jidosha04_hh_000260.html",
+      "category": "法令・制度"
     }
   ]
 }
