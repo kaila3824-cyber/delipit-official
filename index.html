@@ -199,7 +199,7 @@
 <div class="accordion-body contact-accordion-body">
 <div class="wrap">
 <p class="lead">DELIPITに関するご質問、不具合のご報告、ご意見・ご要望などはこちらからお送りください。</p>
-<form class="contact-form" id="delipitContactForm">
+<form class="contact-form" id="delipitContactForm" method="post">
 <input name="access_key" type="hidden" value="96678403-f7d7-4049-a0d4-73954b7db001"/>
 <input name="subject" type="hidden" value="DELIPIT公式サイトからのお問い合わせ"/>
 <input name="from_name" type="hidden" value="DELIPIT Official Website"/>
@@ -236,8 +236,9 @@
 <label for="contactMessage">お問い合わせ内容 <em>必須</em></label>
 <textarea id="contactMessage" name="message" placeholder="お問い合わせ内容をご入力ください。" required="" rows="7"></textarea>
 </div>
-<button class="btn contact-submit" id="contactSubmit" type="submit">送信する</button>
+<button class="btn contact-submit" disabled="" id="contactSubmit" type="submit">送信する</button>
 <p aria-live="polite" class="contact-status" id="contactStatus" role="status"></p>
+<noscript><p class="contact-note">フォームの送信にはJavaScriptが必要です。下のメールリンクからお問い合わせください。</p></noscript>
 <p class="contact-privacy">送信前に<a href="privacy.html">プライバシーポリシー</a>をご確認ください。</p>
 </form>
 <div class="contact-alt">
@@ -362,6 +363,7 @@ const shareData = {
       submit.textContent = '送信する';
     }
   });
+  submit.disabled = false;
 })();
 </script>
 </body></html>
