@@ -1,4 +1,75 @@
 <!DOCTYPE html>
-<html lang="ja"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/><title>DRIVER NEWS | DELIPIT</title><meta content="軽貨物ドライバーに関係する法令・制度、安全、税・お金、物流などの公的な一次情報をまとめるDELIPIT DRIVER NEWS。" name="description"/><meta content="index,follow" name="robots"/><link href="https://delipit.jp/driver-news.html" rel="canonical"/><link href="/assets/delipit-web-icon-192.png" rel="icon" sizes="192x192" type="image/png"/><style>:root{--bg:#080909;--panel:#111315;--text:#f7f4ed;--muted:#aaa9a5;--gold:#e5ae42;--line:#2a2926;--max:1100px}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% -8%,#30230e 0,#0d0d0c 26%,var(--bg) 54%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif;line-height:1.75}a{color:inherit;text-decoration:none}.wrap{width:calc(100% - 36px);max-width:var(--max);margin-inline:auto;min-width:0}header{position:sticky;top:0;z-index:20;background:rgba(8,9,9,.94);border-bottom:1px solid #202020}.nav{height:68px;display:flex;align-items:center;justify-content:space-between}.brand img{width:164px}.back{color:#e8c46f;font-weight:800}.hero{padding:72px 0 42px}.eyebrow,.tag{color:var(--gold);font-size:11px;font-weight:900;letter-spacing:.18em}.hero h1{font-size:clamp(36px,7vw,64px);line-height:1.15;margin:10px 0}.hero p{max-width:760px;color:#bbb}.filters{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 34px}.filter{border:1px solid #4c3b20;background:#17130c;color:#e8c46f;border-radius:999px;padding:7px 12px;font-size:12px;cursor:pointer}.filter.active{background:#e5ae42;color:#171208}.list{display:grid;grid-template-columns:minmax(0,1fr);gap:13px;padding-bottom:80px;width:100%;min-width:0}.card{background:linear-gradient(145deg,#15191d,#0e1012);border:1px solid #2b2d2f;border-radius:16px;padding:23px;width:100%;max-width:100%;min-width:0;overflow:hidden}.card h2{font-size:20px;line-height:1.5;margin:7px 0;max-width:100%;overflow-wrap:anywhere;word-break:break-word}.meta{color:#92918e;font-size:12px;overflow-wrap:anywhere}.notice{max-width:100%;overflow-wrap:anywhere}.card a.more{display:inline-block;margin-top:14px;color:#f0c35e;font-weight:800}.empty{padding:28px;border:1px solid #34302a;border-radius:16px;color:#aaa}.notice{border-left:3px solid var(--gold);padding:18px 20px;background:#15120c;color:#aaa;margin:0 0 30px}.notice strong{color:#f0c35e}footer{border-top:1px solid #202020;padding:32px 0 50px;color:#8e8e8e;font-size:12px}@media(max-width:780px){.wrap{width:calc(100% - 32px)}.nav{height:62px}.brand img{width:132px}.hero{padding:42px 0 34px}.hero h1{font-size:clamp(30px,9vw,42px)}.hero p{font-size:14px}.notice{padding:16px}.card{padding:18px}.card h2{font-size:18px}.filters{margin-bottom:26px}}</style><script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9142850138364995"></script></head><body><header><div class="wrap nav"><a class="brand" href="index.html"><img alt="DELIPIT" src="assets/delipit-logo.png"/></a><a class="back" href="index.html">← HOME</a></div></header><main><section class="hero"><div class="wrap"><div class="eyebrow">DRIVER NEWS</div><h1>配送の仕事に関係する、最新情報。</h1><p>法令・制度、安全、税・お金、物流など。公的な一次情報を中心に、軽貨物ドライバーに関係する情報をまとめます。</p><div class="filters" id="filters"></div><div class="notice"><strong>一次情報への入口として。</strong><br/>元記事の本文や画像を転載せず、発表元・公開日・タイトルと公式情報へのリンクを中心に掲載します。</div><div class="list" id="news-list"><div class="empty">最新情報を読み込んでいます…</div></div></div></section></main><footer><div class="wrap">© 2026 DELIPIT / REVERIE　｜　<a href="privacy.html">プライバシーポリシー</a>　｜　<a href="terms.html">利用規約</a></div></footer><script>
-let all=[];const list=document.getElementById('news-list'),filters=document.getElementById('filters');const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));const url=v=>{try{const u=new URL(v,location.href);return /^https?:$/.test(u.protocol)?u.href:'#'}catch(e){return '#'}};function draw(cat='すべて'){const xs=cat==='すべて'?all:all.filter(x=>x.category===cat);list.innerHTML=xs.length?xs.map(x=>`<article class="card"><span class="tag">${esc(x.category||'DRIVER NEWS')}</span><h2>${esc(x.title)}</h2><div class="meta">${esc(x.publishedAt)}　｜　${esc(x.sourceName)}</div><a class="more" href="${url(x.sourceUrl)}" target="_blank" rel="noopener noreferrer">公式情報を見る →</a></article>`).join(''):'<div class="empty">現在、このカテゴリーの掲載情報はありません。</div>';document.querySelectorAll('.filter').forEach(b=>b.classList.toggle('active',b.dataset.cat===cat))}fetch('data/driver-news.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{all=d.items||[];const cats=['すべて',...new Set(all.map(x=>x.category).filter(Boolean))];filters.innerHTML=cats.map(c=>`<button class="filter" data-cat="${esc(c)}">${esc(c)}</button>`).join('');filters.addEventListener('click',e=>{const b=e.target.closest('.filter');if(b)draw(b.dataset.cat)});draw()}).catch(()=>{list.innerHTML='<div class="empty">ニュースデータを取得できませんでした。前回データがある場合はサーバー側の更新処理をご確認ください。</div>'});
+<html lang="ja"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/><title>DRIVER NEWS | DELIPIT</title><meta content="軽貨物ドライバーが制度・安全・税の一次資料を読むときの確認ポイントと、配送記録・入金確認に役立つDELIPIT独自の解説。" name="description"/><meta content="index,follow" name="robots"/><link href="https://delipit.jp/driver-news.html" rel="canonical"/><link href="/assets/delipit-web-icon-192.png" rel="icon" sizes="192x192" type="image/png"/><style>:root{--bg:#080909;--panel:#111315;--text:#f7f4ed;--muted:#aaa9a5;--gold:#e5ae42;--line:#2a2926;--max:1100px}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% -8%,#30230e 0,#0d0d0c 26%,var(--bg) 54%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif;line-height:1.75}a{color:inherit;text-decoration:none}.wrap{width:calc(100% - 36px);max-width:var(--max);margin-inline:auto;min-width:0}header{position:sticky;top:0;z-index:20;background:rgba(8,9,9,.94);border-bottom:1px solid #202020}.nav{height:68px;display:flex;align-items:center;justify-content:space-between}.brand img{width:164px}.back{color:#e8c46f;font-weight:800}.hero{padding:72px 0 42px}.eyebrow,.tag{color:var(--gold);font-size:11px;font-weight:900;letter-spacing:.18em}.hero h1{font-size:clamp(36px,7vw,64px);line-height:1.15;margin:10px 0}.hero p{max-width:760px;color:#bbb}.filters{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 34px}.filter{border:1px solid #4c3b20;background:#17130c;color:#e8c46f;border-radius:999px;padding:7px 12px;font-size:12px;cursor:pointer}.filter.active{background:#e5ae42;color:#171208}.list{display:grid;grid-template-columns:minmax(0,1fr);gap:13px;padding-bottom:80px;width:100%;min-width:0}.card{background:linear-gradient(145deg,#15191d,#0e1012);border:1px solid #2b2d2f;border-radius:16px;padding:23px;width:100%;max-width:100%;min-width:0;overflow:hidden}.card h2,.card h3{font-size:20px;line-height:1.5;margin:7px 0;max-width:100%;overflow-wrap:anywhere;word-break:break-word}.meta{color:#92918e;font-size:12px;overflow-wrap:anywhere}.notice{max-width:100%;overflow-wrap:anywhere}.card a.more{display:inline-block;margin-top:14px;color:#f0c35e;font-weight:800}.empty{padding:28px;border:1px solid #34302a;border-radius:16px;color:#aaa}.notice{border-left:3px solid var(--gold);padding:18px 20px;background:#15120c;color:#aaa;margin:0 0 30px}.notice strong{color:#f0c35e}footer{border-top:1px solid #202020;padding:32px 0 50px;color:#8e8e8e;font-size:12px}@media(max-width:780px){.wrap{width:calc(100% - 32px)}.nav{height:62px}.brand img{width:132px}.hero{padding:42px 0 34px}.hero h1{font-size:clamp(30px,9vw,42px)}.hero p{font-size:14px}.notice{padding:16px}.card{padding:18px}.card h2,.card h3{font-size:18px}.filters{margin-bottom:26px}}.field-guide{display:grid;gap:13px;margin:24px 0 42px;min-width:0}.field-guide h2{margin:0}.field-guide p{max-width:100%;overflow-wrap:anywhere}.field-guide strong{color:#f0c35e}.card a.more{overflow-wrap:anywhere}.card h3{font-weight:700}</style><script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9142850138364995"></script></head><body><header><div class="wrap nav"><a class="brand" href="index.html"><img alt="DELIPIT" src="assets/delipit-logo.png"/></a><a class="back" href="index.html">← HOME</a></div></header><main><section class="hero"><div class="wrap"><div class="eyebrow">DRIVER NEWS</div><h1>配送の情報を、仕事の確認につなげる。</h1><p>制度や税の情報を見つけたあと、何を確認すればよいのか。現役の委託配送ドライバーが開発するDELIPITの視点で、日々の記録と一次資料をつなぐ確認ポイントをまとめます。</p>
+<section aria-labelledby="field-guide-title" class="field-guide">
+<div class="eyebrow">FIELD GUIDE</div>
+<h2 id="field-guide-title">読んだ情報を、毎日の確認へ。</h2>
+<p class="meta">DELIPIT編集 / 解説確認日：2026年10月11日</p>
+<article class="card">
+<span class="tag">法令・制度 / 安全</span>
+<h3>制度改正は「自分にいつ、何が必要か」まで確認する。</h3>
+<p>軽貨物の制度を読むときは、ニュースの見出しだけで対応を決めず、対象となる事業者・運転者、施行日、経過措置を確認することが出発点です。国土交通省の制度案内には、解説リーフレット、FAQ、業務記録・事故記録・点呼記録簿などの様式例が掲載されています。</p>
+<p><strong>現場で確認するなら：</strong>使っている記録と公式の様式例を並べ、開始・終了地点や距離など、どの情報をどこに残しているかを確認します。配完数や売上の管理と、安全管理の記録は目的が違います。DELIPITの配送実績だけで制度対応が完了したとは判断せず、必要な項目や保存方法を公式資料で照合してください。</p>
+<a class="more" href="https://www.mlit.go.jp/jidosha/jidosha_tk2_000172.html" target="_blank" rel="noopener noreferrer">出典：国土交通省の制度案内・FAQ・様式例 →</a><br/>
+<a class="more" href="safe.html">開発・公開テスト中のDELIPIT SAFEについて →</a>
+</article>
+<article class="card">
+<span class="tag">税・お金 / 配送記録</span>
+<h3>売上を記録したら、明細・入金・証拠書類までつなぐ。</h3>
+<p>国税庁の記帳案内では、収入や経費の記録に加え、請求書・領収書などの保存について説明されています。DELIPITは仕事の数字を整理するためのツールです。アプリの集計だけで会計帳簿や税務申告が完成するわけではありません。</p>
+<p><strong>月末に確認するなら：</strong>配送実績から計算した売上、委託先の支払明細、実際の入金を並べて確認します。差額があれば、配完数、契約単価、追加報酬、会社控除の順に照合します。計算した金額を入金額で上書きせず両方残すと、どこを確認するかが見えやすくなります。この考え方は、開発者自身の入金確認の経験から生まれました。</p>
+<a class="more" href="https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm" target="_blank" rel="noopener noreferrer">出典：国税庁の記帳・帳簿等の保存案内 →</a><br/>
+<a class="more" href="driver-note-03.html">実体験：計算と入金額が合わない。でも、間違いとは限らなかった。 →</a><br/>
+<a class="more" href="manual.html#money">DELIPITの収支・入金確認の使い方 →</a>
+</article>
+<article class="card">
+<span class="tag">一次資料の読み方</span>
+<h3>古い発表と、今使う案内を分けて読む。</h3>
+<p>資料の公表日、制度の施行日、対象となる年度は分けて確認します。過去の報道発表は制度が変わった経緯を知る材料ですが、現在の手続や様式を確認するときは、発表元の案内ページとFAQも確認してください。公開日が確認できない資料は、日付を推測せず「日付未確認」と表示します。</p>
+<p><strong>仕事の記録に残すなら：</strong>確認した資料のURL、確認日、自分の契約や運行に関係する点、まだ分からない点を分けてメモしておくと、後から見直しやすくなります。解説は確認の手がかりです。個別の適用が分からない場合は、資料に記載された窓口へ確認してください。</p>
+<a class="more" href="driver-note.html">現役ドライバーの実体験を読む →</a>
+</article>
+</section>
+<section aria-labelledby="source-list-title">
+<h2 id="source-list-title">公的資料のリンク一覧</h2>
+<div class="notice"><strong>過去の資料を含む、一次情報への入口です。</strong><br/>ここから先は公的資料のタイトルとリンクの一覧です。各資料が現在の制度や自分の状況に適用されるかは、発表元の本文で確認してください。上の解説は一覧の取得状況にかかわらず読めます。</div>
+<p class="meta" id="news-status" role="status">掲載時点の参考資料を表示しています（2026年10月11日）。</p>
+<noscript><p class="meta">カテゴリー切替と資料一覧の更新にはJavaScriptを使います。確認ポイントと下の参考資料は、そのままご覧いただけます。</p></noscript>
+<div class="filters" id="filters" aria-label="資料のカテゴリー"></div>
+<div class="list" id="news-list"><article class="card"><span class="tag">法令・制度</span><h3>貨物軽自動車運送事業における安全対策を強化するための制度改正を行いました</h3><div class="meta">資料の日付：2024-10-01 ｜ 国土交通省 ｜ 過去の報道発表</div><a class="more" href="https://www.mlit.go.jp/report/press/jidosha02_hh_000665.html" target="_blank" rel="noopener noreferrer">公式情報を見る →</a></article></div></section></div></section></main><footer><div class="wrap">© 2026 DELIPIT / REVERIE　｜　<a href="privacy.html">プライバシーポリシー</a>　｜　<a href="terms.html">利用規約</a></div></footer><script>
+let all = [];
+const list = document.getElementById('news-list');
+const filters = document.getElementById('filters');
+const status = document.getElementById('news-status');
+const esc = value => String(value ?? '').replace(/[&<>"']/g, mark => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[mark]));
+const url = value => {
+  try {
+    const parsed = new URL(value);
+    return /^https?:$/.test(parsed.protocol) && ['www.mlit.go.jp', 'mlit.go.jp', 'www.nta.go.jp', 'nta.go.jp'].includes(parsed.hostname) ? parsed.href : '#';
+  } catch (error) { return '#'; }
+};
+function draw(category = 'すべて') {
+  const items = category === 'すべて' ? all : all.filter(item => item.category === category);
+  list.innerHTML = items.length ? items.map(item => `<article class="card"><span class="tag">${esc(item.category || 'DRIVER NEWS')}</span><h3>${esc(item.title)}</h3><div class="meta">資料の日付：${esc(item.publishedAt || '日付未確認')} ｜ ${esc(item.sourceName)}</div><a class="more" href="${esc(url(item.sourceUrl))}" target="_blank" rel="noopener noreferrer">公式情報を見る →</a></article>`).join('') : '<div class="empty">現在、このカテゴリーの掲載情報はありません。</div>';
+  document.querySelectorAll('.filter').forEach(button => {
+    const active = button.dataset.cat === category;
+    button.classList.toggle('active', active);
+    button.setAttribute('aria-pressed', String(active));
+  });
+}
+fetch('data/driver-news.json', {cache: 'no-store'})
+  .then(response => { if (!response.ok) throw new Error('unavailable'); return response.json(); })
+  .then(data => {
+    if (!Array.isArray(data.items)) throw new Error('invalid data');
+    const items = data.items.filter(item => item && typeof item === 'object' && typeof item.title === 'string' && item.title.trim() && url(item.sourceUrl) !== '#');
+    if (!items.length) throw new Error('empty data');
+    all = items;
+    const categories = ['すべて', ...new Set(all.map(item => item.category).filter(Boolean))];
+    filters.innerHTML = categories.map(category => `<button class="filter" type="button" data-cat="${esc(category)}" aria-pressed="false">${esc(category)}</button>`).join('');
+    filters.addEventListener('click', event => { const button = event.target.closest('.filter'); if (button) draw(button.dataset.cat); });
+    draw();
+    status.textContent = '公的資料の一覧を取得しました。過去の資料・日付未確認の資料を含みます。';
+  })
+  .catch(() => {
+    status.textContent = '資料一覧を更新できなかったため、掲載時点の参考資料を表示しています。確認ポイントと公式リンクは引き続きご覧いただけます。';
+  });
 </script></body></html>
