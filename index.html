@@ -161,7 +161,7 @@
 </summary>
 <div class="accordion-body contact-accordion-body">
 <div class="wrap">
-<p class="lead">DELIPITに関するご質問、不具合のご報告、ご意見・ご要望などはこちらからお送りください。</p>
+<p class="lead">DELIPIT・DELIPIT SAFEに関するご質問、不具合のご報告、ご意見・ご要望などはこちらからお送りください。</p>
 <form class="contact-form" id="delipitContactForm" method="post">
 <input name="access_key" type="hidden" value="96678403-f7d7-4049-a0d4-73954b7db001"/>
 <input name="subject" type="hidden" value="DELIPIT公式サイトからのお問い合わせ"/>
@@ -174,6 +174,14 @@
 <div class="contact-field">
 <label for="contactEmail">メールアドレス <em>必須</em></label>
 <input autocomplete="email" id="contactEmail" inputmode="email" name="email" placeholder="example@email.com" required="" type="email"/>
+</div>
+<div class="contact-field">
+<label for="contactProduct">お問い合わせ対象 <em>必須</em></label>
+<select id="contactProduct" name="product" required="">
+<option disabled="" selected="" value="">アプリを選択してください</option>
+<option value="DELIPIT">DELIPIT（配送実績・売上管理）</option>
+<option value="DELIPIT SAFE">DELIPIT SAFE（運行・安全管理）</option>
+</select>
 </div>
 <div class="contact-field">
 <label for="contactType">お問い合わせ種別 <em>必須</em></label>
@@ -282,6 +290,10 @@ const shareData = {
   form.addEventListener('submit', async function (event) {
     event.preventDefault();
     if (!form.reportValidity()) return;
+
+    const product = form.elements.namedItem('product');
+    if (!product || !['DELIPIT', 'DELIPIT SAFE'].includes(product.value)) return;
+    form.elements.namedItem('subject').value = '【' + product.value + '】公式サイトからのお問い合わせ';
 
     submit.disabled = true;
     submit.textContent = '送信中…';
