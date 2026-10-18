@@ -1,8 +1,9 @@
 name: Update latest note article
 
 on:
-  schedule:
-    - cron: '17 * * * *'
+  # Scheduled updates retired: the current index.html uses native DRIVER NOTE cards
+  # and no longer contains NOTE_LATEST_START / NOTE_LATEST_END markers.
+  # Keep manual dispatch only for legacy maintenance; no hourly failure emails.
   workflow_dispatch:
 
 permissions:
