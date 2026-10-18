@@ -98,6 +98,69 @@
 
 
 .safe-hero{padding:76px 0 64px;text-align:center;background:radial-gradient(circle at 50% 0,#0a426b 0,#101215 38%,#080909 70%)}.safe-hero img{width:min(850px,96%);max-height:300px;object-fit:contain;background:transparent;border-radius:0;padding:0}.safe-hero h1{font-size:clamp(36px,7vw,72px);margin:24px 0 8px;line-height:1.08}.safe-blue{color:#55c8ff}.safe-notice{max-width:780px;margin:24px auto 0;padding:18px;border:1px solid #235f83;border-radius:14px;background:#071b28;color:#b9dcf0}.fuu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.fuu-card{background:#111315;border:1px solid #2c3338;border-radius:16px;overflow:hidden}.fuu-card img{width:100%;aspect-ratio:1/1;object-fit:contain;display:block;background:transparent}.fuu-card div{padding:15px}.fuu-card h3{margin:0 0 4px}.fuu-card p{margin:0;color:#999;font-size:13px}.role-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.role{padding:28px;border:1px solid #2d2d2d;border-radius:18px;background:#111315}.role img{width:120px;height:120px;object-fit:contain;float:right;margin-left:18px}.safe-flow{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.safe-step{padding:18px;border-radius:14px;border:1px solid #26495f;background:#0c151b}.safe-step b{display:block;color:#55c8ff;margin-bottom:5px}.safe-step span{font-size:13px;color:#aaa}.dev-only{color:#55c8ff!important;border-color:#235f83!important;background:#071b28!important}@media(max-width:760px){.fuu-grid{grid-template-columns:1fr 1fr}.role-grid{grid-template-columns:1fr}.safe-flow{grid-template-columns:1fr 1fr}.safe-hero{padding-top:48px}.safe-hero img{border-radius:12px}}@media(max-width:430px){.fuu-grid{grid-template-columns:1fr 1fr}.safe-flow{grid-template-columns:1fr}}
+
+/* SAFE product detail — aligned with DELIPIT page layout */
+.safe-product .eyebrow,.safe-product .num{color:#67cfff}
+.safe-product .hero{background:radial-gradient(circle at 50% 0,#10304a 0,transparent 67%);text-align:center}
+.safe-product .hero-logo{display:block;width:min(780px,95%);max-height:210px;object-fit:contain;margin:0 auto 22px}
+.safe-product .hero h1{font-size:clamp(34px,6vw,64px);line-height:1.2}
+.safe-product .hero p{max-width:760px;margin:18px auto 24px}
+.safe-product .actions,.safe-product .section-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.safe-product .btn.safe-primary{background:linear-gradient(120deg,#2d84b4,#65d3ff);color:#06131b;border-color:#55c8ff}
+.safe-product .safe-notice{border-color:#286585;background:#091d2b;text-align:left}
+.safe-product .safe-panel,.safe-product .safe-story{background:linear-gradient(145deg,#151719,#0d0f10);border:1px solid #254a62;border-radius:18px;padding:26px}
+.safe-product .safe-panel p,.safe-product .safe-story p{color:#b5b8ba}
+.safe-product .safe-flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:24px}
+.safe-product .safe-step{border:1px solid #2b5065;border-radius:14px;padding:18px 14px;background:#0e1820}
+.safe-product .safe-step b{display:block;color:#66cfff;font-size:11px;letter-spacing:.08em}
+.safe-product .safe-step span{display:block;margin-top:6px;font-weight:800}
+.safe-product .card{border-color:#2d3c47}
+.safe-product .card .num{font-size:11px;letter-spacing:.1em;font-weight:800}
+.safe-product .safe-disclosure{margin-top:24px;color:#b8bec2}
+.safe-product .safe-disclosure p{margin:0 0 12px}
+.safe-product .safe-guide-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:25px}
+.safe-product .safe-guide-card{display:flex;flex-direction:column;align-items:flex-start;gap:12px;padding:24px;border:1px solid #315269;background:linear-gradient(145deg,#141b20,#0d1114);border-radius:18px}
+.safe-product .safe-guide-card span{color:#65cfff;font-size:12px;font-weight:900;letter-spacing:.12em}
+.safe-product .safe-guide-card h3{margin:0}
+.safe-product .safe-guide-card p{margin:0;color:#b9bdc0;flex:1}
+.safe-product .safe-guide-card b{color:#88dbff}
+.safe-product .safe-home{display:grid;grid-template-columns:130px 1fr;gap:24px;align-items:center}
+.safe-product .safe-home img{width:112px;height:112px;object-fit:cover;border-radius:24px}
+.safe-product .role-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:24px 0}
+.safe-product .role{border:1px solid #2d4858;border-radius:18px;background:#11191e;padding:24px;text-align:center}
+.safe-product .role img{display:block;width:160px;max-width:100%;height:160px;object-fit:contain;margin:0 auto 12px}
+.safe-product .role h3{margin:0 0 6px}
+.safe-product .role p{color:#aeb8bd;margin:0;font-size:14px}
+.safe-product .fuu-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.safe-product .fuu-card{display:flex;align-items:center;gap:12px;padding:14px;border:1px solid #304b5d;background:#10181e;border-radius:14px}
+.safe-product .fuu-card img{width:74px;height:74px;object-fit:contain;flex:none}
+.safe-product .fuu-card h3{font-size:13px;margin:0 0 3px}
+.safe-product .fuu-card p{font-size:12px;color:#a9b8bf;margin:0}
+.safe-product .story-accordion{border-color:#2a4556}
+.safe-product .story-accordion .accordion-heading .eyebrow{color:#62caff}
+.safe-product .story-accordion .accordion-plus:before,.safe-product .story-accordion .accordion-plus:after{background:#66cfff}
+.safe-product .safe-links{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+.safe-product .safe-links .btn{white-space:normal}
+.safe-product .safe-faq details{padding:17px 2px;border-bottom:1px solid #28333b}
+.safe-product .safe-faq summary{font-weight:800;cursor:pointer}
+.safe-product .safe-faq details p{margin:10px 0 4px;color:#adb6bb}
+.safe-product .cta{border-color:#236188;background:radial-gradient(circle at top,#103047,#0d1215 70%)}
+.safe-product .cta h2{color:#eaf8ff}
+.safe-product .safe-small{font-size:13px;color:#94aab8;margin-top:15px}
+@media(max-width:760px){
+.safe-product .safe-flow{grid-template-columns:repeat(2,minmax(0,1fr))}
+.safe-product .safe-guide-cards,.safe-product .role-grid{grid-template-columns:1fr}
+.safe-product .fuu-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.safe-product .safe-home{grid-template-columns:1fr;text-align:center;justify-items:center}
+.safe-product .safe-panel,.safe-product .safe-story{padding:20px}
+.safe-product .safe-links .btn{width:100%;text-align:center}
+}
+@media(max-width:390px){
+.safe-product .fuu-grid{grid-template-columns:1fr}
+.safe-product .safe-flow{gap:8px}
+.safe-product .safe-step{padding:13px 10px}
+}
+
 </style><link rel="stylesheet" href="assets/safe-information.css"></head><body><header class="site-header">
 <div class="wrap nav">
 <a aria-label="DELIPIT ホーム" class="brand" href="index.html"><img alt="DELIPIT" src="assets/delipit-logo.png"/></a>
@@ -106,4 +169,128 @@
 <button aria-controls="mobile-menu" aria-expanded="false" aria-label="メニューを開く" class="menu-toggle" type="button"><span></span><span></span><span></span></button></div></div>
 <nav aria-label="スマートフォン用メニュー" class="mobile-menu" id="mobile-menu"><div class="wrap mobile-menu-inner">
 <a href="index.html">HOME</a><a href="index.html#products">PRODUCTS</a><a href="delipit.html">DELIPIT 製品紹介</a><a href="manual.html">DELIPIT マニュアル</a><a href="safe.html">SAFE 製品紹介</a><a href="safe-guide.html">SAFE 使い方</a><a href="driver-note.html">DRIVER NOTE</a><a href="driver-news.html">DRIVER NEWS</a><a href="index.html#about">ABOUT</a><a href="index.html#contact">CONTACT</a>
-</div></nav></header><main><section class="safe-hero"><div class="wrap"><img src="assets/safe-logo-horizontal.png" alt="DELIPIT SAFE DRIVE SAFE. STAY READY."><div class="eyebrow safe-blue">DELIPIT SAFE</div><h1>安全を、毎日の流れに。</h1><p>日常点検、点呼、業務開始・終了、走行記録。軽貨物ドライバーが毎日の安全管理と業務記録を続けやすくするためのDELIPITシリーズ新プロダクト。</p><div class="safe-notice"><strong>PUBLIC FIELD TEST / 開発・公開テスト中</strong><br>現在は正式リリース前のTEST BUILD / NOT RCです。仕様・画面・機能は正式公開までに変更される場合があります。</div></div></section><section class="section"><div class="wrap"><div class="eyebrow safe-blue">WHAT IS SAFE?</div><h2>記録のために、仕事を止めない。</h2><p class="lead">DELIPIT SAFEは、配送現場で必要になる安全確認や業務記録を、日々の流れに沿って扱えるよう設計しています。</p><div class="safe-flow"><div class="safe-step"><b>01 DAILY CHECK</b><span>日常点検</span></div><div class="safe-step"><b>02 ROLL CALL</b><span>業務前点呼</span></div><div class="safe-step"><b>03 ON DUTY</b><span>業務開始・業務中</span></div><div class="safe-step"><b>04 FINALIZE</b><span>業務終了・記録確定</span></div></div></div></section><section class="section" id="safe-features"><div class="wrap"><div class="eyebrow safe-blue">DELIPIT SAFE / TEST BUILD / NOT RC</div><h2>日々の確認から、記録・保管まで。</h2><div class="safe-disclosure"><p>DELIPITとDELIPIT SAFEは、同じDELIPITブランドの関連サービスです。DELIPITは配送実績・売上・経費・収支・GAMEを、SAFEは運行記録と安全管理を支援します。現在、データ共有・自動連携・アカウント統合はありません。</p><p>SAFEの対象は、四輪以上の軽自動車を使用する貨物軽自動車運送事業です。複数車両・乗換えに対応していますが、複数運転者の組織管理は未対応です。バイク便等の異なる事業形態の適用は要確認です。</p></div><div class="grid"><article class="card"><h3>点呼・業務記録</h3><p>業務前・業務後点呼と業務開始・終了、日常点検、経由地・休憩・荷待ち・荷役等の記録。実施した内容を記録します。</p></article><article class="card"><h3>車両・運転者情報</h3><p>複数車両管理、車検・保険期限アラート、運転者台帳。期限表示や入力補助だけで法令遵守が完結するものではありません。</p></article><article class="card"><h3>帳票・気象情報</h3><p>正式帳票7種類、PDF・CSV、気象庁予報・アメダス情報。帳票の出力と行政への提出・受理は別です。</p></article></div><div class="safe-disclosure"><nav class="safe-doc-nav" aria-label="SAFE公開情報"><a href="safe.html">SAFE紹介</a><a href="safe-guide.html">SAFEの使い方</a><a href="safe-information.html">保存・位置情報・法令</a><a href="safe-terms.html">SAFE規約案内</a><a href="safe-privacy.html">SAFEプライバシー案内</a></nav><p>7帳票は国交省様式例ベース4種類、SAFE独自様式2種類、公式事故報告書の作成補助1種類です。正式規約・運営者法的表示等は確認中です。法令適合の認証済み製品との表示ではありません。</p><p>公式サイトの公開案内は利用前にも閲覧できます。SAFEテストアプリへの一般向け直接リンクは、従来の公開方針を維持して掲載していません。</p></div></div></section><section class="section"><div class="wrap"><div class="eyebrow safe-blue">SAFE NAVIGATORS</div><h2>FUUが状態を伝え、RONAが次を案内する。</h2><p class="lead">SAFEでは、情報を増やすだけではなく「今どういう状態か」「次に何をすればいいか」を直感的に分けて伝えます。</p><div class="role-grid"><article class="role"><img src="assets/fuu-normal.png" alt="FUU"><h3>FUU</h3><p><strong>STATUS COMMUNICATION</strong><br>現在の安全・記録状態を伝えるSAFEナビゲーター。NORMAL / CHECK / ALERT / COMPLETEなど、状況に応じて状態を変えます。</p></article><article class="role"><img src="assets/rona-profile.png" alt="RONA"><h3>RONA</h3><p><strong>GUIDED COMPLETION</strong><br>ユーザーが次に行う操作や確認を案内するナビゲーター。FUUとは役割を分け、日々の流れをサポートします。</p></article></div></div></section><section class="section"><div class="wrap"><div class="eyebrow safe-blue">FUU STATES</div><h2>状態が変われば、FUUも変わる。</h2><p class="lead">FUUは飾りではなく、SAFEの状態コミュニケーションを担うキャラクターです。公開テスト中のため、表示条件や表現は調整される場合があります。</p><div class="fuu-grid"><article class="fuu-card"><img src="assets/fuu-normal.png" alt="FUU NORMAL"><div><h3>NORMAL</h3><p>通常状態。</p></div></article><article class="fuu-card"><img src="assets/fuu-check.png" alt="FUU CHECK"><div><h3>CHECK</h3><p>確認が必要な状態。</p></div></article><article class="fuu-card"><img src="assets/fuu-alert.png" alt="FUU ALERT"><div><h3>ALERT</h3><p>対応が必要な問題を通知。</p></div></article><article class="fuu-card"><img src="assets/fuu-empty.png" alt="FUU EMPTY"><div><h3>EMPTY</h3><p>確認対象がまだない状態。</p></div></article><article class="fuu-card"><img src="assets/fuu-complete.png" alt="FUU COMPLETE"><div><h3>COMPLETE</h3><p>必要な流れを完了。</p></div></article><article class="fuu-card"><img src="assets/fuu-welcome.png" alt="FUU WELCOME BACK"><div><h3>WELCOME BACK</h3><p>FINALIZE後の帰還を迎える状態。</p></div></article></div></div></section><section class="section"><div class="wrap"><div class="eyebrow safe-blue">SECURITY & DATA</div><h2>業務記録を、端末内で守る。</h2><div class="grid"><article class="card"><span class="num">SECURITY</span><h3>暗号化とUnlock</h3><p>業務Recordは端末のブラウザ内に暗号化保存します。利用中のメモリや資材・天気キャッシュは別です。クラウドへの業務記録の自動同期はありません。</p></article><article class="card"><span class="num">BACKUP</span><h3>Backup / Restore</h3><p>暗号化バックアップの作成・復元に対応。作成後に利用者が安全な外部保存先へ保管・確認してください。PDF・CSVは復元用バックアップとは別です。</p></article><article class="card"><span class="num">PRIVACY</span><h3>現場を追跡しない</h3><p>地点入力と天気区域・観測地点選択に利用。操作時のほかロック解除後の天気起動時にも1回取得を試みます。常時・バックグラウンド追跡はありません。</p></article></div></div></section><section class="cta"><div class="wrap"><div class="eyebrow safe-blue">COMING SOON</div><h2>DRIVE SAFE. STAY READY.</h2><p>DELIPIT SAFEは現在PUBLIC FIELD TEST中です。正式公開まで、もうしばらくお待ちください。</p><a class="btn ghost dev-only" href="index.html#products">DELIPIT PRODUCTSへ戻る</a></div></section></main><footer><div class="wrap foot"><img src="assets/delipit-logo.png" alt="DELIPIT"><div class="fine"><span>© 2026 DELIPIT / REVERIE</span><a href="driver-note.html">DRIVER NOTE</a><a href="driver-news.html">DRIVER NEWS</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシーポリシー</a></div></div></footer><script>const b=document.querySelector('.menu-toggle'),m=document.getElementById('mobile-menu');if(b&&m){b.addEventListener('click',()=>{const o=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!o));m.classList.toggle('open',!o)})}</script></body></html>
+</div></nav></header><main id="top" class="safe-product">
+<section class="hero">
+<div class="wrap">
+<img class="hero-logo" src="assets/safe-logo-horizontal.png" alt="DELIPIT SAFE — DRIVE SAFE. STAY READY."/>
+<div class="eyebrow">DELIPIT SAFE / SAFETY &amp; OPERATIONS</div>
+<h1>安全を、毎日の流れに。</h1>
+<p>日常点検、点呼、業務開始・終了、走行記録。配送の現場に必要な確認と記録を、毎日続けやすいひとつの流れに。DELIPIT SAFEは、個人の軽貨物ドライバー向け安全管理・運行記録補助Webアプリです。</p>
+<div class="actions"><a class="btn safe-primary" href="safe-guide.html">使い方を見る →</a><a class="btn ghost" href="#safe-features">機能を見る</a></div>
+<div class="safe-notice"><strong>PUBLIC FIELD TEST / TEST BUILD / NOT RC</strong><br/>現在は正式リリース前の公開テスト段階です。機能や画面は変更される場合があります。正式な利用規約・法的運営者表示は整備中であり、一般公開を承認したものではありません。</div>
+</div></section>
+<section class="section" id="safe-features"><div class="wrap">
+<div class="eyebrow">FEATURES</div>
+<h2>日々の確認から、記録・保管まで。</h2>
+<p class="lead">必要なことを一つずつ、現場で使う順番に。業務の開始から終了、記録の確認までを支援します。</p>
+<div class="grid">
+<article class="card"><span class="num">DAILY CHECK</span><h3>日常点検・点呼</h3><p>日常点検と業務前・業務後点呼。実際に行った安全確認を記録します。</p></article>
+<article class="card"><span class="num">BUSINESS</span><h3>業務開始・終了</h3><p>業務中の地点・休憩・荷待ち・荷役・走行距離等を、仕事の流れに合わせて記録。</p></article>
+<article class="card"><span class="num">VEHICLE</span><h3>車両・運転者情報</h3><p>複数車両や乗換え、運転者情報・期限に関する記録を管理。複数運転者の組織的一括管理には未対応です。</p></article>
+<article class="card"><span class="num">OFFICIAL RECORDS</span><h3>帳票・PDF出力</h3><p>点呼・点検・業務・事故など7種類の帳票・作成補助。公式様式例とSAFE独自様式の違いも説明します。</p></article>
+<article class="card"><span class="num">TIME &amp; WEATHER</span><h3>時間・気象情報</h3><p>勤務・拘束時間の参考情報や気象庁の予報・アメダス観測情報を表示し、確認を支援します。</p></article>
+<article class="card"><span class="num">DATA PROTECTION</span><h3>端末内保存・バックアップ</h3><p>業務記録は端末のブラウザ内で暗号化保存。バックアップの作成・復元を支援します。</p></article>
+</div>
+<div class="safe-disclosure"><p>対象は四輪以上の貨物軽自動車運送事業を営む個人ドライバーを中心としています。バイク便等の異なる事業形態への適用は個別に確認してください。DELIPIT本体との自動データ共有・アカウント統合はありません。</p></div>
+</div></section>
+<section class="section" id="safe-workflow"><div class="wrap">
+<div class="eyebrow">DAILY WORKFLOW</div><h2>記録のために、仕事を止めない。</h2>
+<p class="lead">必要な安全確認と業務記録を、毎日の実際の流れに沿って整理。SAFEの記録は、確認・点呼そのものを代行するものではありません。</p>
+<div class="safe-flow">
+<div class="safe-step"><b>01 DAILY CHECK</b><span>日常点検</span></div>
+<div class="safe-step"><b>02 ROLL CALL</b><span>業務前点呼</span></div>
+<div class="safe-step"><b>03 ON DUTY</b><span>業務中の記録</span></div>
+<div class="safe-step"><b>04 FINISH</b><span>業務終了・点呼</span></div>
+</div>
+<div class="section-actions"><a class="btn safe-primary" href="safe-guide.html">使い方・操作の流れを見る →</a></div>
+</div></section>
+<section class="section" id="safe-guides"><div class="wrap">
+<div class="eyebrow">GUIDE &amp; RECORDS</div><h2>使い方も、記録の意味も。</h2>
+<p class="lead">操作方法だけでなく、保存や法令に関する案内も分けて確認できます。正式な契約条項は現在整備中です。</p>
+<div class="safe-guide-cards">
+<a class="safe-guide-card" href="safe-guide.html"><span>HOW TO USE</span><h3>使い方・操作ガイド</h3><p>初回利用、日々の記録、バックアップ・復元などの基本操作。</p><b>ガイドを見る →</b></a>
+<a class="safe-guide-card" href="safe-information.html"><span>RECORDS &amp; LEGAL</span><h3>保存・法令・帳票の案内</h3><p>帳票7種類の位置付け、SELF点呼、保存期間、端末内保存、外部通信を確認。</p><b>詳しい案内を見る →</b></a>
+</div>
+</div></section>
+<section class="section" id="safe-home-screen"><div class="wrap">
+<div class="eyebrow">ADD TO HOME SCREEN</div><h2>ホーム画面から、いつもの安全確認へ。</h2>
+<p class="lead">SAFEはWebアプリです。対応端末ではホーム画面に追加して利用できます。正式公開前のTEST BUILDであり、利用環境によって操作・保存条件が異なります。</p>
+<div class="safe-panel safe-home"><img src="assets/safe-app-icon.png" alt="DELIPIT SAFEアプリアイコン"/><div><h3>安全管理を、仕事の一部に。</h3><p>アプリの案内や利用前の注意事項を確認してからお使いください。端末内の業務記録は自動でクラウド同期されません。</p><div class="safe-links"><a class="btn ghost" href="safe-guide.html">利用前のガイドを見る →</a></div></div></div>
+</div></section>
+<section class="section accordion-section" id="safe-concept"><details class="story-accordion">
+<summary><span class="accordion-heading"><span class="eyebrow">OUR APPROACH</span><span class="accordion-title">安全管理を、毎日続けられる形へ。</span></span><span aria-hidden="true" class="accordion-plus"></span></summary>
+<div class="accordion-body"><div class="wrap"><div class="safe-story"><p>配送の一日は、荷物を届けることだけでは終わりません。出発前の車両確認、業務中の状況、終業後の点呼や記録整理まで、安全に働くための仕事があります。</p><p>DELIPIT SAFEは、それらを無理なく確認・記録できるよう、入力の流れや案内を工夫しています。</p><p>法令上必要な行為をアプリが自動で実施するわけではありません。実際の確認と記録をつなげることを目指しています。</p></div></div></div>
+</details></section>
+<section class="section" id="safe-navigators"><div class="wrap">
+<div class="eyebrow">SAFE NAVIGATORS</div><h2>FUUが状態を伝え、RONAが次を案内する。</h2>
+<p class="lead">画面の情報だけでなく、「今の状態」と「次の操作」を分けて伝える、SAFEのナビゲーターです。</p>
+<div class="role-grid">
+<article class="role"><img loading="lazy" src="assets/fuu-normal.png" alt="FUU"/><h3>FUU</h3><p><strong>STATUS COMMUNICATION</strong><br/>現在の安全確認・記録状態を伝えるキャラクター。</p></article>
+<article class="role"><img loading="lazy" src="assets/rona-profile.png" alt="RONA"/><h3>RONA</h3><p><strong>GUIDED COMPLETION</strong><br/>次に必要な確認や操作を案内するキャラクター。</p></article>
+</div>
+</div></section>
+<section class="section accordion-section" id="safe-fuu"><details class="story-accordion">
+<summary><span class="accordion-heading"><span class="eyebrow">FUU STATES</span><span class="accordion-title">状態が変われば、FUUも変わる。</span></span><span aria-hidden="true" class="accordion-plus"></span></summary>
+<div class="accordion-body"><div class="wrap"><p class="lead">状態に合わせた表情・案内を使い分けています。公開テスト中のため表示条件や表現は調整される場合があります。</p>
+<div class="fuu-grid">
+<article class="fuu-card"><img loading="lazy" src="assets/fuu-normal.png" alt="FUU NORMAL"/><div><h3>NORMAL</h3><p>通常状態</p></div></article>
+<article class="fuu-card"><img loading="lazy" src="assets/fuu-check.png" alt="FUU CHECK"/><div><h3>CHECK</h3><p>確認が必要</p></div></article>
+<article class="fuu-card"><img loading="lazy" src="assets/fuu-alert.png" alt="FUU ALERT"/><div><h3>ALERT</h3><p>対応が必要</p></div></article>
+<article class="fuu-card"><img loading="lazy" src="assets/fuu-empty.png" alt="FUU EMPTY"/><div><h3>EMPTY</h3><p>未登録等</p></div></article>
+<article class="fuu-card"><img loading="lazy" src="assets/fuu-complete.png" alt="FUU COMPLETE"/><div><h3>COMPLETE</h3><p>完了状態</p></div></article>
+<article class="fuu-card"><img loading="lazy" src="assets/fuu-welcome.png" alt="FUU WELCOME BACK"/><div><h3>WELCOME BACK</h3><p>終了後の帰還</p></div></article>
+</div></div></div></details></section>
+<section class="section" id="safe-data"><div class="wrap">
+<div class="eyebrow">SECURITY &amp; DATA</div><h2>業務記録を、端末内で守る。</h2>
+<div class="grid">
+<article class="card"><span class="num">SECURITY</span><h3>暗号化とUnlock</h3><p>業務記録は端末のブラウザ内に暗号化保存。画面利用中のメモリやアプリ資材・天気キャッシュとは区別されます。</p></article>
+<article class="card"><span class="num">BACKUP</span><h3>Backup / Restore</h3><p>暗号化バックアップを作成できます。安全な外部保存先への保管は利用者による確認が必要です。復元には現行50MiBのファイル読込制限があります。</p></article>
+<article class="card"><span class="num">PRIVACY</span><h3>位置情報の扱い</h3><p>操作による地点取得のほか、Unlock後の天気初期化時に一度取得を試みます。常時・バックグラウンド追跡は行いません。</p></article>
+<article class="card"><span class="num">TRANSPARENCY</span><h3>外部通信を説明</h3><p>業務記録のクラウド同期はありません。気象情報などの通信と、配信基盤側の集計・ログは区別してご案内します。</p></article>
+</div>
+<div class="section-actions"><a class="btn ghost" href="safe-privacy.html">SAFEプライバシー案内 →</a><a class="btn ghost" href="safe-information.html">保存と法令の案内 →</a></div>
+</div></section>
+<section class="section accordion-section" id="safe-free"><details class="story-accordion">
+<summary><span class="accordion-heading"><span class="eyebrow">WHY FREE?</span><span class="accordion-title">安全の記録を、続けやすく。</span></span><span aria-hidden="true" class="accordion-plus"></span></summary>
+<div class="accordion-body"><div class="wrap"><div class="safe-story"><p>DELIPIT SAFEは、個人の軽貨物ドライバーが日常的に使えるよう、基本無料での提供を予定しています。</p><p>現時点で広告は実装されていません。審査と準備が整って導入する場合は、利用開始から最初の7日間を非表示、8日目以降を表示対象とする方針です。</p><p>広告導入時にはプライバシー・通信内容や表示場所を確認し、安全確認や入力の妨げにならないよう設計します。</p></div></div></div>
+</details></section>
+<section class="section" id="safe-scope"><div class="wrap">
+<div class="eyebrow">WHO IT IS FOR</div><h2>ひとりで働くドライバーの、安全管理に。</h2>
+<div class="grid">
+<article class="card"><span class="num">INDIVIDUAL</span><h3>個人事業主向け</h3><p>四輪以上の貨物軽自動車運送事業を中心に、日々の安全確認・業務記録を支援します。</p></article>
+<article class="card"><span class="num">CURRENT SCOPE</span><h3>組織の一括管理は対象外</h3><p>複数車両管理には対応しますが、複数運転者を企業単位で一括管理する機能は提供していません。</p></article>
+</div></div></section>
+<section class="section content-hub" id="safe-content"><div class="wrap">
+<div class="eyebrow">DRIVER CONTENTS</div><h2>配送の現場から、ドライバーへ。</h2>
+<p class="lead">アプリだけでなく、現場の経験や業界の情報をDELIPIT公式サイトで発信しています。</p>
+<div class="safe-guide-cards">
+<a class="safe-guide-card" href="driver-note.html"><span>FIELD STORY</span><h3>DRIVER NOTE</h3><p>現役ドライバーが綴る配送の実体験・仕事の工夫。</p><b>読む →</b></a>
+<a class="safe-guide-card" href="driver-news.html"><span>FIELD NEWS</span><h3>DRIVER NEWS</h3><p>制度、安全、税務など配送に関わる情報を解説。</p><b>読む →</b></a>
+</div></div></section>
+<section class="section" id="safe-faq"><div class="wrap">
+<div class="eyebrow">FAQ</div><h2>よくある質問</h2>
+<div class="safe-faq">
+<details><summary>SAFEはもう正式公開されていますか？</summary><p>いいえ。現在はTEST BUILD / NOT RCの公開テスト段階で、一般公開の最終条件を確認しています。</p></details>
+<details><summary>DELIPITの配送実績はSAFEに自動で連携されますか？</summary><p>現在、自動データ連携やアカウント統合はありません。それぞれ独立したサービスです。</p></details>
+<details><summary>記録を残せば法令に対応できたことになりますか？</summary><p>いいえ。必要な安全確認・記録の正確性・保存・行政提出等は、利用者自身で確認する必要があります。SAFEはその作業を補助するアプリです。</p></details>
+<details><summary>機種変更しても記録は残りますか？</summary><p>クラウドへの業務記録の自動同期はありません。端末内の保存データとは別に、暗号化バックアップを安全な場所へ保管してください。復元できるかの確認も重要です。</p></details>
+<details><summary>利用料金や広告はどうなりますか？</summary><p>基本機能は無料とする方針です。現時点でSAFEに広告は導入していません。広告導入時の仕様は事前に案内します。</p></details>
+</div>
+</div></section>
+<section class="section accordion-section" id="safe-contact"><details class="story-accordion">
+<summary><span class="accordion-heading"><span class="eyebrow">CONTACT</span><span class="accordion-title">お問い合わせ</span></span><span aria-hidden="true" class="accordion-plus"></span></summary>
+<div class="accordion-body"><div class="wrap"><p class="lead">DELIPIT SAFEに関するご質問や不具合の報告は、DELIPIT公式サイトの共通問い合わせフォームから受け付けています。</p>
+<div class="safe-links"><a class="btn safe-primary" href="index.html#contact">問い合わせフォームへ →</a><a class="btn ghost" href="mailto:info@delipit.jp">メールで問い合わせる →</a></div>
+<p class="safe-small">フォームでお問い合わせ対象「DELIPIT SAFE」を選択してください。パスフレーズ・業務記録の一括データ・健康情報などは送らないでください。</p></div></div></details></section>
+<section class="section" id="safe-updates"><div class="wrap">
+<div class="eyebrow">STATUS</div><h2>公開テスト・更新について</h2>
+<div class="updates"><div class="update"><time datetime="2026-10-19">2026.10.19</time><span class="tag">TEST</span><span>TEST BUILD / NOT RCを継続。正式規約・運営者情報・配信基盤ログの確認を進めています。</span></div></div>
+<div class="section-actions"><a class="btn ghost" href="safe-terms.html">規約案内 →</a><a class="btn ghost" href="safe-privacy.html">プライバシー案内 →</a></div>
+</div></section>
+<section class="cta"><div class="wrap">
+<img src="assets/safe-symbol.png" alt="" style="width:88px;height:88px;object-fit:contain"/>
+<div class="eyebrow">PUBLIC FIELD TEST</div><h2>DRIVE SAFE. STAY READY.</h2>
+<p>安心して使える正式公開を目指し、機能と運用の確認を続けています。現在はTEST BUILD / NOT RCです。</p>
+<a class="btn ghost" href="index.html#products">DELIPIT PRODUCTSへ戻る →</a>
+</div></section>
+</main><footer><div class="wrap foot"><img src="assets/delipit-logo.png" alt="DELIPIT"><div class="fine"><span>© 2026 DELIPIT / REVERIE</span><a href="driver-note.html">DRIVER NOTE</a><a href="driver-news.html">DRIVER NEWS</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシーポリシー</a></div></div></footer><script>const b=document.querySelector('.menu-toggle'),m=document.getElementById('mobile-menu');if(b&&m){b.addEventListener('click',()=>{const o=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!o));m.classList.toggle('open',!o)})}</script></body></html>
