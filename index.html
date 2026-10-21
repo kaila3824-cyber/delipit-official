@@ -149,7 +149,7 @@
 
 <section class="section content-hub"><div class="wrap"><div class="eyebrow">DRIVER CONTENTS</div><h2>現場から、ドライバーへ。</h2><p class="lead">アプリだけじゃない。配送の現場で感じたこと、残しておきたい経験、業界の動きをDRIVER NOTE / DRIVER NEWSとしてまとめています。</p><div class="content-grid"><a class="content-card" href="driver-note.html"><span>FIELD STORY</span><h3>DRIVER NOTE</h3><p>現役ドライバーとしての実体験、仕事の組み立て、数字との向き合い方、DELIPIT開発の背景。</p><b>読む →</b></a><a class="content-card" href="driver-news.html"><span>INDUSTRY UPDATE</span><h3>DRIVER NEWS</h3><p>軽貨物・配送に関わるニュースや制度の動きを、ドライバー目線で追うコンテンツ。</p><b>読む →</b></a></div></div></section>
 <section class="section" id="guides"><div class="wrap"><div class="eyebrow">GUIDES &amp; SUPPORT</div><h2>使い方も、サービスごとに。</h2><p class="lead">初めての方にも分かるよう、製品の機能と操作手順をそれぞれ案内しています。ご利用前に保存方法や対象範囲をご確認ください。</p><div class="content-grid"><div class="content-card"><span>DELIPIT GUIDE</span><h3>配送実績・売上の記録</h3><p>基本設定から日別入力、月間・年間の見方、バックアップまで。</p><p><a href="quickstart.html"><b>はじめての使い方 →</b></a></p><p><a href="manual.html"><b>詳しいマニュアル →</b></a></p></div><div class="content-card"><span>DELIPIT SAFE GUIDE / TEST BUILD</span><h3>点呼・点検・運行記録</h3><p>SAFEの使い方と、端末保存・バックアップ・法令上の注意事項。</p><p><a href="safe-guide.html"><b>SAFEの使い方 →</b></a></p><p><a href="safe-information.html"><b>保存・法令の案内 →</b></a></p></div></div></div></section>
-<section class="section" id="trust"><div class="wrap"><div class="eyebrow">TRANSPARENCY</div><h2>サービスとデータの扱いを、分かりやすく。</h2><p class="lead">2つのアプリでは提供機能やデータの扱いが異なります。利用前に各製品の説明・規約・プライバシー案内を確認できます。</p><div class="content-grid"><a class="content-card" href="terms.html"><span>DELIPIT</span><h3>利用規約・プライバシー</h3><p>配送管理サービスの利用条件を確認する。</p><b>利用規約を見る →</b></a><a class="content-card" href="safe-information.html"><span>DELIPIT SAFE</span><h3>保存・安全・法令の案内</h3><p>端末保存とバックアップ、帳票の位置付け、サービス対象を確認する。正式契約条項は整備中です。</p><b>SAFEのご利用案内 →</b></a></div><p class="sample-note">運営：DELIPIT / REVERIE　お問い合わせ：<a href="mailto:info@delipit.jp" style="color:#f3c45e">info@delipit.jp</a>　<a href="privacy.html" style="color:#f3c45e">DELIPITプライバシーポリシー</a>　<a href="safe-privacy.html" style="color:#f3c45e">SAFEプライバシー案内</a></p></div></section>
+<section class="section" id="trust"><div class="wrap"><div class="eyebrow">TRANSPARENCY</div><h2>サービスとデータの扱いを、分かりやすく。</h2><p class="lead">2つのアプリでは提供機能やデータの扱いが異なります。利用前に各製品の説明・規約・プライバシー案内を確認できます。</p><div class="content-grid"><a class="content-card" href="terms.html"><span>DELIPIT</span><h3>利用規約・プライバシー</h3><p>配送管理サービスの利用条件を確認する。</p><b>利用規約を見る →</b></a><a class="content-card" href="safe-information.html"><span>DELIPIT SAFE</span><h3>保存・安全・法令の案内</h3><p>端末保存とバックアップ、帳票の位置付け、サービス対象を確認する。正式契約条項は整備中です。</p><b>SAFEのご利用案内 →</b></a></div><p class="sample-note">運営：DELIPIT / REVERIE　お問い合わせ：<a href="mailto:info@delipit.jp" style="color:#f3c45e">info@delipit.jp</a>　<a href="privacy.html" style="color:#f3c45e">DELIPITプライバシーポリシー</a>　<a href="safe-privacy.html" style="color:#f3c45e">SAFEプライバシー案内</a>　<a href="operator-disclosure.html" style="color:#f3c45e">運営者情報・開示請求</a></p></div></section>
 <section class="section accordion-section" id="contact">
 <details class="story-accordion contact-accordion">
 <summary>
@@ -187,6 +187,9 @@
 <label for="contactType">お問い合わせ種別 <em>必須</em></label>
 <select id="contactType" name="inquiry_type" required="">
 <option disabled="" selected="" value="">選択してください</option>
+<option value="一般問い合わせ">一般問い合わせ</option>
+<option value="個人情報の開示・訂正・削除等">個人情報の開示・訂正・削除等</option>
+<option value="運営者情報の開示請求">運営者情報の開示請求</option>
 <option value="不具合報告">不具合報告</option>
 <option value="使い方について">使い方について</option>
 <option value="ご意見・ご要望">ご意見・ご要望</option>
@@ -210,7 +213,7 @@
 <button class="btn contact-submit" disabled="" id="contactSubmit" type="submit">送信する</button>
 <p aria-live="polite" class="contact-status" id="contactStatus" role="status"></p>
 <noscript><p class="contact-note">フォームの送信にはJavaScriptが必要です。下のメールリンクからお問い合わせください。</p></noscript>
-<p class="contact-privacy">送信前に<a href="privacy.html">プライバシーポリシー</a>をご確認ください。</p><p class="contact-note">DELIPIT SAFEのご相談も受け付けます。フォームはWeb3Forms経由です。問い合わせメールは最終対応から原則1年、必要な例外を除き手動削除する方針です。外部フォーム側の保存とは異なります。業務記録・バックアップ・パスフレーズ・不要な位置情報・健康情報・本人確認書類は送らないでください。</p>
+<p class="contact-privacy">送信前に<a href="privacy.html">DELIPITプライバシーポリシー</a>、SAFEについては<a href="safe-privacy.html">SAFEプライバシー案内</a>をご確認ください。<a href="operator-disclosure.html">運営者情報・開示請求について</a>もご覧ください。</p><p class="contact-note">DELIPIT SAFEのご相談も受け付けます。フォームはWeb3Forms経由です。問い合わせメールは最終対応から原則1年、必要な例外を除き手動削除する方針です。外部フォーム側の保存とは異なります。業務記録・バックアップ・パスフレーズ・不要な位置情報・健康情報・本人確認書類は送らないでください。</p>
 </form>
 <div class="contact-alt">
 <span>メール・公式Xからもお問い合わせいただけます。</span>
@@ -286,14 +289,31 @@ const shareData = {
   const submit = document.getElementById('contactSubmit');
   const status = document.getElementById('contactStatus');
   if (!form || !submit || !status) return;
+  const request = new URLSearchParams(location.search).get('request');
+  if (location.hash === '#contact' || request === 'operator' || request === 'privacy') {
+    document.querySelector('.contact-accordion').open = true;
+  }
+  if (request === 'operator' || request === 'privacy') {
+    form.elements.namedItem('inquiry_type').value = request === 'operator' ? '運営者情報の開示請求' : '個人情報の開示・訂正・削除等';
+  }
 
   form.addEventListener('submit', async function (event) {
     event.preventDefault();
-    if (!form.reportValidity()) return;
+    if (!form.reportValidity()) {
+      status.textContent = '必須項目とメールアドレスを確認してください。';
+      status.className = 'contact-status error';
+      return;
+    }
 
     const product = form.elements.namedItem('product');
-    if (!product || !['DELIPIT', 'DELIPIT SAFE'].includes(product.value)) return;
-    form.elements.namedItem('subject').value = '【' + product.value + '】公式サイトからのお問い合わせ';
+    const inquiry = form.elements.namedItem('inquiry_type');
+    const validTypes = ['一般問い合わせ', '個人情報の開示・訂正・削除等', '運営者情報の開示請求', '不具合報告', '使い方について', 'ご意見・ご要望', 'その他'];
+    if (!product || !['DELIPIT', 'DELIPIT SAFE'].includes(product.value) || !inquiry || !validTypes.includes(inquiry.value)) {
+      status.textContent = 'お問い合わせ対象と種別を選択してください。';
+      status.className = 'contact-status error';
+      return;
+    }
+    form.elements.namedItem('subject').value = '【' + product.value + '／' + inquiry.value + '】公式サイトからのお問い合わせ';
 
     submit.disabled = true;
     submit.textContent = '送信中…';
@@ -309,7 +329,7 @@ const shareData = {
 
       if (response.ok && result.success) {
         form.reset();
-        status.textContent = 'お問い合わせを送信しました。ありがとうございます。';
+        status.textContent = '受付を確認しました。内容を確認してご連絡します。開示・訂正や運営者情報の回答が完了したことを示すものではありません。';
         status.className = 'contact-status success';
       } else {
         throw new Error(result.message || '送信に失敗しました');
