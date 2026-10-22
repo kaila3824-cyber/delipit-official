@@ -2,6 +2,6 @@
 
 専用ブランチ `improve/adsense-content-20261022`。新しい`field-workflow.html`で開発者の既知の配送経験とDELIPITの日次・月次・年次操作を説明し、TOP・製品紹介・マニュアル・クイックスタートから誘導。GAME/PIT CREWの誤った2種類のアンカー、SAFE公開案内からPrivacyへの旧アンカー3件を修正。公開済みSAFE文書の本文および未承認Draft PR #9は変更なし。
 
-既存テスト4/4 PASS、HTML27・内部リンク484・sitemap24の検査0問題。隔離Chromeで新ページとmanualの遷移を確認。モバイル実機・Search Consoleデータ・本番公開後の確認はOPEN。AdSenseの低価値判定に個別URLは提示されていない。再審査申請は未実施。公開状況・PR・Commitは最終作業後に追記する。
+既存テスト4/4 PASS、HTML27・内部リンク484・sitemap24の検査0問題。隔離Chromeで新ページとmanualの遷移を確認。モバイル実機と新ガイドのSearch Console検出／登録はOPEN。Search Consoleの旧集計は登録済み18・未登録4（詳細はREPORT）。AdSenseの低価値判定に個別URLは提示されていない。再審査申請は未実施。公開状況・PR・Commitは最終作業後に追記する。
 
-**公開反映**：PR #10マージ済み、main `31af9305db824963d77bdaab631566bf82ada619`、GitHub Pages run `39722512710` 成功（2026-10-22 04:28:44 UTC）。新ガイド、TOP導線、公開sitemapをChromeで確認。Search Console、モバイル実機、AdSense再審査はOPEN。
+**公開反映**：PR #10マージ済み、main `31af9305db824963d77bdaab631566bf82ada619`、GitHub Pages run `39722512710` 成功（2026-10-22 04:28:44 UTC）。新ガイド、TOP導線、公開sitemapをChromeで確認。Search Consoleに送信済みのサイトマップは成功（最終読込10/16・検出18）、新ガイドの検出は未反映。モバイル実機・AdSense再審査は未実施。

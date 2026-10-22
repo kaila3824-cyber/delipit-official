@@ -4,7 +4,7 @@ AdSenseの所有者報告は「有用性の低いコンテンツ」。審査側�
 
 ## 公開URL別監査
 
-2026-10-22にChromeで公開ページの見出し・本文・canonicalを確認。ソース上のHTML27件のうちsitemap掲載24件。`quickstart.html`は独立した短い導入ページだがcanonicalは`manual.html`で、sitemapには掲載しない。`safe-terms.html`と`safe-privacy.html`は公開中の未施行案内で`noindex`、Draft PR #9の正式候補を公開したものではない。`safe-information.html`は案内・FAQがある。Search Consoleのインデックス／検出データは接続できず未確認。
+2026-10-22にChromeで公開ページの見出し・本文・canonicalを確認。ソース上のHTML27件のうちsitemap掲載24件。`quickstart.html`は独立した短い導入ページだがcanonicalは`manual.html`で、sitemapには掲載しない。`safe-terms.html`と`safe-privacy.html`は公開中の未施行案内で`noindex`、Draft PR #9の正式候補を公開したものではない。`safe-information.html`は案内・FAQがある。Search Consoleのドメインプロパティを確認し、ページ登録レポートは登録済み18・未登録4（最終更新表示2026-10-11）。未登録内訳は「クロール済み・未登録」1（`driver-note-09.html`、前回クロール2026-10-13）、リダイレクト2、代替canonical1。個別URLがAdSenseの不承認対象と判定された証拠ではない。
 
 | URL | 確認した内容・判断 | 今回の変更 |
 | --- | --- | --- |
@@ -24,9 +24,9 @@ AdSenseの所有者報告は「有用性の低いコンテンツ」。審査側�
 
 - 既存フォーム自動テスト4/4 PASS。追加のローカルリンク・アンカー・title/description/h1・sitemap/canonical検査：HTML27、内部リンク484、sitemap24、問題0。初回監査では存在しないアンカーが7件あり、修正後に0件。
 - 隔離Chromeで新ガイドの本文、見出し、画面幅、`manual.html#year`への遷移を確認。iPhone/Android実機および狭いviewportのブラウザ検証は未実施。実機PASSとは扱わない。
-- Production全掲載URLのHTTPステータス網羅取得、Search Consoleインデックス状況、AdSense審査の対象URLは未確認。公開時には新ページ・sitemapと内部リンクを再確認する。
+- Production全掲載URLのHTTPステータス網羅取得とAdSense審査の対象URLは未確認。Search Consoleのインデックスレポートは古い時点の集計で、公開した新ガイドの検出・登録は未確認。公開時には新ページ・sitemapと内部リンクを再確認する。
 - SAFE Production V94およびDraft PR #9、同意要求、GA4、DELIPITアプリ本体・広告設定は変更しない。AdSense再審査は所有者判断とし、自動申請しない。
 
 ## 公開結果（2026-10-22 UTC）
 
-専用PR #10をsquash mergeし、main `31af9305db824963d77bdaab631566bf82ada619` に反映。GitHub Pages build run `39722512710` は2026-10-22 04:28:44 UTCに成功。公開Chromeで `https://delipit.jp/field-workflow.html` の全文、正規TOP `/` からの新ガイドリンク、公開 `sitemap.xml` への登録を確認。初回404はビルド進行中で、完了後に解消。モバイル実機・Search Consoleでの検出/索引状態、AdSense再審査は未確認・未実施。
+専用PR #10をsquash mergeし、main `31af9305db824963d77bdaab631566bf82ada619` に反映。GitHub Pages build run `39722512710` は2026-10-22 04:28:44 UTCに成功。公開Chromeで `https://delipit.jp/field-workflow.html` の全文、正規TOP `/` からの新ガイドリンク、公開 `sitemap.xml` への登録を確認。初回404はビルド進行中で、完了後に解消。モバイル実機と新ガイドのSearch Consoleでの検出/索引状態は未確認、AdSense再審査は未実施。Search Consoleに送信済みの `https://delipit.jp/sitemap.xml` は「成功」、最終読み込み表示2026-10-16、検出18件。公開sitemapの24 URLへの更新はまだ同レポートに反映されていない。
