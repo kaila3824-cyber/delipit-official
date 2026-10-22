@@ -38,3 +38,10 @@ AdSenseの所有者報告は「有用性の低いコンテンツ」。審査側�
 - `python3 scripts/check_site_links.py`：HTML27、sitemap24、内部リンク484、問題0。`node --test tests/operator-disclosure.test.mjs`：4/4 PASS、FAIL/SKIP 0。狭幅で再現した不具合はなく、コード修正・再Deployなし。
 - 公開 `https://delipit.jp/sitemap.xml` に `https://delipit.jp/field-workflow.html` とlastmod `2026-10-22` が存在。Search Consoleの同URL検査は「URL が Google に登録されていません」「URL が Google に認識されていません」、参照元sitemap未検出、クロールなし。ライブテストは「URL は Google に登録できます」「ページをインデックスに登録可能」。ライブ可用性は実際の検出・登録ではない。既存sitemap送信は成功だが最終読込10/16・検出18の旧状態で、公開24 URLへの更新は未反映。
 - AdSense対策の実施済み：開発者の配送経験と実際のDELIPIT操作に基づく新ガイド、TOP・製品・マニュアル・クイックスタートの導線、誤アンカー修正、公開sitemap登録。未確認：Googleの個別不承認URL、狭幅実Browser QA、新ガイドの検出・インデックス。残留リスク：Google側のサイト全体評価・審査結果は制御できない。再審査申請は所有者判断まで保留。SAFE V94・未公開99・Draft PR #9・正式同意OFF・GA4 OFFには変更なし。
+
+## AdSenseモバイルAcceptance完了・再申請判定（2026-10-22 JST）
+
+- 所有者のiPhone Safari本番確認：TOP、製品紹介、マニュアル、クイックスタート、新しい現場ガイドの5/5 PASS。モバイルAcceptanceをCLOSEDとする。これは所有者報告であり、Workの狭幅Browser QAを実施済みと書き換えない。横スクロール・表示・可読性・操作の対象ページについて再確認を要求しない。
+- 最終公開差分：PR #10は2026-10-22 13:27 JSTにmerge済み（`31af9305db824963d77bdaab631566bf82ada619`）。最新main `7eff099c1ba9be3e6e151764d70debfc099061f7` は直前のQA記録Commit `4c8ccc92f1d7cf68917c46f75498f4d7aefea086` の後にDRIVER NEWS自動生成データの生成時刻だけを更新。GitHub Pages run `39749500721` は成功。公開新ガイド本文と公開sitemap内URLを再確認。今回の確認範囲で再申請前に必要な重大なサイト不具合は見つからない。
+- 既報の検査（今回再実行なし）：内部リンク484件で問題0、既存自動テスト4/4 PASS、公開sitemap24 URL。新ガイドのSearch Console個別URLは直前の確認では未認識・未クロール・未登録だが、ライブテストはインデックス登録可能。Googleの再クロール・索引反映とAdSense審査結果は保証できない。インデックス未反映のみを再申請の重大Blockerとは扱わない。
+- **AdSense再申請推奨判定：READY（所有者による申請判断待ち）**。実施済み改善は、現役ドライバーの実体験を踏まえた具体的な現場ガイド、日次・月次・年次の操作例、TOP・製品・マニュアル・クイックスタートからの導線、誤リンク修正、sitemap登録。残留リスクはGoogleが示していない個別審査対象と最終的な有用性評価。承認を保証せず、Workは再審査リクエストを実行しない。サイトコード修正・再Deployなし。SAFE Production V94、未公開保存版99、Draft PR #9、正式同意要求OFF、GA4 OFF維持。
