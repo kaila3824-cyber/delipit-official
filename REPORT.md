@@ -26,3 +26,7 @@ AdSenseの所有者報告は「有用性の低いコンテンツ」。審査側�
 - 隔離Chromeで新ガイドの本文、見出し、画面幅、`manual.html#year`への遷移を確認。iPhone/Android実機および狭いviewportのブラウザ検証は未実施。実機PASSとは扱わない。
 - Production全掲載URLのHTTPステータス網羅取得、Search Consoleインデックス状況、AdSense審査の対象URLは未確認。公開時には新ページ・sitemapと内部リンクを再確認する。
 - SAFE Production V94およびDraft PR #9、同意要求、GA4、DELIPITアプリ本体・広告設定は変更しない。AdSense再審査は所有者判断とし、自動申請しない。
+
+## 公開結果（2026-10-22 UTC）
+
+専用PR #10をsquash mergeし、main `31af9305db824963d77bdaab631566bf82ada619` に反映。GitHub Pages build run `39722512710` は2026-10-22 04:28:44 UTCに成功。公開Chromeで `https://delipit.jp/field-workflow.html` の全文、正規TOP `/` からの新ガイドリンク、公開 `sitemap.xml` への登録を確認。初回404はビルド進行中で、完了後に解消。モバイル実機・Search Consoleでの検出/索引状態、AdSense再審査は未確認・未実施。
