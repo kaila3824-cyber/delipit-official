@@ -30,3 +30,11 @@ AdSenseの所有者報告は「有用性の低いコンテンツ」。審査側�
 ## 公開結果（2026-10-22 UTC）
 
 専用PR #10をsquash mergeし、main `31af9305db824963d77bdaab631566bf82ada619` に反映。GitHub Pages build run `39722512710` は2026-10-22 04:28:44 UTCに成功。公開Chromeで `https://delipit.jp/field-workflow.html` の全文、正規TOP `/` からの新ガイドリンク、公開 `sitemap.xml` への登録を確認。初回404はビルド進行中で、完了後に解消。モバイル実機と新ガイドのSearch Consoleでの検出/索引状態は未確認、AdSense再審査は未実施。Search Consoleに送信済みの `https://delipit.jp/sitemap.xml` は「成功」、最終読み込み表示2026-10-16、検出18件。公開sitemapの24 URLへの更新はまだ同レポートに反映されていない。
+
+## 最終QA・再審査ゲート（2026-10-22 UTC）
+
+- 最新main `e615fba42e8e66e93b1e3e6f18166598a9dd7621` を再取得。公開TOP・製品紹介・マニュアル・クイックスタート・新ガイドをChrome通常幅（1363 CSS px）で表示し、タイトル・本文、表示幅、ナビゲーションを確認。各ページのdocument幅は1348pxで通常幅の横あふれなし。クイックスタートから新ガイドへの実遷移成功。画面外の遅延画像の未読込は破損と判定しない。
+- 狭幅の実Browser QAは未完了。Cloud Browserはviewport変更APIを提供せず、隔離ローカルページへの接続は拒否。data URLの検証枠はブラウザのURLポリシーで拒否されたため再試行しない。ローカルPlaywrightのChromium実体もなく取得に失敗。5ページの`viewport`宣言と狭幅CSS規則をソースで確認したが、320～390pxでの横スクロール・文字や画像のはみ出し・可読性はPASSとしない。狭幅実機または正規のviewport制御可能なBrowser QAが必要。
+- `python3 scripts/check_site_links.py`：HTML27、sitemap24、内部リンク484、問題0。`node --test tests/operator-disclosure.test.mjs`：4/4 PASS、FAIL/SKIP 0。狭幅で再現した不具合はなく、コード修正・再Deployなし。
+- 公開 `https://delipit.jp/sitemap.xml` に `https://delipit.jp/field-workflow.html` とlastmod `2026-10-22` が存在。Search Consoleの同URL検査は「URL が Google に登録されていません」「URL が Google に認識されていません」、参照元sitemap未検出、クロールなし。ライブテストは「URL は Google に登録できます」「ページをインデックスに登録可能」。ライブ可用性は実際の検出・登録ではない。既存sitemap送信は成功だが最終読込10/16・検出18の旧状態で、公開24 URLへの更新は未反映。
+- AdSense対策の実施済み：開発者の配送経験と実際のDELIPIT操作に基づく新ガイド、TOP・製品・マニュアル・クイックスタートの導線、誤アンカー修正、公開sitemap登録。未確認：Googleの個別不承認URL、狭幅実Browser QA、新ガイドの検出・インデックス。残留リスク：Google側のサイト全体評価・審査結果は制御できない。再審査申請は所有者判断まで保留。SAFE V94・未公開99・Draft PR #9・正式同意OFF・GA4 OFFには変更なし。
