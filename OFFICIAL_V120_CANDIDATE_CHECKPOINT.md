@@ -33,3 +33,7 @@
 ## 2026-10-27 回収完了追記
 
 GitHub隔離Branchのremote commit `1efdb55edf677d27dae92eb15b46d40d042c60ab` に全ソースを保全し、独立Checkoutで全追跡ファイルSHA-256一致、テスト4/4と内部リンク0問題を再確認。Private隔離Site版2、preview source `aaf1e24bcd78b25ce4db31c2d7a7907090c43134` の配信成功。詳しい結果と実機OPENは `OFFICIAL_V120_DEV_REPORT.md`。Productionは未変更。
+
+## FINAL RELEASE GATE 2026-10-27
+
+SORA申告の隔離DEV iPhone Safari実機Acceptance 8/8 PASS。公開URLから取得したHTML/XML/TXT 46ファイルとProduction main、正式ロゴ・OG画像が一致。Candidate `8998dbfb2fec8ca5a150279566e5c77dd0c17b57` は別Checkout・Archiveハッシュ・4/4テスト・リンク0問題を確認。Production設定は隔離DEV設定と分離。旧ProductionはGitHub復旧Branch `rollback/official-pre-v120-20261027` に固定。詳細は `OFFICIAL_V120_RELEASE_GATE_2026-10-27.md`。判定はPRODUCTION DEPLOY READY / AWAITING SORA APPROVAL。Production未変更。

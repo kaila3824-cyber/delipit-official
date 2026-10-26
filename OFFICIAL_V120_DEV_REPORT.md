@@ -38,3 +38,7 @@
 - 約320pxの実表示、iPhone Safariの縦スクロール・タップ・メニュー・NEWS・SAFE/Privacy/問い合わせ表示。WorkのPCブラウザと静的CSS確認で実機PASSにはしない。
 - SORA: iPhone Safariで上記URLを開き、TOPのロゴと主要CTA、機能紹介、NEWS、SAFE/Privacy、メニュー、320px相当の狭幅で横スクロールや文字切れがないことを確認。問い合わせフォームは隔離版では送信しない。
 - 本番公式サイトへの公開は別途承認待ち。公開時は最新mainとの再照合を行い、候補のみを移植する。Productionとアプリ本体は今回変更なし。
+
+## 2026-10-27 最終実機受入と本番前判定
+
+SORA申告による隔離DEV iPhone Safari実機Acceptance 8/8 PASS。WorkのPCブラウザ確認やProduction実機確認とは別記録。公開URL・最新main・正式候補と復旧Baselineの照合、設定保護、公開後の検証・復旧手順は `OFFICIAL_V120_RELEASE_GATE_2026-10-27.md` に記録。Production Deploy未実施。
