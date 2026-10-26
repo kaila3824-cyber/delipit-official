@@ -45,3 +45,7 @@ AdSenseの所有者報告は「有用性の低いコンテンツ」。審査側�
 - 最終公開差分：PR #10は2026-10-22 13:27 JSTにmerge済み（`31af9305db824963d77bdaab631566bf82ada619`）。最新main `7eff099c1ba9be3e6e151764d70debfc099061f7` は直前のQA記録Commit `4c8ccc92f1d7cf68917c46f75498f4d7aefea086` の後にDRIVER NEWS自動生成データの生成時刻だけを更新。GitHub Pages run `39749500721` は成功。公開新ガイド本文と公開sitemap内URLを再確認。今回の確認範囲で再申請前に必要な重大なサイト不具合は見つからない。
 - 既報の検査（今回再実行なし）：内部リンク484件で問題0、既存自動テスト4/4 PASS、公開sitemap24 URL。新ガイドのSearch Console個別URLは直前の確認では未認識・未クロール・未登録だが、ライブテストはインデックス登録可能。Googleの再クロール・索引反映とAdSense審査結果は保証できない。インデックス未反映のみを再申請の重大Blockerとは扱わない。
 - **AdSense再申請推奨判定：READY（所有者による申請判断待ち）**。実施済み改善は、現役ドライバーの実体験を踏まえた具体的な現場ガイド、日次・月次・年次の操作例、TOP・製品・マニュアル・クイックスタートからの導線、誤リンク修正、sitemap登録。残留リスクはGoogleが示していない個別審査対象と最終的な有用性評価。承認を保証せず、Workは再審査リクエストを実行しない。サイトコード修正・再Deployなし。SAFE Production V94、未公開保存版99、Draft PR #9、正式同意要求OFF、GA4 OFF維持。
+
+## 公式サイトV1.2.0 Production公開（2026-10-27 JST）
+
+SORAの公開承認に基づき、公式サイトのGitHub Pages mainを機能Candidate `8998dbfb2fec8ca5a150279566e5c77dd0c17b57`へ更新。Deployment `7346055078`は成功、作成時刻08:21:17 JST。配信Artifact digest、公開47/47ファイルのソースハッシュ一致、4/4テスト、492内部リンク問題0、PC Smokeは詳細を`OFFICIAL_V120_PRODUCTION_RELEASE_2026-10-27.md`に記録した。app.delipit.jp、SAFEアプリ、実ユーザーデータは未変更。Production iPhone実機Acceptanceと問い合わせ実送信・受信がOPENのため、状態は**DEPLOYED / RELEASE CLOSE PENDING**。復旧元は`rollback/official-pre-v120-20261027`。公式サイトのみ修正commitで復旧し、公開後差分を先に確認する。
