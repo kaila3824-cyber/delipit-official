@@ -29,3 +29,7 @@
 - プレビュー配信物から広告・解析スクリプトを除外し、フォーム送信を無効化し、`noindex`とDEV表示を入れる。公式候補の本番用ソースとは区別する。
 - ブラウザでTOP、NEWS、SAFE/Privacy/問い合わせ、約320pxとPC、画像・JS、Consoleを確認する。Safari実機はSORA確認待ち。
 - 公式サイトProductionへはDeployしない。正式公開前にSORAの承認と現行mainとの再照合が必要。
+
+## 2026-10-27 回収完了追記
+
+GitHub隔離Branchのremote commit `1efdb55edf677d27dae92eb15b46d40d042c60ab` に全ソースを保全し、独立Checkoutで全追跡ファイルSHA-256一致、テスト4/4と内部リンク0問題を再確認。Private隔離Site版2、preview source `aaf1e24bcd78b25ce4db31c2d7a7907090c43134` の配信成功。詳しい結果と実機OPENは `OFFICIAL_V120_DEV_REPORT.md`。Productionは未変更。
