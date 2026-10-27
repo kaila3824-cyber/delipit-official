@@ -49,3 +49,7 @@ AdSenseの所有者報告は「有用性の低いコンテンツ」。審査側�
 ## 公式サイトV1.2.0 Production公開（2026-10-27 JST）
 
 SORAの公開承認に基づき、公式サイトのGitHub Pages mainを機能Candidate `8998dbfb2fec8ca5a150279566e5c77dd0c17b57`へ更新。Deployment `7346055078`は成功、作成時刻08:21:17 JST。配信Artifact digest、公開47/47ファイルのソースハッシュ一致、4/4テスト、492内部リンク問題0、PC Smokeは詳細を`OFFICIAL_V120_PRODUCTION_RELEASE_2026-10-27.md`に記録した。app.delipit.jp、SAFEアプリ、実ユーザーデータは未変更。Production iPhone実機Acceptanceと問い合わせ実送信・受信がOPENのため、状態は**DEPLOYED / RELEASE CLOSE PENDING**。復旧元は`rollback/official-pre-v120-20261027`。公式サイトのみ修正commitで復旧し、公開後差分を先に確認する。
+
+## 公式サイトV1.2.0 Release Close（2026-10-27 JST）
+
+SORA申告のProduction iPhone Safari実機Acceptanceは、TOP、無料CTA、V1.2.0新NEWS、過去NEWS・SAFE・Privacy、メニューと表示幅、問い合わせテスト送信、info@delipit.jpでの受信の**7/7 PASS**。隔離DEV実機8/8、Work PC確認と区別した。公開時のDeployment `7346055078`、Git `8998dbf`、Artifact digest、47/47配信ファイル一致、Node 4/4、内部リンク492件問題0を引き継ぐ。Close時点のmain `b75db06821eb8582b63c41984aae85acb1b6eaaf` はDRIVER NEWS JSONの生成時刻だけを後続更新。AdSense/CMP/GA4/GTM/Search Consoleの外部管理状態はPost-Launch OPEN。公式サイトは**RELEASE CLOSED / POST-LAUNCH OPERATION**。詳細・復旧基準・今後のBaselineは `OFFICIAL_V120_PRODUCTION_RELEASE_2026-10-27.md`。CloseのためのProduction再Deploy・コード変更なし。
