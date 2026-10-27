@@ -1,7 +1,7 @@
 # DELIPIT公式サイト V1.2.0 — Production Release記録
 
 作業日: 2026-10-27（JST）
-状態: **DEPLOYED / RELEASE CLOSE PENDING**
+状態: **RELEASE CLOSED / POST-LAUNCH OPERATION**（公開直後のPENDING記録は下記に保持）
 
 ## 公開・ソース
 
@@ -32,3 +32,31 @@ SORA確認待ち: ①iPhone SafariのTOP、ロゴ・デザイン、無料CTA、�
 影響と公開後差分を調査し、問題のある配信操作を止める。Gitの復旧Branchと旧Production Archiveを基準に、必要な公開後NEWS・設定を保護した修正commitで**公式サイトのみ**再配信する。mainの強制pushやアプリ本体のRollback、データMigration・Restoreは行わない。復旧後も公開URL、配信ファイル、問い合わせ導線、SEO設定を確認する。
 
 次回再開地点: SORAからProduction iPhone Acceptanceと問い合わせ送受信結果を受け、OPENを更新しRelease Close条件を再判定する。
+
+## Release Close（2026-10-27 JST）
+
+**DELIPIT OFFICIAL WEBSITE V1.2.0 — RELEASE CLOSED / POST-LAUNCH OPERATION**。この節は上記「RELEASE CLOSE PENDING」時点の記録を更新する。SORA申告のProduction iPhone Safari実機Acceptanceと問い合わせ送受信が完了し、確認した範囲で新たな重大Release Blockerはない。アプリ本体、SAFEアプリ、実ユーザーデータ、公式サイトの公開コードはこのClose処理で変更していない。
+
+SORA申告による**Production公開後**iPhone Safari Acceptance（操作ログ・画面証跡・個別測定値は未提供）:
+
+1. TOPのロゴ・デザイン: PASS
+2. 「無料で使う」からDELIPITアプリ起動: PASS
+3. V1.2.0新NEWS表示: PASS
+4. 過去NEWS・SAFE・Privacy表示: PASS
+5. メニュー・縦スクロール・表示幅: PASS
+6. 問い合わせフォームのテスト送信: PASS
+7. info@delipit.jpでテストメール受信: PASS
+
+**7 PASS / 0 FAIL / 0 OPEN**。隔離DEVのSORA実機Acceptance **8/8 PASS**、WorkのPCブラウザ確認、自動テストとは独立した根拠として保持する。送信・受信はSORAの申告に基づき、Workがメール内容や受信ログを閲覧したという意味ではない。
+
+公開時のGit commit `8998dbfb2fec8ca5a150279566e5c77dd0c17b57`、GitHub Pages Deployment `7346055078`、作成時刻2026-10-27 08:21:17 JST、配信Artifact SHA-256 `4b1cfd858b7d37d2de77687e7bd931d58ef346352fbd9009f5445c68a7b241b3`は上記公開記録のとおり。配信47/47、Node 4/4、内部リンク492件問題0、主要ページSmokeと重大なサイト由来Console Errorなしの結果を引き継ぐ。GitHub Pages配信なのでSites版は該当しない。
+
+Close時点の`main` HEADは `b75db06821eb8582b63c41984aae85acb1b6eaaf`。公開時commitからの後続差分は自動生成 `data/driver-news.json` の`generatedAt`が2026-10-27 01:09:30 JSTから09:28:52 JSTへ変わった1箇所のみ。記事項目やV1.2.0改修ファイルは変わっていない。公開JSONと当該HEADのrawファイルのSHA-256はともに `0a81c8fc0652e62880645c0403b8f709cbafd32fc5672eb260d68cfcfb5b7026`。公開時のArtifact digestは当該後続更新後のArtifact digestを表すものではない。
+
+保全済み: AdSense識別子・Script、`ads.txt`、`robots.txt`、`sitemap.xml`、canonical・OGP、Privacy、運営者情報、既存NEWS、SAFE紹介、問い合わせフォーム。ProductionのTOPにDEV表示・noindexはなく、隔離DEVの広告・問い合わせ停止設定は公開Candidateに混入していない。これらは公開ソース・配信内容の確認範囲であり、外部管理画面の正常動作の証明ではない。
+
+**Post-Launch OPEN**: AdSense管理画面の審査・広告配信、CMPの管理設定・動作、GA4/GTMの計測状態、Search Consoleにおける新sitemapの処理状況は今回のCloseで再確認していない。ソース上で既存になかったGA4/GTM・CMPを追加していない。これら未確認は今回のサイト改修に起因する重大障害として観測されておらず、Release Closeとは分けて継続管理する。Androidや全利用者端末での表示も今回の7項目から一般化しない。
+
+復旧Baselineは`01f0bfa3964d3457b7edb19234362237d39cd55c`、Branch `rollback/official-pre-v120-20261027`。障害時はまず影響と公開後更新を調べ、必要なNEWS・設定を保護したうえで公式サイトだけ修正commitを配信する。アプリ本体、SAFEアプリ、ユーザーデータは扱わない。
+
+次期開発Baseline: GitHub Pages公式サイト`main`のその時点のHEAD（Close確認時点は`b75db0`）と本Release記録。まず安定運用と不具合監視を行い、追加改修は独立Branchで開始する。
