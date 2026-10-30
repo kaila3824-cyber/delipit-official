@@ -64,9 +64,11 @@
 .menu-toggle[aria-expanded="true"] span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
 .mobile-menu{display:none;border-top:1px solid #202020;background:rgba(8,9,9,.98)}
 .mobile-menu.open{display:block}
+.mobile-menu.open{max-height:calc(100dvh - 64px);overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+.mobile-menu a:focus-visible,.desktop-nav a:focus-visible{outline:2px solid #f3c45e;outline-offset:3px}
 .mobile-menu-inner{display:grid;padding-top:8px;padding-bottom:12px}
 .mobile-menu a{display:block;padding:13px 2px;border-bottom:1px solid #1f1f1f;color:#ddd;text-decoration:none;font-size:14px}
-@media(max-width:900px){
+@media(max-width:1120px){
   .desktop-nav{display:none}.menu-toggle{display:block}.site-header .nav{height:64px;gap:12px}
   .site-header .brand img{width:132px}.nav-actions{margin-left:auto}.header-app{min-height:40px;padding:0 13px;font-size:12px}
 }
