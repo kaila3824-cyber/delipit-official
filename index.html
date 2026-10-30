@@ -64,9 +64,11 @@
 .menu-toggle[aria-expanded="true"] span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
 .mobile-menu{display:none;border-top:1px solid #202020;background:rgba(8,9,9,.98)}
 .mobile-menu.open{display:block}
+.mobile-menu.open{max-height:calc(100dvh - 64px);overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+.mobile-menu a:focus-visible,.desktop-nav a:focus-visible{outline:2px solid #f3c45e;outline-offset:3px}
 .mobile-menu-inner{display:grid;padding-top:8px;padding-bottom:12px}
 .mobile-menu a{display:block;padding:13px 2px;border-bottom:1px solid #1f1f1f;color:#ddd;text-decoration:none;font-size:14px}
-@media(max-width:900px){
+@media(max-width:1120px){
   .desktop-nav{display:none}.menu-toggle{display:block}.site-header .nav{height:64px;gap:12px}
   .site-header .brand img{width:132px}.nav-actions{margin-left:auto}.header-app{min-height:40px;padding:0 13px;font-size:12px}
 }
@@ -135,13 +137,14 @@
 <header class="site-header">
 <div class="wrap nav">
 <a aria-label="DELIPIT ホーム" class="brand" href="index.html"><img alt="DELIPIT" src="assets/delipit-logo.png"/></a>
-<nav aria-label="メインナビゲーション" class="desktop-nav"><a href="index.html">HOME</a><a href="index.html#products">PRODUCTS</a><a href="driver-note.html">DRIVER NOTE</a><a href="driver-news.html">DRIVER NEWS</a><a href="index.html#about">ABOUT</a><a href="index.html#contact">CONTACT</a></nav>
+<nav aria-label="メインナビゲーション" class="desktop-nav"><a href="index.html">HOME</a><a href="index.html#products">PRODUCTS</a><a href="driver-support.html">軽貨物ガイド</a><a href="driver-note.html">DRIVER NOTE</a><a href="driver-news.html">DRIVER NEWS</a><a href="index.html#about">ABOUT</a><a href="index.html#contact">CONTACT</a></nav>
 <div class="nav-actions"><a class="btn header-app" href="index.html#products">製品を選ぶ</a>
 <button aria-controls="mobile-menu" aria-expanded="false" aria-label="メニューを開く" class="menu-toggle" type="button"><span></span><span></span><span></span></button></div></div>
 <nav aria-label="スマートフォン用メニュー" class="mobile-menu" id="mobile-menu"><div class="wrap mobile-menu-inner">
-<a href="index.html">HOME</a><a href="index.html#products">PRODUCTS</a><a href="delipit.html">DELIPIT 製品紹介</a><a href="manual.html">DELIPIT マニュアル</a><a href="safe.html">SAFE 製品紹介</a><a href="safe-guide.html">SAFE 使い方</a><a href="driver-note.html">DRIVER NOTE</a><a href="driver-news.html">DRIVER NEWS</a><a href="index.html#about">ABOUT</a><a href="index.html#contact">CONTACT</a>
+<a href="index.html">HOME</a><a href="index.html#products">PRODUCTS</a><a href="driver-support.html">軽貨物ガイド・始め方</a><a href="start-guide.html">初心者向け6ステップ</a><a href="driver-faq.html">よくある質問</a><a href="delipit.html">DELIPIT 製品紹介</a><a href="manual.html">DELIPIT マニュアル</a><a href="safe.html">SAFE 製品紹介</a><a href="safe-guide.html">SAFE 使い方</a><a href="driver-note.html">DRIVER NOTE</a><a href="driver-news.html">DRIVER NEWS</a><a href="index.html#about">ABOUT</a><a href="index.html#contact">CONTACT</a>
 </div></nav></header>
 <main id="top">
+<section class="section" aria-labelledby="driver-support-title" style="padding:38px 0;border-bottom:1px solid #4a391c;background:#13120e"><div class="wrap"><div class="eyebrow">DELIPIT DRIVER SUPPORT</div><h2 id="driver-support-title" style="font-size:clamp(27px,4vw,42px);margin:8px 0">軽貨物ドライバーのための総合サポートサイト</h2><p class="lead" style="margin-bottom:18px">これから始める人にも、今日も走る人にも。現場の仕事術、売上管理、安全管理をまとめて探せます。</p><a class="btn" href="driver-support.html">ドライバー向けガイドを見る</a></div></section>
 <section class="hero brand-hero v120-hero"><div class="wrap"><img alt="DELIPIT DRIVE MORE. CONTROL YOUR DAY." class="hero-logo" src="assets/delipit-logo-tagline.png"/><div class="eyebrow">DELIPIT V1.2.0 / FREE DELIVERY MANAGEMENT</div><h1>配送の数字を、<br/>もっと自分のものに。</h1><p>毎日の配送実績も、売上も、成長も。1社でも、複数社でも。あなたの働き方に合わせて使える、無料の配送管理アプリ。</p><div class="actions"><a class="btn" href="https://app.delipit.jp/">無料でDELIPITを使う</a><a class="btn ghost" href="#features">できることを見る</a></div><p class="hero-caption">アカウント登録なしで開始。記録は利用端末に保存されます。定期的にバックアップしてください。</p></div></section>
 <section class="section product-hub" id="products"><div class="wrap"><div class="eyebrow">DELIPIT PRODUCTS</div><h2>配送を記録する。安全を支える。</h2><p class="lead">配送と売上の管理はDELIPIT。点呼・点検などの安全管理は別サービスのDELIPIT SAFE。目的に合わせて選べます。</p><div class="product-grid"><article class="product-card"><img alt="DELIPIT" class="product-logo" src="assets/delipit-logo-tagline.png"/><span class="product-status live">SERVICE LIVE</span><h3>DELIPIT</h3><p>配完数、売上、経費、年間収支。複数委託先と異なる報酬方式にも対応する、無料の配送管理Webアプリ。</p><div class="product-actions"><a class="btn" href="delipit.html">DELIPITの詳細</a><a class="btn ghost" href="manual.html">DELIPITの使い方</a></div></article><article class="product-card safe-card"><img alt="DELIPIT SAFE DRIVE SAFE. STAY READY." class="product-logo safe-logo" src="assets/safe-logo-horizontal.png"/><span class="product-status test">PUBLIC FIELD TEST</span><h3>DELIPIT SAFE</h3><p>日常点検、点呼、業務開始・終了、走行記録など、軽貨物ドライバーの安全管理と日々の記録を支える新しいWebアプリ。現在、正式公開に向けて開発・公開テスト中です。</p><div class="product-actions"><a class="btn safe-btn" href="safe.html">SAFEの詳細</a><a class="btn ghost" href="safe-guide.html">SAFEの使い方</a><a class="btn ghost" href="safe-information.html">保存・位置情報・法令</a></div></article></div></div></section>
 
@@ -253,7 +256,7 @@
     button.setAttribute('aria-label', open ? 'メニューを閉じる' : 'メニューを開く');
   });
   menu.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
-  window.addEventListener('resize', () => { if (window.innerWidth > 900) closeMenu(); });
+  window.addEventListener('resize', () => { if (window.innerWidth > 1120) closeMenu(); });
 })();
 </script>
 <script>
