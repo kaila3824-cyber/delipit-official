@@ -256,7 +256,7 @@
     button.setAttribute('aria-label', open ? 'メニューを閉じる' : 'メニューを開く');
   });
   menu.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
-  window.addEventListener('resize', () => { if (window.innerWidth > 900) closeMenu(); });
+  window.addEventListener('resize', () => { if (window.innerWidth > 1120) closeMenu(); });
 })();
 </script>
 <script>
