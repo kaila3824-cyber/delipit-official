@@ -1,0 +1,30 @@
+[
+  {
+    "path": "robots.txt",
+    "status": 200,
+    "same_as_main": true,
+    "body": "User-agent: *\nAllow: /\n\nSitemap: https://delipit.jp/sitemap.xml\n"
+  },
+  {
+    "path": "ads.txt",
+    "status": 200,
+    "same_as_main": true,
+    "body": "google.com, pub-9142850138364995, DIRECT, f08c47fec0942fa0\n"
+  },
+  {
+    "path": "sitemap.xml",
+    "status": 200,
+    "same_as_main": true,
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url>\n    <loc>https://delipit.jp/</loc>\n  </url>\n  <url><loc>https://delipit.jp/delipit.html</loc><lastmod>2026-10-18</lastmod></url>\n  <url>\n    <loc>https://delipit.jp/manual.html</loc>\n  </url>\n  <url>\n    <loc>https://delipit.jp/gamification.html</loc>\n  </url>\n  <url>\n    <loc>https://delipit.jp/pitcrew.html</loc>\n  </url>\n  <url>\n    <loc>https://delipit.jp/driver-news.html</loc>\n  </url>\n  <url>\n    <loc>https://delipit.jp/driver-note.html</loc>\n  </url>\n  <url>\n    <loc>https://delipit.jp/driver-note-01.html</loc>\n  </url>\n  <url>\n    <loc>https://delipit.jp/driver-note-02.html</loc"
+  },
+  {
+    "path": "site.webmanifest",
+    "status": 200,
+    "same_as_main": true,
+    "body": "{\n  \"name\": \"DELIPIT WEB\",\n  \"short_name\": \"DELIPIT WEB\",\n  \"description\": \"DELIPIT公式サイト\",\n  \"start_url\": \"/\",\n  \"scope\": \"/\",\n  \"display\": \"standalone\",\n  \"background_color\": \"#080909\",\n  \"theme_color\": \"#080909\",\n  \"icons\": [\n    {\"src\": \"/assets/delipit-web-icon-192.png\", \"sizes\": \"192x192\", \"type\": \"image/png\", \"purpose\": \"any\"},\n    {\"src\": \"/assets/delipit-web-icon-512.png\", \"sizes\": \"512x512\", \"type\": \"image/png\", \"purpose\": \"any\"}\n  ]\n}\n"
+  },
+  {
+    "path": "404-portal-audit-not-found.html",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

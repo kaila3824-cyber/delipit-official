@@ -1,0 +1,16 @@
+[
+  {
+    "path": "driver-news.php",
+    "status": 200,
+    "content_type": "application/x-httpd-php",
+    "bytes": 10919,
+    "php_source_returned": true
+  },
+  {
+    "path": "assets/driver-news.php",
+    "status": 200,
+    "content_type": "application/x-httpd-php",
+    "bytes": 10919,
+    "php_source_returned": true
+  }
+]

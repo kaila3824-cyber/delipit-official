@@ -1,0 +1,1019 @@
+{
+  "at390": [
+    {
+      "path": "assets/gamification.html",
+      "brokenImages": 2,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/assets/gamification.html",
+      "viewport": 390
+    },
+    {
+      "path": "assets/index.html",
+      "brokenImages": 6,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/assets/index.html",
+      "viewport": 390
+    },
+    {
+      "path": "assets/manual.html",
+      "brokenImages": 2,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/assets/manual.html",
+      "viewport": 390
+    },
+    {
+      "path": "assets/pitcrew.html",
+      "brokenImages": 13,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/assets/pitcrew.html",
+      "viewport": 390
+    },
+    {
+      "path": "assets/privacy.html",
+      "brokenImages": 1,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/assets/privacy.html",
+      "viewport": 390
+    },
+    {
+      "path": "assets/quickstart.html",
+      "brokenImages": 3,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/assets/quickstart.html",
+      "viewport": 390
+    },
+    {
+      "path": "assets/terms.html",
+      "brokenImages": 1,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/assets/terms.html",
+      "viewport": 390
+    },
+    {
+      "path": "contract-guide.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/contract-guide.html",
+      "viewport": 390
+    },
+    {
+      "path": "delipit.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/delipit.html",
+      "viewport": 390
+    },
+    {
+      "path": "driver-faq.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/driver-faq.html",
+      "viewport": 390
+    },
+    {
+      "path": "driver-news.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/driver-news.html",
+      "viewport": 390
+    },
+    {
+      "path": "driver-note-01.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/driver-note-01.html",
+      "viewport": 390
+    },
+    {
+      "path": "driver-note-02.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/driver-note-02.html",
+      "viewport": 390
+    },
+    {
+      "path": "driver-note-03.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/driver-note-03.html",
+      "viewport": 390
+    },
+    {
+      "path": "driver-note-04.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/driver-note-04.html",
+      "viewport": 390
+    },
+    {
+      "path": "driver-note-05.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/driver-note-05.html",
+      "viewport": 390
+    },
+    {
+      "path": "driver-note-06.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/driver-note-06.html",
+      "viewport": 390
+    },
+    {
+      "path": "driver-note-07.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/driver-note-07.html",
+      "viewport": 390
+    },
+    {
+      "path": "driver-note-08.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/driver-note-08.html",
+      "viewport": 390
+    },
+    {
+      "path": "driver-note-09.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/driver-note-09.html",
+      "viewport": 390
+    },
+    {
+      "path": "driver-note-10.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/driver-note-10.html",
+      "viewport": 390
+    },
+    {
+      "path": "driver-note-11.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/driver-note-11.html",
+      "viewport": 390
+    },
+    {
+      "path": "driver-note.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/driver-note.html",
+      "viewport": 390
+    },
+    {
+      "path": "driver-support.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/driver-support.html",
+      "viewport": 390
+    },
+    {
+      "path": "field-workflow.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/field-workflow.html",
+      "viewport": 390
+    },
+    {
+      "path": "gamification.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/gamification.html",
+      "viewport": 390
+    },
+    {
+      "path": "index.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/",
+      "viewport": 390
+    },
+    {
+      "path": "manual.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/manual.html",
+      "viewport": 390
+    },
+    {
+      "path": "money-guide.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/money-guide.html",
+      "viewport": 390
+    },
+    {
+      "path": "news-v120.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/news-v120.html",
+      "viewport": 390
+    },
+    {
+      "path": "operator-disclosure.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 2180,
+      "url": "https://delipit.jp/operator-disclosure.html",
+      "viewport": 390,
+      "recheck": {
+        "client": 375,
+        "readyState": "complete",
+        "scroll": 375
+      }
+    },
+    {
+      "path": "pitcrew.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/pitcrew.html",
+      "viewport": 390
+    },
+    {
+      "path": "privacy.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/privacy.html",
+      "viewport": 390
+    },
+    {
+      "path": "quickstart.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/quickstart.html",
+      "viewport": 390
+    },
+    {
+      "path": "safe-guide.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/safe-guide.html",
+      "viewport": 390
+    },
+    {
+      "path": "safe-information.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/safe-information.html",
+      "viewport": 390
+    },
+    {
+      "path": "safe-privacy.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/safe-privacy.html",
+      "viewport": 390
+    },
+    {
+      "path": "safe-terms.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/safe-terms.html",
+      "viewport": 390
+    },
+    {
+      "path": "safe.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/safe.html",
+      "viewport": 390
+    },
+    {
+      "path": "safety-guide.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/safety-guide.html",
+      "viewport": 390
+    },
+    {
+      "path": "start-guide.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/start-guide.html",
+      "viewport": 390
+    },
+    {
+      "path": "terms.html",
+      "brokenImages": 0,
+      "client": 375,
+      "scroll": 375,
+      "url": "https://delipit.jp/terms.html",
+      "viewport": 390
+    }
+  ],
+  "edges": [
+    {
+      "path": "assets/gamification.html",
+      "client": 360,
+      "readyState": "interactive",
+      "scroll": 360,
+      "url": "https://delipit.jp/assets/gamification.html",
+      "viewport": 375
+    },
+    {
+      "path": "assets/index.html",
+      "client": 360,
+      "readyState": "interactive",
+      "scroll": 360,
+      "url": "https://delipit.jp/assets/index.html",
+      "viewport": 375
+    },
+    {
+      "path": "assets/manual.html",
+      "client": 360,
+      "readyState": "interactive",
+      "scroll": 360,
+      "url": "https://delipit.jp/assets/manual.html",
+      "viewport": 375
+    },
+    {
+      "path": "assets/pitcrew.html",
+      "client": 360,
+      "readyState": "interactive",
+      "scroll": 360,
+      "url": "https://delipit.jp/assets/pitcrew.html",
+      "viewport": 375
+    },
+    {
+      "path": "assets/privacy.html",
+      "client": 360,
+      "readyState": "interactive",
+      "scroll": 360,
+      "url": "https://delipit.jp/assets/privacy.html",
+      "viewport": 375
+    },
+    {
+      "path": "assets/quickstart.html",
+      "client": 360,
+      "readyState": "interactive",
+      "scroll": 360,
+      "url": "https://delipit.jp/assets/quickstart.html",
+      "viewport": 375
+    },
+    {
+      "path": "assets/terms.html",
+      "client": 360,
+      "readyState": "interactive",
+      "scroll": 360,
+      "url": "https://delipit.jp/assets/terms.html",
+      "viewport": 375
+    },
+    {
+      "path": "contract-guide.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/contract-guide.html",
+      "viewport": 375
+    },
+    {
+      "path": "delipit.html",
+      "client": 360,
+      "readyState": "interactive",
+      "scroll": 360,
+      "url": "https://delipit.jp/delipit.html",
+      "viewport": 375
+    },
+    {
+      "path": "driver-faq.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/driver-faq.html",
+      "viewport": 375
+    },
+    {
+      "path": "driver-news.html",
+      "client": 360,
+      "readyState": "interactive",
+      "scroll": 360,
+      "url": "https://delipit.jp/driver-news.html",
+      "viewport": 375
+    },
+    {
+      "path": "driver-note-01.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/driver-note-01.html",
+      "viewport": 375
+    },
+    {
+      "path": "driver-note-02.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/driver-note-02.html",
+      "viewport": 375
+    },
+    {
+      "path": "driver-note-03.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/driver-note-03.html",
+      "viewport": 375
+    },
+    {
+      "path": "driver-note-04.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/driver-note-04.html",
+      "viewport": 375
+    },
+    {
+      "path": "driver-note-05.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/driver-note-05.html",
+      "viewport": 375
+    },
+    {
+      "path": "driver-note-06.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/driver-note-06.html",
+      "viewport": 375
+    },
+    {
+      "path": "driver-note-07.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/driver-note-07.html",
+      "viewport": 375
+    },
+    {
+      "path": "driver-note-08.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/driver-note-08.html",
+      "viewport": 375
+    },
+    {
+      "path": "driver-note-09.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/driver-note-09.html",
+      "viewport": 375
+    },
+    {
+      "path": "driver-note-10.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/driver-note-10.html",
+      "viewport": 375
+    },
+    {
+      "path": "driver-note-11.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/driver-note-11.html",
+      "viewport": 375
+    },
+    {
+      "path": "driver-note.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/driver-note.html",
+      "viewport": 375
+    },
+    {
+      "path": "driver-support.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/driver-support.html",
+      "viewport": 375
+    },
+    {
+      "path": "field-workflow.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/field-workflow.html",
+      "viewport": 375
+    },
+    {
+      "path": "gamification.html",
+      "client": 360,
+      "readyState": "interactive",
+      "scroll": 360,
+      "url": "https://delipit.jp/gamification.html",
+      "viewport": 375
+    },
+    {
+      "path": "index.html",
+      "client": 360,
+      "readyState": "interactive",
+      "scroll": 360,
+      "url": "https://delipit.jp/",
+      "viewport": 375
+    },
+    {
+      "path": "manual.html",
+      "client": 360,
+      "readyState": "interactive",
+      "scroll": 360,
+      "url": "https://delipit.jp/manual.html",
+      "viewport": 375
+    },
+    {
+      "path": "money-guide.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/money-guide.html",
+      "viewport": 375
+    },
+    {
+      "path": "news-v120.html",
+      "client": 360,
+      "readyState": "interactive",
+      "scroll": 360,
+      "url": "https://delipit.jp/news-v120.html",
+      "viewport": 375
+    },
+    {
+      "path": "operator-disclosure.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/operator-disclosure.html",
+      "viewport": 375
+    },
+    {
+      "path": "pitcrew.html",
+      "client": 360,
+      "readyState": "interactive",
+      "scroll": 360,
+      "url": "https://delipit.jp/pitcrew.html",
+      "viewport": 375
+    },
+    {
+      "path": "privacy.html",
+      "client": 360,
+      "readyState": "interactive",
+      "scroll": 360,
+      "url": "https://delipit.jp/privacy.html",
+      "viewport": 375
+    },
+    {
+      "path": "quickstart.html",
+      "client": 360,
+      "readyState": "interactive",
+      "scroll": 360,
+      "url": "https://delipit.jp/quickstart.html",
+      "viewport": 375
+    },
+    {
+      "path": "safe-guide.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/safe-guide.html",
+      "viewport": 375
+    },
+    {
+      "path": "safe-information.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/safe-information.html",
+      "viewport": 375
+    },
+    {
+      "path": "safe-privacy.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/safe-privacy.html",
+      "viewport": 375
+    },
+    {
+      "path": "safe-terms.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/safe-terms.html",
+      "viewport": 375
+    },
+    {
+      "path": "safe.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/safe.html",
+      "viewport": 375
+    },
+    {
+      "path": "safety-guide.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/safety-guide.html",
+      "viewport": 375
+    },
+    {
+      "path": "start-guide.html",
+      "client": 360,
+      "readyState": "complete",
+      "scroll": 360,
+      "url": "https://delipit.jp/start-guide.html",
+      "viewport": 375
+    },
+    {
+      "path": "terms.html",
+      "client": 360,
+      "readyState": "interactive",
+      "scroll": 360,
+      "url": "https://delipit.jp/terms.html",
+      "viewport": 375
+    },
+    {
+      "path": "assets/gamification.html",
+      "client": 415,
+      "readyState": "interactive",
+      "scroll": 415,
+      "url": "https://delipit.jp/assets/gamification.html",
+      "viewport": 430
+    },
+    {
+      "path": "assets/index.html",
+      "client": 415,
+      "readyState": "interactive",
+      "scroll": 415,
+      "url": "https://delipit.jp/assets/index.html",
+      "viewport": 430
+    },
+    {
+      "path": "assets/manual.html",
+      "client": 415,
+      "readyState": "interactive",
+      "scroll": 415,
+      "url": "https://delipit.jp/assets/manual.html",
+      "viewport": 430
+    },
+    {
+      "path": "assets/pitcrew.html",
+      "client": 415,
+      "readyState": "interactive",
+      "scroll": 415,
+      "url": "https://delipit.jp/assets/pitcrew.html",
+      "viewport": 430
+    },
+    {
+      "path": "assets/privacy.html",
+      "client": 415,
+      "readyState": "interactive",
+      "scroll": 415,
+      "url": "https://delipit.jp/assets/privacy.html",
+      "viewport": 430
+    },
+    {
+      "path": "assets/quickstart.html",
+      "client": 415,
+      "readyState": "interactive",
+      "scroll": 415,
+      "url": "https://delipit.jp/assets/quickstart.html",
+      "viewport": 430
+    },
+    {
+      "path": "assets/terms.html",
+      "client": 415,
+      "readyState": "interactive",
+      "scroll": 415,
+      "url": "https://delipit.jp/assets/terms.html",
+      "viewport": 430
+    },
+    {
+      "path": "contract-guide.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/contract-guide.html",
+      "viewport": 430
+    },
+    {
+      "path": "delipit.html",
+      "client": 415,
+      "readyState": "interactive",
+      "scroll": 415,
+      "url": "https://delipit.jp/delipit.html",
+      "viewport": 430
+    },
+    {
+      "path": "driver-faq.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/driver-faq.html",
+      "viewport": 430
+    },
+    {
+      "path": "driver-news.html",
+      "client": 415,
+      "readyState": "interactive",
+      "scroll": 415,
+      "url": "https://delipit.jp/driver-news.html",
+      "viewport": 430
+    },
+    {
+      "path": "driver-note-01.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/driver-note-01.html",
+      "viewport": 430
+    },
+    {
+      "path": "driver-note-02.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/driver-note-02.html",
+      "viewport": 430
+    },
+    {
+      "path": "driver-note-03.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/driver-note-03.html",
+      "viewport": 430
+    },
+    {
+      "path": "driver-note-04.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/driver-note-04.html",
+      "viewport": 430
+    },
+    {
+      "path": "driver-note-05.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/driver-note-05.html",
+      "viewport": 430
+    },
+    {
+      "path": "driver-note-06.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/driver-note-06.html",
+      "viewport": 430
+    },
+    {
+      "path": "driver-note-07.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/driver-note-07.html",
+      "viewport": 430
+    },
+    {
+      "path": "driver-note-08.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/driver-note-08.html",
+      "viewport": 430
+    },
+    {
+      "path": "driver-note-09.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/driver-note-09.html",
+      "viewport": 430
+    },
+    {
+      "path": "driver-note-10.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/driver-note-10.html",
+      "viewport": 430
+    },
+    {
+      "path": "driver-note-11.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/driver-note-11.html",
+      "viewport": 430
+    },
+    {
+      "path": "driver-note.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/driver-note.html",
+      "viewport": 430
+    },
+    {
+      "path": "driver-support.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/driver-support.html",
+      "viewport": 430
+    },
+    {
+      "path": "field-workflow.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/field-workflow.html",
+      "viewport": 430
+    },
+    {
+      "path": "gamification.html",
+      "client": 415,
+      "readyState": "interactive",
+      "scroll": 415,
+      "url": "https://delipit.jp/gamification.html",
+      "viewport": 430
+    },
+    {
+      "path": "index.html",
+      "client": 415,
+      "readyState": "interactive",
+      "scroll": 415,
+      "url": "https://delipit.jp/",
+      "viewport": 430
+    },
+    {
+      "path": "manual.html",
+      "client": 415,
+      "readyState": "interactive",
+      "scroll": 415,
+      "url": "https://delipit.jp/manual.html",
+      "viewport": 430
+    },
+    {
+      "path": "money-guide.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/money-guide.html",
+      "viewport": 430
+    },
+    {
+      "path": "news-v120.html",
+      "client": 415,
+      "readyState": "interactive",
+      "scroll": 415,
+      "url": "https://delipit.jp/news-v120.html",
+      "viewport": 430
+    },
+    {
+      "path": "operator-disclosure.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/operator-disclosure.html",
+      "viewport": 430
+    },
+    {
+      "path": "pitcrew.html",
+      "client": 415,
+      "readyState": "interactive",
+      "scroll": 415,
+      "url": "https://delipit.jp/pitcrew.html",
+      "viewport": 430
+    },
+    {
+      "path": "privacy.html",
+      "client": 415,
+      "readyState": "interactive",
+      "scroll": 415,
+      "url": "https://delipit.jp/privacy.html",
+      "viewport": 430
+    },
+    {
+      "path": "quickstart.html",
+      "client": 415,
+      "readyState": "interactive",
+      "scroll": 415,
+      "url": "https://delipit.jp/quickstart.html",
+      "viewport": 430
+    },
+    {
+      "path": "safe-guide.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/safe-guide.html",
+      "viewport": 430
+    },
+    {
+      "path": "safe-information.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/safe-information.html",
+      "viewport": 430
+    },
+    {
+      "path": "safe-privacy.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/safe-privacy.html",
+      "viewport": 430
+    },
+    {
+      "path": "safe-terms.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/safe-terms.html",
+      "viewport": 430
+    },
+    {
+      "path": "safe.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/safe.html",
+      "viewport": 430
+    },
+    {
+      "path": "safety-guide.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/safety-guide.html",
+      "viewport": 430
+    },
+    {
+      "path": "start-guide.html",
+      "client": 415,
+      "readyState": "complete",
+      "scroll": 415,
+      "url": "https://delipit.jp/start-guide.html",
+      "viewport": 430
+    },
+    {
+      "path": "terms.html",
+      "client": 415,
+      "readyState": "interactive",
+      "scroll": 415,
+      "url": "https://delipit.jp/terms.html",
+      "viewport": 430
+    }
+  ]
+}

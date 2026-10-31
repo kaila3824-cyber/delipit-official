@@ -1,0 +1,3517 @@
+[
+  {
+    "path": "assets/gamification.html",
+    "url": "https://delipit.jp/assets/gamification.html",
+    "title": "DELIPIT GAME SYSTEM | 配送の記録をキャリアへ",
+    "headings": [
+      [
+        "h1",
+        "仕事の記録を、キャリアへ。"
+      ],
+      [
+        "h2",
+        "GAMEを使わなくても、DELIPITは使えます。"
+      ],
+      [
+        "h2",
+        "初めてGAMEをONにすると、あなたの記録を読み込みます。"
+      ],
+      [
+        "h2",
+        "届けた数が、そのまま経験になる。"
+      ],
+      [
+        "h2",
+        "いつもの仕事が、達成の記録になる。"
+      ],
+      [
+        "h2",
+        "その月の成果を、1枚に。"
+      ],
+      [
+        "h2",
+        "分からなくなったら、GAME画面で確認。"
+      ],
+      [
+        "h2",
+        "一人仕事に、小さな相棒を。"
+      ],
+      [
+        "h2",
+        "今日の1個を、ただの1個で終わらせない。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/gamification.html",
+    "description": "DELIPIT GAME SYSTEM。配送実績をEXP、DRIVER LEVEL、CAREER CLASS、ACHIEVEMENT、PERSONAL BEST、MONTHLY RANKとして記録。配送という一人仕事に、成長と小さな相棒を。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 2089,
+    "links": [
+      "index.html",
+      "index.html#about",
+      "index.html#features",
+      "quickstart.html",
+      "manual.html",
+      "gamification.html",
+      "pitcrew.html",
+      "https://app.delipit.jp/",
+      "index.html",
+      "index.html#about",
+      "index.html#features",
+      "quickstart.html",
+      "manual.html",
+      "gamification.html",
+      "pitcrew.html",
+      "https://app.delipit.jp/",
+      "mailto:info@delipit.jp",
+      "https://x.com/DELIPIT_JP",
+      "index.html",
+      "manual.html",
+      "pitcrew.html",
+      "terms.html",
+      "privacy.html"
+    ],
+    "images": 8,
+    "missing_alt": 0,
+    "missing_image_dimensions": 8,
+    "adsense": true,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/assets/gamification.html",
+      "bytes": 19710,
+      "same_as_main": true,
+      "sha256": "66c5ee6231c68c757efcb900eff3b680d204a626fb1cf84939914280861f12c4",
+      "seconds": 4.58,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "assets/index.html",
+    "url": "https://delipit.jp/assets/index.html",
+    "title": "DELIPIT | 今日の成果を、見えるものに。",
+    "headings": [
+      [
+        "h1",
+        "今日の成果を、見えるものに。"
+      ],
+      [
+        "h2",
+        "配完数だけで、終わらせない。"
+      ],
+      [
+        "h2",
+        "毎日の配送を、ひとつのコックピットに。"
+      ],
+      [
+        "h2",
+        "実際のDELIPIT画面。"
+      ],
+      [
+        "h2",
+        "ホーム画面から、アプリのように。"
+      ],
+      [
+        "h2",
+        "仕事の記録を、キャリアへ。"
+      ],
+      [
+        "h2",
+        "あなたの配送スタイルに合わせて。"
+      ],
+      [
+        "h2",
+        "配送の仕事に関係する最新情報。"
+      ],
+      [
+        "h2",
+        "現場から考える、配送と数字の話。"
+      ],
+      [
+        "h2",
+        "配送の現場から、DELIPITのことを書く。"
+      ],
+      [
+        "h2",
+        "よくある質問"
+      ],
+      [
+        "h2",
+        "更新履歴"
+      ],
+      [
+        "h2",
+        "DELIPITを、他のドライバーにも。"
+      ],
+      [
+        "h2",
+        "今日の1個を、ただの1個で終わらせない。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/",
+    "description": "DELIPITは、配完数・売上・経費・入金・年間収支をまとめて管理し、毎日の配送成果を見える化するドライバー向け配送管理Webアプリです。GAME MODEでは仕事の記録をキャリアとして積み上げられます。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 4830,
+    "links": [
+      "index.html",
+      "index.html",
+      "index.html#features",
+      "quickstart.html",
+      "manual.html",
+      "gamification.html",
+      "driver-news.php",
+      "index.html#driver-note",
+      "index.html#note",
+      "index.html#share-delipit",
+      "index.html#faq",
+      "https://app.delipit.jp/",
+      "index.html",
+      "index.html#features",
+      "quickstart.html",
+      "manual.html",
+      "gamification.html",
+      "driver-news.php",
+      "index.html#driver-note",
+      "index.html#note",
+      "index.html#share-delipit",
+      "index.html#faq",
+      "https://app.delipit.jp/",
+      "#story",
+      "manual.html",
+      "manual.html#home-screen",
+      "https://app.delipit.jp/",
+      "gamification.html",
+      "driver-news.php",
+      "https://note.com/delipit",
+      "https://note.com/delipit/n/n9308fc56d425",
+      "privacy.html",
+      "mailto:info@delipit.jp",
+      "https://x.com/DELIPIT_JP",
+      "#",
+      "https://app.delipit.jp/",
+      "mailto:info@delipit.jp",
+      "https://x.com/DELIPIT_JP",
+      "manual.html",
+      "gamification.html",
+      "https://note.com/delipit",
+      "terms.html",
+      "privacy.html"
+    ],
+    "images": 8,
+    "missing_alt": 0,
+    "missing_image_dimensions": 8,
+    "adsense": true,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/assets/index.html",
+      "bytes": 44782,
+      "same_as_main": true,
+      "sha256": "622a2b555e8fb5d0c47830ff4d1a63d2152b26e977148fe9100e17e804962358",
+      "seconds": 4.58,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "assets/manual.html",
+    "url": "https://delipit.jp/assets/manual.html",
+    "title": "DELIPIT 使い方・マニュアル",
+    "headings": [
+      [
+        "h1",
+        "使い方・マニュアル"
+      ],
+      [
+        "h2",
+        "まず、この3つだけ。"
+      ],
+      [
+        "h2",
+        "初めて開いたら、FIRST PITが案内します。"
+      ],
+      [
+        "h2",
+        "毎日の入力と、今月の数字。"
+      ],
+      [
+        "h2",
+        "「売上」と「手元に残るお金」を分けて見る。"
+      ],
+      [
+        "h2",
+        "一年の積み上がりを振り返る。"
+      ],
+      [
+        "h2",
+        "自分の契約に合わせて設定する。"
+      ],
+      [
+        "h2",
+        "分からなくなったら、アプリの中からもう一度。"
+      ],
+      [
+        "h2",
+        "記録は、定期的にバックアップ。"
+      ],
+      [
+        "h2",
+        "ホーム画面から、アプリのように。"
+      ],
+      [
+        "h2",
+        "困ったときは。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/manual.html",
+    "description": "DELIPITの使い方。初回設定、配送入力、MONTH、YEAR、お金の管理、GAME、GUIDE、バックアップまで分かりやすく案内します。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 3136,
+    "links": [
+      "index.html",
+      "index.html",
+      "index.html#features",
+      "quickstart.html",
+      "manual.html",
+      "gamification.html",
+      "index.html#faq",
+      "https://app.delipit.jp/",
+      "index.html",
+      "index.html#features",
+      "quickstart.html",
+      "manual.html",
+      "gamification.html",
+      "index.html#faq",
+      "#quick",
+      "#firstpit",
+      "#month",
+      "#money",
+      "#year",
+      "#system",
+      "#guide",
+      "#backup",
+      "#home-screen",
+      "mailto:info@delipit.jp",
+      "https://x.com/DELIPIT_JP",
+      "index.html",
+      "terms.html",
+      "privacy.html"
+    ],
+    "images": 18,
+    "missing_alt": 0,
+    "missing_image_dimensions": 18,
+    "adsense": true,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/assets/manual.html",
+      "bytes": 30136,
+      "same_as_main": true,
+      "sha256": "83d98bb27deddabab65f406768f31d91bd7add215b5a3de1cc9be034b859afb1",
+      "seconds": 4.56,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "assets/pitcrew.html",
+    "url": "https://delipit.jp/assets/pitcrew.html",
+    "title": "PIT CREW | PITO & RONA | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "一人仕事に、小さな相棒を。"
+      ],
+      [
+        "h2",
+        "PITで待ってる、小さなCREW。"
+      ],
+      [
+        "h2",
+        "RUNを見守る、小さなドローンCREW。"
+      ],
+      [
+        "h2",
+        "役割は違っても、見ているのは同じ。"
+      ],
+      [
+        "h2",
+        "PITOとRONAは、GAME MODEで待っています。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/pitcrew.html",
+    "description": "DELIPITのPIT CREW、PITOとRONA。配送という一人仕事をそばで見守る、小さな相棒たちを紹介します。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 1373,
+    "links": [
+      "index.html",
+      "index.html#about",
+      "index.html#features",
+      "manual.html",
+      "gamification.html",
+      "pitcrew.html",
+      "https://app.delipit.jp/",
+      "index.html",
+      "index.html#about",
+      "index.html#features",
+      "manual.html",
+      "gamification.html",
+      "pitcrew.html",
+      "gamification.html",
+      "https://app.delipit.jp/",
+      "mailto:info@delipit.jp",
+      "https://x.com/DELIPIT_JP",
+      "index.html",
+      "gamification.html",
+      "pitcrew.html",
+      "manual.html",
+      "terms.html",
+      "privacy.html"
+    ],
+    "images": 13,
+    "missing_alt": 0,
+    "missing_image_dimensions": 13,
+    "adsense": true,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/assets/pitcrew.html",
+      "bytes": 14736,
+      "same_as_main": true,
+      "sha256": "4fbee7d8df22941b881fb05f8d9414e136fbf4cfcfb7488dcd98d921c56f213a",
+      "seconds": 4.58,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "assets/privacy.html",
+    "url": "https://delipit.jp/assets/privacy.html",
+    "title": "プライバシーポリシー | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "プライバシーポリシー"
+      ],
+      [
+        "h2",
+        "1. 取得することがある情報"
+      ],
+      [
+        "h2",
+        "2. 利用目的"
+      ],
+      [
+        "h2",
+        "3. 配送実績などのデータ"
+      ],
+      [
+        "h2",
+        "4. 広告について"
+      ],
+      [
+        "h2",
+        "5. Google Analyticsによる利用状況の計測"
+      ],
+      [
+        "h2",
+        "6. Cookie等の利用"
+      ],
+      [
+        "h2",
+        "7. お問い合わせフォームの外部サービス利用"
+      ],
+      [
+        "h2",
+        "8. 第三者提供"
+      ],
+      [
+        "h2",
+        "9. 安全管理"
+      ],
+      [
+        "h2",
+        "10. 外部リンク"
+      ],
+      [
+        "h2",
+        "11. 本ポリシーの変更"
+      ]
+    ],
+    "canonical": "https://delipit.jp/privacy.html",
+    "description": "DELIPITのプライバシーポリシーです。アクセス解析、広告、利用データ等の取扱いについてご案内します。",
+    "robots": "index,follow",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 2246,
+    "links": [
+      "index.html",
+      "index.html",
+      "index.html#features",
+      "manual.html",
+      "gamification.html",
+      "index.html#faq",
+      "https://app.delipit.jp/",
+      "index.html",
+      "index.html#features",
+      "manual.html",
+      "gamification.html",
+      "index.html#faq",
+      "mailto:info@delipit.jp",
+      "https://x.com/DELIPIT_JP"
+    ],
+    "images": 1,
+    "missing_alt": 0,
+    "missing_image_dimensions": 1,
+    "adsense": true,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/assets/privacy.html",
+      "bytes": 13189,
+      "same_as_main": true,
+      "sha256": "4ecc15fc7d85ad32fa5acc7cac9cc44da0f5ec7913e5bbad2df063987102754b",
+      "seconds": 4.56,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "assets/quickstart.html",
+    "url": "https://delipit.jp/assets/quickstart.html",
+    "title": "DELIPIT クイックスタート | 3ステップで始める",
+    "headings": [
+      [
+        "h1",
+        "まずは、3ステップ。"
+      ],
+      [
+        "h2",
+        "月の設定をする。"
+      ],
+      [
+        "h2",
+        "その日の実績を記録する。"
+      ],
+      [
+        "h2",
+        "MONTHを見る。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/manual.html",
+    "description": "DELIPITの使い方。初回設定、配送入力、MONTH、YEAR、お金の管理、GAME、GUIDE、バックアップまで分かりやすく案内します。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 639,
+    "links": [
+      "index.html",
+      "index.html",
+      "index.html#features",
+      "quickstart.html",
+      "manual.html",
+      "gamification.html",
+      "index.html#faq",
+      "https://app.delipit.jp/",
+      "index.html",
+      "index.html#features",
+      "quickstart.html",
+      "manual.html",
+      "gamification.html",
+      "index.html#faq",
+      "manual.html",
+      "mailto:info@delipit.jp",
+      "https://x.com/DELIPIT_JP",
+      "index.html",
+      "terms.html",
+      "privacy.html"
+    ],
+    "images": 5,
+    "missing_alt": 0,
+    "missing_image_dimensions": 5,
+    "adsense": true,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/assets/quickstart.html",
+      "bytes": 18525,
+      "same_as_main": true,
+      "sha256": "614b927c18dbb8dad68e1fa1b8781f45ba1f00bdef262d1ba272210fe2f80637",
+      "seconds": 4.57,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "assets/terms.html",
+    "url": "https://delipit.jp/assets/terms.html",
+    "title": "利用規約 | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "利用規約"
+      ],
+      [
+        "h2",
+        "1. サービスについて"
+      ],
+      [
+        "h2",
+        "2. 利用上の責任"
+      ],
+      [
+        "h2",
+        "3. データの管理"
+      ],
+      [
+        "h2",
+        "4. 禁止事項"
+      ],
+      [
+        "h2",
+        "5. サービスの変更・停止"
+      ],
+      [
+        "h2",
+        "6. 保証および免責"
+      ],
+      [
+        "h2",
+        "7. 知的財産"
+      ],
+      [
+        "h2",
+        "8. 規約の変更"
+      ],
+      [
+        "h2",
+        "9. 準拠法"
+      ]
+    ],
+    "canonical": "https://delipit.jp/terms.html",
+    "description": "DELIPITの利用規約です。サービスの利用条件、データ管理、禁止事項、免責事項などを定めています。",
+    "robots": "index,follow",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 1202,
+    "links": [
+      "index.html",
+      "index.html",
+      "index.html#features",
+      "manual.html",
+      "gamification.html",
+      "index.html#faq",
+      "https://app.delipit.jp/",
+      "index.html",
+      "index.html#features",
+      "manual.html",
+      "gamification.html",
+      "index.html#faq",
+      "mailto:info@delipit.jp",
+      "https://x.com/DELIPIT_JP"
+    ],
+    "images": 1,
+    "missing_alt": 0,
+    "missing_image_dimensions": 1,
+    "adsense": true,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/assets/terms.html",
+      "bytes": 10508,
+      "same_as_main": true,
+      "sha256": "6b9e631d8e0fb57a0481c062162d8236764e61e778fb85ecfb77793a4ab03359",
+      "seconds": 4.58,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "contract-guide.html",
+    "url": "https://delipit.jp/contract-guide.html",
+    "title": "軽貨物の業務委託契約で確認する7つのポイント | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "軽貨物の業務委託契約で確認する7つのポイント"
+      ],
+      [
+        "h2",
+        "図で見る、このガイドの流れ"
+      ],
+      [
+        "h2",
+        "報酬の計算方法"
+      ],
+      [
+        "h2",
+        "支払日と控除"
+      ],
+      [
+        "h2",
+        "車両と保険"
+      ],
+      [
+        "h2",
+        "稼働条件"
+      ],
+      [
+        "h2",
+        "事故・破損・誤配"
+      ],
+      [
+        "h2",
+        "契約終了と変更"
+      ],
+      [
+        "h2",
+        "契約を決める前の最終チェック"
+      ],
+      [
+        "h2",
+        "参考資料"
+      ]
+    ],
+    "canonical": "https://delipit.jp/contract-guide.html",
+    "description": "契約前に、報酬だけでなく控除、車両、事故対応、契約終了条件まで書面で確認するためのチェックガイド。",
+    "robots": "index,follow",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 1318,
+    "links": [
+      "index.html",
+      "driver-support.html",
+      "#part1",
+      "#part2",
+      "#part3",
+      "#part4",
+      "#part5",
+      "#part6",
+      "#part7",
+      "https://www.mlit.go.jp/jidosha/jidosha_mn4_000014.html",
+      "driver-support.html"
+    ],
+    "images": 2,
+    "missing_alt": 0,
+    "missing_image_dimensions": 0,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/contract-guide.html",
+      "bytes": 8332,
+      "same_as_main": true,
+      "sha256": "af4dc867cb778e00dec7bad51f4d9cda5aff91ad9c3c33103fe3be68f47d8a1d",
+      "seconds": 4.57,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "delipit.html",
+    "url": "https://delipit.jp/delipit.html",
+    "title": "DELIPIT | 配送実績・売上管理Webアプリの紹介",
+    "headings": [
+      [
+        "h1",
+        "今日の成果を、見えるものに。"
+      ],
+      [
+        "h2",
+        "配完数だけで、終わらせない。"
+      ],
+      [
+        "h2",
+        "毎日の配送を、ひとつのコックピットに。"
+      ],
+      [
+        "h2",
+        "実際のDELIPIT画面。"
+      ],
+      [
+        "h2",
+        "ホーム画面から、アプリのように。"
+      ],
+      [
+        "h2",
+        "1社でも、複数社でも。報酬方式が違っても。"
+      ],
+      [
+        "h2",
+        "仕事の記録を、キャリアへ。"
+      ],
+      [
+        "h2",
+        "あなたの配送スタイルに合わせて。"
+      ],
+      [
+        "h2",
+        "DELIPITの開発と、配送の現場から。"
+      ],
+      [
+        "h2",
+        "配送の現場から、残しておきたいこと。"
+      ],
+      [
+        "h2",
+        "現場から、ドライバーへ。"
+      ],
+      [
+        "h2",
+        "よくある質問"
+      ],
+      [
+        "h2",
+        "更新履歴"
+      ],
+      [
+        "h2",
+        "DELIPITを、他のドライバーにも。"
+      ],
+      [
+        "h2",
+        "今日の1個を、ただの1個で終わらせない。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/delipit.html",
+    "description": "DELIPITは、配送実績・売上・経費・年間収支を、1社でも複数委託先でも管理し、毎日の配送成果を見える化するドライバー向け配送管理Webアプリです。GAME MODEでは仕事の記録をキャリアとして積み上げられます。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 5711,
+    "links": [
+      "index.html",
+      "index.html",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "index.html#about",
+      "index.html#contact",
+      "index.html#products",
+      "index.html",
+      "index.html#products",
+      "delipit.html",
+      "manual.html",
+      "safe.html",
+      "safe-guide.html",
+      "driver-note.html",
+      "driver-news.html",
+      "index.html#about",
+      "index.html#contact",
+      "https://app.delipit.jp/",
+      "manual.html",
+      "manual.html",
+      "field-workflow.html",
+      "manual.html#home-screen",
+      "https://app.delipit.jp/",
+      "gamification.html",
+      "https://note.com/delipit",
+      "https://note.com/delipit/n/n913defa89a71",
+      "driver-note-08.html",
+      "driver-note-07.html",
+      "driver-note-06.html",
+      "driver-note.html",
+      "driver-note.html",
+      "driver-news.html",
+      "privacy.html",
+      "mailto:info@delipit.jp",
+      "https://x.com/DELIPIT_JP",
+      "#",
+      "https://app.delipit.jp/",
+      "mailto:info@delipit.jp",
+      "https://x.com/DELIPIT_JP",
+      "manual.html",
+      "gamification.html",
+      "https://note.com/delipit",
+      "terms.html",
+      "privacy.html"
+    ],
+    "images": 8,
+    "missing_alt": 0,
+    "missing_image_dimensions": 8,
+    "adsense": true,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/delipit.html",
+      "bytes": 49620,
+      "same_as_main": true,
+      "sha256": "423e20e451cdd56ea8c43e47bbe3a76e1112e2e08574da07045912b7fb688982",
+      "seconds": 4.61,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "driver-faq.html",
+    "url": "https://delipit.jp/driver-faq.html",
+    "title": "軽貨物ドライバーのよくある質問 | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "軽貨物ドライバーのよくある質問"
+      ],
+      [
+        "h2",
+        "図で見る、このガイドの流れ"
+      ],
+      [
+        "h2",
+        "未経験でも始められる？"
+      ],
+      [
+        "h2",
+        "売上55万円なら手取り55万円？"
+      ],
+      [
+        "h2",
+        "個建てと日額報酬はどちらがよい？"
+      ],
+      [
+        "h2",
+        "一人の個人事業主も安全管理が必要？"
+      ],
+      [
+        "h2",
+        "配送を速くするには？"
+      ],
+      [
+        "h2",
+        "DELIPITは何を記録できる？"
+      ],
+      [
+        "h2",
+        "参考資料"
+      ]
+    ],
+    "canonical": "https://delipit.jp/driver-faq.html",
+    "description": "軽貨物の開業準備、報酬、配送、記録、点呼に関する疑問と、詳しい解説ページへの案内。",
+    "robots": "index,follow",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 1076,
+    "links": [
+      "index.html",
+      "driver-support.html",
+      "#part1",
+      "#part2",
+      "#part3",
+      "#part4",
+      "#part5",
+      "#part6",
+      "start-guide.html",
+      "money-guide.html",
+      "contract-guide.html",
+      "safety-guide.html",
+      "driver-note-09.html",
+      "manual.html",
+      "https://www.mlit.go.jp/jidosha/jidosha_tk2_000172.html",
+      "driver-support.html"
+    ],
+    "images": 2,
+    "missing_alt": 0,
+    "missing_image_dimensions": 0,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/driver-faq.html",
+      "bytes": 7579,
+      "same_as_main": true,
+      "sha256": "fdd0a09fdcbb66bf71b8b029afeeb873c99a37b6f073763280164fff441653cf",
+      "seconds": 4.57,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "driver-news.html",
+    "url": "https://delipit.jp/driver-news.html",
+    "title": "DRIVER NEWS | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "配送の情報を、仕事の確認につなげる。"
+      ],
+      [
+        "h2",
+        "読んだ情報を、毎日の確認へ。"
+      ],
+      [
+        "h2",
+        "配送の仕事に関係する、確認済みの一次資料"
+      ]
+    ],
+    "canonical": "https://delipit.jp/driver-news.html",
+    "description": "軽貨物ドライバーが制度・安全・税の一次資料を読むときの確認ポイントと、配送記録・入金確認に役立つDELIPIT独自の解説。",
+    "robots": "index,follow",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 2079,
+    "links": [
+      "index.html",
+      "index.html",
+      "https://www.mlit.go.jp/jidosha/jidosha_tk2_000172.html",
+      "safe.html",
+      "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+      "driver-note-03.html",
+      "manual.html#money",
+      "driver-note.html",
+      "https://www.mlit.go.jp/jidosha/jidosha_tk2_000172.html",
+      "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+      "https://www.mlit.go.jp/report/press/jidosha04_hh_000317.html",
+      "privacy.html",
+      "terms.html"
+    ],
+    "images": 1,
+    "missing_alt": 0,
+    "missing_image_dimensions": 1,
+    "adsense": true,
+    "stale": [
+      "開発・公開テスト中のDELIPIT SAFEについて →"
+    ],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/driver-news.html",
+      "bytes": 12450,
+      "same_as_main": true,
+      "sha256": "fa80f9c44a2e505fbf61e17853dd836ce74ea7d28384ac19d35f653eb131c0f0",
+      "seconds": 4.08,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "driver-note-01.html",
+    "url": "https://delipit.jp/driver-note-01.html",
+    "title": "売上を確認するために記録していたら、自分がやってきた仕事が見えてきた。 | DRIVER NOTE | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "売上を確認するために記録していたら、自分がやってきた仕事が見えてきた。"
+      ],
+      [
+        "h2",
+        "最初は、売上を確認するためだった。"
+      ],
+      [
+        "h2",
+        "スプレッドシートでも、毎日の入力は少し面倒だった。"
+      ],
+      [
+        "h2",
+        "「え？俺こんだけやったの？」"
+      ],
+      [
+        "h2",
+        "記録は、過去の自分を残してくれる。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/driver-note-01.html",
+    "description": "売上と入金確認のために始めた配送記録が、累計配完数を通して自分の仕事の積み重ねに見えるようになった話。現役配送員が記録を続ける意味を振り返ります。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 1007,
+    "links": [
+      "index.html",
+      "driver-note.html",
+      "driver-news.html",
+      "manual.html",
+      "https://app.delipit.jp/",
+      "driver-note.html"
+    ],
+    "images": 1,
+    "missing_alt": 0,
+    "missing_image_dimensions": 1,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/driver-note-01.html",
+      "bytes": 6479,
+      "same_as_main": true,
+      "sha256": "0140bf64d682bda191a9fb7a60d7d4d1d68a4a545f421d9044c84c22db8be8b6",
+      "seconds": 4.09,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "driver-note-02.html",
+    "url": "https://delipit.jp/driver-note-02.html",
+    "title": "売上だけ見ていた頃より、仕事の調子が分かるようになった。 | DRIVER NOTE | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "売上だけ見ていた頃より、仕事の調子が分かるようになった。"
+      ],
+      [
+        "h2",
+        "最初に見ていたのは売上だけ。"
+      ],
+      [
+        "h2",
+        "今は、数字を組み合わせて見る。"
+      ],
+      [
+        "h2",
+        "実際の入金まで見て、ひと月がつながる。"
+      ],
+      [
+        "h2",
+        "前年の記録も、今を理解する材料になる。"
+      ],
+      [
+        "h2",
+        "売上の記録から、仕事の記録へ。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/driver-note-02.html",
+    "description": "月の売上だけでは分からない仕事の中身。会社控除、実入金、稼働日数、総配完数、平均日商、前年データを組み合わせて見るようになった配送員の実体験。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 927,
+    "links": [
+      "index.html",
+      "driver-note.html",
+      "driver-news.html",
+      "manual.html",
+      "https://app.delipit.jp/",
+      "driver-note.html"
+    ],
+    "images": 1,
+    "missing_alt": 0,
+    "missing_image_dimensions": 1,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/driver-note-02.html",
+      "bytes": 6248,
+      "same_as_main": true,
+      "sha256": "59237cc390507ee1ee7747df32b210bbcc5f4590cdfbb3fafa0b5b96b0d627ae",
+      "seconds": 4.03,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "driver-note-03.html",
+    "url": "https://delipit.jp/driver-note-03.html",
+    "title": "計算と入金額が合わない。でも、間違いとは限らなかった。 | DRIVER NOTE | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "計算と入金額が合わない。でも、間違いとは限らなかった。"
+      ],
+      [
+        "h2",
+        "自分の計算と、実際の入金。"
+      ],
+      [
+        "h2",
+        "差が出る理由があることもある。"
+      ],
+      [
+        "h2",
+        "だから、計算値と実入金の両方を残す。"
+      ],
+      [
+        "h2",
+        "違ったときに気づけるようにする。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/driver-note-03.html",
+    "description": "配送実績から計算した売上と実際の入金額が違った経験から、計算値と実入金を別々に残して照合する意味を現役配送員が解説します。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 851,
+    "links": [
+      "index.html",
+      "driver-note.html",
+      "driver-news.html",
+      "manual.html",
+      "https://app.delipit.jp/",
+      "driver-note.html"
+    ],
+    "images": 1,
+    "missing_alt": 0,
+    "missing_image_dimensions": 1,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/driver-note-03.html",
+      "bytes": 5931,
+      "same_as_main": true,
+      "sha256": "8c16fd75734c31b48ec3a3bf55b68400e3f7d43a330736b88a159055b99203e1",
+      "seconds": 3.99,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "driver-note-04.html",
+    "url": "https://delipit.jp/driver-note-04.html",
+    "title": "カレンダーを数字で埋めていくと、一ヶ月働いた実感が残る。 | DRIVER NOTE | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "カレンダーを数字で埋めていくと、一ヶ月働いた実感が残る。"
+      ],
+      [
+        "h2",
+        "合計だけでは見えないもの。"
+      ],
+      [
+        "h2",
+        "予定と実績を同じ場所で見る。"
+      ],
+      [
+        "h2",
+        "曜日ごとの荷量も見えてくる。"
+      ],
+      [
+        "h2",
+        "月末の小さな達成感。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/driver-note-04.html",
+    "description": "日ごとの配完数と休みをカレンダーに残すと、稼働日、曜日ごとの荷量、予定、そして一ヶ月働いた実感まで見えてくる。配送員の記録の使い方。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 888,
+    "links": [
+      "index.html",
+      "driver-note.html",
+      "driver-news.html",
+      "manual.html",
+      "https://app.delipit.jp/",
+      "driver-note.html"
+    ],
+    "images": 1,
+    "missing_alt": 0,
+    "missing_image_dimensions": 1,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/driver-note-04.html",
+      "bytes": 6081,
+      "same_as_main": true,
+      "sha256": "fd4454254394cd28d39cceb5754e6e9ed6c0ca3fafc65d4ed036ac9a852b66a8",
+      "seconds": 3.98,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "driver-note-05.html",
+    "url": "https://delipit.jp/driver-note-05.html",
+    "title": "僕にとって配送は、身体を使った『攻略ゲーム』だった。 | DRIVER NOTE | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "僕にとって配送は、身体を使った「攻略ゲーム」だった。"
+      ],
+      [
+        "h2",
+        "もともと、ゲームが好きだった。"
+      ],
+      [
+        "h2",
+        "配送は、ただ順番に届けるだけじゃない。"
+      ],
+      [
+        "h2",
+        "でも、これは現実世界のゲーム。"
+      ],
+      [
+        "h2",
+        "だったら、経験値があってもいい。"
+      ],
+      [
+        "h2",
+        "比べる相手は、過去の自分。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/driver-note-05.html",
+    "description": "在宅傾向、時間指定、ルート、荷積み。配送は頭と体力を使う現実の攻略ゲーム。DELIPITに1配完＝1EXPのGAME SYSTEMを入れた理由を現役配送員が語ります。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 1068,
+    "links": [
+      "index.html",
+      "driver-note.html",
+      "driver-news.html",
+      "manual.html",
+      "https://app.delipit.jp/",
+      "driver-note.html"
+    ],
+    "images": 1,
+    "missing_alt": 0,
+    "missing_image_dimensions": 1,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/driver-note-05.html",
+      "bytes": 6571,
+      "same_as_main": true,
+      "sha256": "0dbbdd6aeeabc2a99bfb454795233e7d2e5a26110e815661dc7e2d8ae0dcc01b",
+      "seconds": 4.02,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "driver-note-06.html",
+    "url": "https://delipit.jp/driver-note-06.html",
+    "title": "最初は、仲のいい人にも使ってもらえたら。それくらいだった。 | DRIVER NOTE | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "最初は、仲のいい人にも使ってもらえたら。それくらいだった。"
+      ],
+      [
+        "h2",
+        "自分用のスプレッドシートには満足していた。"
+      ],
+      [
+        "h2",
+        "でも、フォーマットは人に渡しづらい。"
+      ],
+      [
+        "h2",
+        "最初は、大勢に使ってもらうつもりじゃなかった。"
+      ],
+      [
+        "h2",
+        "作り始めたら、できることが増えていった。"
+      ],
+      [
+        "h2",
+        "同じ立場で働く人にも。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/driver-note-06.html",
+    "description": "自分用のGoogleスプレッドシートを、仲のいい人にも使ってほしい。そこから「アプリにしたらいいんじゃない？」と始まったDELIPIT誕生の経緯。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 1070,
+    "links": [
+      "index.html",
+      "driver-note.html",
+      "driver-news.html",
+      "manual.html",
+      "https://app.delipit.jp/",
+      "driver-note.html"
+    ],
+    "images": 1,
+    "missing_alt": 0,
+    "missing_image_dimensions": 1,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/driver-note-06.html",
+      "bytes": 6582,
+      "same_as_main": true,
+      "sha256": "b3d5c47082c7819e3c79787ea5ff078816e7fdc7c9785514e7133a9b79c1bee3",
+      "seconds": 4.02,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "driver-note-07.html",
+    "url": "https://delipit.jp/driver-note-07.html",
+    "title": "配送の一日は、荷物を積む前から始まっている。 | DRIVER NOTE | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "配送の一日は、荷物を積む前から始まっている。"
+      ],
+      [
+        "h2",
+        "最初に見るのは、今日の荷量。"
+      ],
+      [
+        "h2",
+        "全部持っていくことが正解とは限らない。"
+      ],
+      [
+        "h2",
+        "荷積みも、ただ積んでいるわけじゃない。"
+      ],
+      [
+        "h2",
+        "走り出してからも、予定は変わる。"
+      ],
+      [
+        "h2",
+        "速さより、組み立て。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/driver-note-07.html",
+    "description": "通常130〜150個、繁忙期200個超。朝の荷量を見て便を組み、受取人や荷姿を把握しながら番地ごとに積む。現役配送員が一日の組み立て方を紹介します。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 1281,
+    "links": [
+      "index.html",
+      "driver-note.html",
+      "driver-news.html",
+      "manual.html",
+      "https://app.delipit.jp/",
+      "driver-note.html"
+    ],
+    "images": 1,
+    "missing_alt": 0,
+    "missing_image_dimensions": 1,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/driver-note-07.html",
+      "bytes": 7272,
+      "same_as_main": true,
+      "sha256": "3c3127c06996c439d0408bd44d1019fb1d845f8e01aa51fad164a8249293d7e4",
+      "seconds": 3.97,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "driver-note-08.html",
+    "url": "https://delipit.jp/driver-note-08.html",
+    "title": "荷物が多い日より、『不在が多そうな日』の方が難しい。 | DRIVER NOTE | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "荷物が多い日より、「不在が多そうな日」の方が難しい。"
+      ],
+      [
+        "h2",
+        "個数だけでは、一日の難しさは決まらない。"
+      ],
+      [
+        "h2",
+        "居ないと思っても、一度は行く。"
+      ],
+      [
+        "h2",
+        "地図には載っていない情報が増えていく。"
+      ],
+      [
+        "h2",
+        "発売日ならではの難しさもある。"
+      ],
+      [
+        "h2",
+        "その日に落とせる荷物は、その日に落とす。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/driver-note-08.html",
+    "description": "荷物の個数だけでは一日の難しさは決まらない。不在、再配達、在宅傾向、発売日特有の荷物など、現役配送員が「その日に落とせる荷物はその日に落とす」考え方を語ります。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 1175,
+    "links": [
+      "index.html",
+      "driver-note.html",
+      "driver-news.html",
+      "manual.html",
+      "https://app.delipit.jp/",
+      "driver-note.html"
+    ],
+    "images": 1,
+    "missing_alt": 0,
+    "missing_image_dimensions": 1,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/driver-note-08.html",
+      "bytes": 7044,
+      "same_as_main": true,
+      "sha256": "deaccf27c77fa05112867263b18434d24322ff01329226cd4091389ab5545ccd",
+      "seconds": 4.06,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "driver-note-09.html",
+    "url": "https://delipit.jp/driver-note-09.html",
+    "title": "配達が速い人は、走るのが速いわけじゃない。 | DRIVER NOTE | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "配達が速い人は、走るのが速いわけじゃない。"
+      ],
+      [
+        "h2",
+        "初めて行く場所は、今でも時間がかかる"
+      ],
+      [
+        "h2",
+        "いつものコースは、頭の中に全部入っている"
+      ],
+      [
+        "h2",
+        "新人の頃は、荷物の大きさすら分からなかった"
+      ],
+      [
+        "h2",
+        "1便は朝一が勝負"
+      ],
+      [
+        "h2",
+        "慣れると「いつもと違う」に気づく"
+      ],
+      [
+        "h2",
+        "「いつものお兄さん」"
+      ],
+      [
+        "h2",
+        "じゃあ、配達が速い人って何だろう"
+      ]
+    ],
+    "canonical": "https://delipit.jp/driver-note-09.html",
+    "description": "新人時代は1日80個ほど。今は朝の1時間で平均50個前後、最高65個。速さの正体は、急ぐことではなく、迷わず、探さず、正確に届けるための経験と信頼の積み重ねでした。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 3068,
+    "links": [
+      "index.html",
+      "driver-note.html",
+      "driver-news.html",
+      "manual.html",
+      "https://app.delipit.jp/",
+      "driver-note.html"
+    ],
+    "images": 1,
+    "missing_alt": 0,
+    "missing_image_dimensions": 1,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/driver-note-09.html",
+      "bytes": 12951,
+      "same_as_main": true,
+      "sha256": "46fbbddfec44e3d621936f760ea4d8c25cd0033738e7157f754ed15e06fda18d",
+      "seconds": 4.02,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "driver-note-10.html",
+    "url": "https://delipit.jp/driver-note-10.html",
+    "title": "法令で増えた仕事。だから、少しでも楽にしたかった。 | DRIVER NOTE | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "法令で増えた仕事。だから、少しでも楽にしたかった。"
+      ],
+      [
+        "h2",
+        "正直、面倒なことが増えた。"
+      ],
+      [
+        "h2",
+        "最初は手書きでいいと思っていた。"
+      ],
+      [
+        "h2",
+        "面倒なことを、できるだけ面倒じゃなくしたい。"
+      ],
+      [
+        "h2",
+        "DELIPITとは、少し違うアプリ。"
+      ],
+      [
+        "h2",
+        "現在、一般公開に向けて準備中です。"
+      ],
+      [
+        "h2",
+        "利用料金についても、先にお伝えしておきます。"
+      ],
+      [
+        "h2",
+        "DELIPITとSAFE。その先に考えていること。"
+      ],
+      [
+        "h2",
+        "最後に。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/driver-note-10.html",
+    "description": "貨物軽自動車運送事業の制度変更で増えた記録の負担。手書きも有料アプリも悩ましく、現役ドライバーがDELIPIT SAFEを作り始めた理由と無料・広告・有料化の方針、将来の分析アプリ構想。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 2869,
+    "links": [
+      "index.html",
+      "driver-note.html",
+      "driver-news.html",
+      "manual.html",
+      "https://app.delipit.jp/",
+      "https://www.mlit.go.jp/jidosha/jidosha_tk2_000172.html",
+      "driver-note.html"
+    ],
+    "images": 1,
+    "missing_alt": 0,
+    "missing_image_dimensions": 1,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/driver-note-10.html",
+      "bytes": 12083,
+      "same_as_main": true,
+      "sha256": "f85b379648aa6224d3ccd1a02e167dda6d44c90c4fe0f2876983defa7dbd5a2d",
+      "seconds": 4.06,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "driver-note-11.html",
+    "url": "https://delipit.jp/driver-note-11.html",
+    "title": "DELIPIT V1.2.0公開。自分には今すぐ必要ない機能を追加した理由。 | DRIVER NOTE | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "DELIPIT V1.2.0公開。自分には今すぐ必要ない機能を追加した理由。"
+      ],
+      [
+        "h2",
+        "自分には必要なくても、必要な人はいるかもしれない。"
+      ],
+      [
+        "h2",
+        "そういえば、自分もフードデリバリーをやっている。"
+      ],
+      [
+        "h2",
+        "でも、今までの使いやすさは変えたくない。"
+      ],
+      [
+        "h2",
+        "正直、まだ分からないこともあります。"
+      ],
+      [
+        "h2",
+        "いろんな働き方を、もっと知りたい。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/driver-note-11.html",
+    "description": "現役ドライバーSORAが語るDELIPIT V1.2.0開発の理由。複数委託先・日次報酬・スポットやチャーターへの対応と、フードデリバリー経験、操作性へのこだわり。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 2232,
+    "links": [
+      "index.html",
+      "driver-note.html",
+      "driver-news.html",
+      "manual.html",
+      "https://app.delipit.jp/",
+      "https://app.delipit.jp/",
+      "https://delipit.jp/",
+      "driver-note.html"
+    ],
+    "images": 1,
+    "missing_alt": 0,
+    "missing_image_dimensions": 1,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/driver-note-11.html",
+      "bytes": 10312,
+      "same_as_main": true,
+      "sha256": "af7d767ccbccb2352959d053e2ef6423ce494c741e54865fd258671174e795e8",
+      "seconds": 4.01,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "driver-note.html",
+    "url": "https://delipit.jp/driver-note.html",
+    "title": "現役配送員のDRIVER NOTE | DRIVER NOTE | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "配送の現場から、残しておきたいこと。"
+      ],
+      [
+        "h2",
+        "DELIPIT V1.2.0公開。自分には今すぐ必要ない機能を追加した理由。"
+      ],
+      [
+        "h2",
+        "法令で増えた仕事。だから、少しでも楽にしたかった。"
+      ],
+      [
+        "h2",
+        "配達が速い人は、走るのが速いわけじゃない。"
+      ],
+      [
+        "h2",
+        "荷物が多い日より、『不在が多そうな日』の方が難しい。"
+      ],
+      [
+        "h2",
+        "配送の一日は、荷物を積む前から始まっている。"
+      ],
+      [
+        "h2",
+        "最初は、仲のいい人にも使ってもらえたら。それくらいだった。"
+      ],
+      [
+        "h2",
+        "僕にとって配送は、身体を使った『攻略ゲーム』だった。"
+      ],
+      [
+        "h2",
+        "カレンダーを数字で埋めていくと、一ヶ月働いた実感が残る。"
+      ],
+      [
+        "h2",
+        "計算と入金額が合わない。でも、間違いとは限らなかった。"
+      ],
+      [
+        "h2",
+        "売上だけ見ていた頃より、仕事の調子が分かるようになった。"
+      ],
+      [
+        "h2",
+        "売上を確認するために記録していたら、自分がやってきた仕事が見えてきた。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/driver-note.html",
+    "description": "現役の業務委託配送ドライバーが、配送管理・売上・現場の工夫・DELIPIT開発の原点を実体験から記録します。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 1598,
+    "links": [
+      "index.html",
+      "driver-note.html",
+      "driver-news.html",
+      "manual.html",
+      "https://app.delipit.jp/",
+      "driver-note-11.html",
+      "driver-note-10.html",
+      "driver-note-09.html",
+      "driver-note-08.html",
+      "driver-note-07.html",
+      "driver-note-06.html",
+      "driver-note-05.html",
+      "driver-note-04.html",
+      "driver-note-03.html",
+      "driver-note-02.html",
+      "driver-note-01.html"
+    ],
+    "images": 1,
+    "missing_alt": 0,
+    "missing_image_dimensions": 1,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/driver-note.html",
+      "bytes": 7649,
+      "same_as_main": true,
+      "sha256": "daa069dbf7bf3038f167e6a98f3c6dc76113cd3464519d97409840898dde6414",
+      "seconds": 4.01,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "driver-support.html",
+    "url": "https://delipit.jp/driver-support.html",
+    "title": "軽貨物ドライバーのための総合サポート | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "軽貨物ドライバーのための総合サポートサイト"
+      ],
+      [
+        "h2",
+        "図で見る、このガイドの流れ"
+      ],
+      [
+        "h2",
+        "初めての方は、ここから"
+      ],
+      [
+        "h2",
+        "01 / 軽貨物を始める"
+      ],
+      [
+        "h2",
+        "02 / 現場の仕事術"
+      ],
+      [
+        "h2",
+        "03 / 売上・経費・記録"
+      ],
+      [
+        "h2",
+        "04 / 法令・安全管理"
+      ],
+      [
+        "h2",
+        "記録を続けるための道具"
+      ]
+    ],
+    "canonical": "https://delipit.jp/driver-support.html",
+    "description": "これから軽貨物を始める人にも、現役ドライバーにも。仕事の始め方、現場の工夫、売上管理、安全管理の情報をまとめたDELIPITの案内ページ。",
+    "robots": "index,follow",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 1252,
+    "links": [
+      "index.html",
+      "start-guide.html",
+      "contract-guide.html",
+      "money-guide.html",
+      "start-guide.html",
+      "contract-guide.html",
+      "quickstart.html",
+      "operator-disclosure.html",
+      "driver-note-09.html",
+      "driver-note-07.html",
+      "driver-note.html",
+      "money-guide.html",
+      "field-workflow.html",
+      "driver-note-03.html",
+      "manual.html",
+      "safety-guide.html",
+      "safe-information.html",
+      "safe-guide.html",
+      "driver-note-10.html",
+      "driver-faq.html",
+      "delipit.html",
+      "https://app.delipit.jp/",
+      "index.html",
+      "privacy.html",
+      "operator-disclosure.html"
+    ],
+    "images": 2,
+    "missing_alt": 0,
+    "missing_image_dimensions": 0,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/driver-support.html",
+      "bytes": 9005,
+      "same_as_main": true,
+      "sha256": "4baca05abf387d29d6ef10b634137ba16d2e2c999ac8be1d6ecd07e753aa655a",
+      "seconds": 4.01,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "field-workflow.html",
+    "url": "https://delipit.jp/field-workflow.html",
+    "title": "配送実績を記録して振り返る方法 | DELIPIT 現場ガイド",
+    "headings": [
+      [
+        "h1",
+        "配送実績を、翌日の判断に使える記録へ。"
+      ],
+      [
+        "h2",
+        "なぜ記録を始めたのか"
+      ],
+      [
+        "h2",
+        "日次：まず配完数を残す"
+      ],
+      [
+        "h2",
+        "月次：売上と実入金を分けて見る"
+      ],
+      [
+        "h2",
+        "年次：積み上がりと変化を確認する"
+      ],
+      [
+        "h2",
+        "DELIPITとSAFEの使い分け"
+      ]
+    ],
+    "canonical": "https://delipit.jp/field-workflow.html",
+    "description": "現役配送ドライバーの記録経験をもとに、配完数・売上・経費・実入金を日次、月次、年次でどう確認するかをDELIPITの画面に沿って説明します。",
+    "robots": "index,follow",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 1757,
+    "links": [
+      "/",
+      "delipit.html",
+      "manual.html",
+      "driver-note.html",
+      "driver-note-09.html",
+      "manual.html#system",
+      "driver-note-03.html",
+      "manual.html#year",
+      "gamification.html",
+      "safe.html",
+      "manual.html#backup",
+      "quickstart.html",
+      "delipit.html",
+      "privacy.html",
+      "operator-disclosure.html"
+    ],
+    "images": 0,
+    "missing_alt": 0,
+    "missing_image_dimensions": 0,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/field-workflow.html",
+      "bytes": 7531,
+      "same_as_main": true,
+      "sha256": "74870b9a57ffa881f1ae0ed7aae830b4560e72a34db10f77f9d66f91bd641309",
+      "seconds": 3.97,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "gamification.html",
+    "url": "https://delipit.jp/gamification.html",
+    "title": "DELIPIT GAME SYSTEM | 配送の記録をキャリアへ",
+    "headings": [
+      [
+        "h1",
+        "仕事の記録を、キャリアへ。"
+      ],
+      [
+        "h2",
+        "GAMEを使わなくても、DELIPITは使えます。"
+      ],
+      [
+        "h2",
+        "初めてGAMEをONにすると、あなたの記録を読み込みます。"
+      ],
+      [
+        "h2",
+        "届けた数が、そのまま経験になる。"
+      ],
+      [
+        "h2",
+        "いつもの仕事が、達成の記録になる。"
+      ],
+      [
+        "h2",
+        "その月の成果を、1枚に。"
+      ],
+      [
+        "h2",
+        "分からなくなったら、GAME画面で確認。"
+      ],
+      [
+        "h2",
+        "一人仕事に、小さな相棒を。"
+      ],
+      [
+        "h2",
+        "今日の1個を、ただの1個で終わらせない。"
+      ],
+      [
+        "h2",
+        "報酬方式が違っても、1 DELIVERY = 1 EXP。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/gamification.html",
+    "description": "DELIPIT GAME SYSTEM。配送実績をEXP、DRIVER LEVEL、CAREER CLASS、ACHIEVEMENT、PERSONAL BEST、MONTHLY RANKとして記録。配送という一人仕事に、成長と小さな相棒を。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 2337,
+    "links": [
+      "index.html",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "https://app.delipit.jp/",
+      "index.html",
+      "delipit.html#story",
+      "delipit.html#features",
+      "quickstart.html",
+      "manual.html",
+      "gamification.html",
+      "pitcrew.html",
+      "https://app.delipit.jp/",
+      "mailto:info@delipit.jp",
+      "https://x.com/DELIPIT_JP",
+      "index.html",
+      "manual.html",
+      "pitcrew.html",
+      "terms.html",
+      "privacy.html"
+    ],
+    "images": 8,
+    "missing_alt": 0,
+    "missing_image_dimensions": 8,
+    "adsense": true,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/gamification.html",
+      "bytes": 20281,
+      "same_as_main": true,
+      "sha256": "bf25404108c1d0871ebad2feabd7567519b1a89df8013dd0d627c3c2118c33e1",
+      "seconds": 4.0,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "index.html",
+    "url": "https://delipit.jp/",
+    "title": "DELIPIT公式 | 軽貨物の配送・売上管理を、1社でも複数社でも",
+    "headings": [
+      [
+        "h2",
+        "軽貨物ドライバーのための総合サポートサイト"
+      ],
+      [
+        "h1",
+        "配送の数字を、もっと自分のものに。"
+      ],
+      [
+        "h2",
+        "配送を記録する。安全を支える。"
+      ],
+      [
+        "h2",
+        "届けた数から、仕事の全体像まで。"
+      ],
+      [
+        "h2",
+        "1社でも、複数社でも。"
+      ],
+      [
+        "h2",
+        "売上の決まり方が違っても、配送の記録はひとつ。"
+      ],
+      [
+        "h2",
+        "まずは、今日の記録から。"
+      ],
+      [
+        "h2",
+        "V1.2.0 正式公開"
+      ],
+      [
+        "h2",
+        "配送の現場で感じた「もっとこうしたい」から。"
+      ],
+      [
+        "h2",
+        "配送の現場から、残しておきたいこと。"
+      ],
+      [
+        "h2",
+        "現場から、ドライバーへ。"
+      ],
+      [
+        "h2",
+        "使い方も、サービスごとに。"
+      ],
+      [
+        "h2",
+        "サービスとデータの扱いを、分かりやすく。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/",
+    "description": "軽貨物ドライバーの配送実績・売上・経費を管理する無料アプリDELIPIT。1社でも複数委託先でも、個建て・日次報酬・案件報酬を記録できます。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 4458,
+    "links": [
+      "index.html",
+      "index.html",
+      "index.html#products",
+      "driver-support.html",
+      "driver-note.html",
+      "driver-news.html",
+      "index.html#about",
+      "index.html#contact",
+      "index.html#products",
+      "index.html",
+      "index.html#products",
+      "driver-support.html",
+      "start-guide.html",
+      "driver-faq.html",
+      "delipit.html",
+      "manual.html",
+      "safe.html",
+      "safe-guide.html",
+      "driver-note.html",
+      "driver-news.html",
+      "index.html#about",
+      "index.html#contact",
+      "driver-support.html",
+      "https://app.delipit.jp/",
+      "#features",
+      "delipit.html",
+      "manual.html",
+      "https://safe.delipit.jp/",
+      "safe.html",
+      "safe-guide.html",
+      "safe-information.html",
+      "quickstart.html",
+      "https://app.delipit.jp/",
+      "news-v120.html",
+      "driver-note-01.html",
+      "driver-note-11.html",
+      "driver-note-10.html",
+      "driver-note-09.html",
+      "driver-note-08.html",
+      "driver-note.html",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "field-workflow.html",
+      "safe-guide.html",
+      "safe-information.html",
+      "terms.html",
+      "safe-information.html",
+      "mailto:info@delipit.jp",
+      "privacy.html",
+      "safe-privacy.html",
+      "operator-disclosure.html",
+      "privacy.html",
+      "safe-privacy.html",
+      "operator-disclosure.html",
+      "mailto:info@delipit.jp",
+      "https://x.com/DELIPIT_JP",
+      "mailto:info@delipit.jp",
+      "https://x.com/DELIPIT_JP",
+      "manual.html",
+      "gamification.html",
+      "https://note.com/delipit",
+      "terms.html",
+      "privacy.html"
+    ],
+    "images": 5,
+    "missing_alt": 0,
+    "missing_image_dimensions": 5,
+    "adsense": true,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/",
+      "bytes": 47337,
+      "same_as_main": true,
+      "sha256": "d1474ac0d96f8e9aa1fe38598221f1fd88769fd780df88e1990b449334be8a48",
+      "seconds": 3.91,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "manual.html",
+    "url": "https://delipit.jp/manual.html",
+    "title": "DELIPIT 使い方・マニュアル",
+    "headings": [
+      [
+        "h1",
+        "使い方・マニュアル"
+      ],
+      [
+        "h2",
+        "まず、この3つだけ。"
+      ],
+      [
+        "h2",
+        "初めて開いたら、FIRST PITが案内します。"
+      ],
+      [
+        "h2",
+        "毎日の入力と、今月の数字。"
+      ],
+      [
+        "h2",
+        "「売上」と「手元に残るお金」を分けて見る。"
+      ],
+      [
+        "h2",
+        "一年の積み上がりを振り返る。"
+      ],
+      [
+        "h2",
+        "自分の契約に合わせて設定する。"
+      ],
+      [
+        "h2",
+        "分からなくなったら、アプリの中からもう一度。"
+      ],
+      [
+        "h2",
+        "記録は、定期的にバックアップ。"
+      ],
+      [
+        "h2",
+        "ホーム画面から、アプリのように。"
+      ],
+      [
+        "h2",
+        "困ったときは。"
+      ],
+      [
+        "h2",
+        "記録した数字をどう使う？"
+      ],
+      [
+        "h2",
+        "複数委託先と報酬方式の設定"
+      ]
+    ],
+    "canonical": "https://delipit.jp/manual.html",
+    "description": "DELIPITの使い方。初回設定、配送入力、MONTH、YEAR、お金の管理、GAME、GUIDE、バックアップまで分かりやすく案内します。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 3587,
+    "links": [
+      "index.html",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "https://app.delipit.jp/",
+      "index.html",
+      "index.html#products",
+      "safe.html",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "#quick",
+      "#firstpit",
+      "#month",
+      "#money",
+      "#year",
+      "#system",
+      "#guide",
+      "#backup",
+      "#home-screen",
+      "field-workflow.html",
+      "mailto:info@delipit.jp",
+      "https://x.com/DELIPIT_JP",
+      "index.html",
+      "terms.html",
+      "privacy.html"
+    ],
+    "images": 18,
+    "missing_alt": 0,
+    "missing_image_dimensions": 18,
+    "adsense": true,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/manual.html",
+      "bytes": 31664,
+      "same_as_main": true,
+      "sha256": "4bc13899f25b3e233d9f8cdf4ed4a1f74768b107dcd2b6c8b0306f343783488e",
+      "seconds": 3.96,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "money-guide.html",
+    "url": "https://delipit.jp/money-guide.html",
+    "title": "軽貨物の売上・経費・手取りを整理する方法 | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "軽貨物の売上・経費・手取りを整理する方法"
+      ],
+      [
+        "h2",
+        "図で見る、このガイドの流れ"
+      ],
+      [
+        "h2",
+        "売上と手取りは同じではない"
+      ],
+      [
+        "h2",
+        "架空の月間シミュレーション"
+      ],
+      [
+        "h2",
+        "委託先の明細と照合する"
+      ],
+      [
+        "h2",
+        "毎日・毎月の記録を分ける"
+      ],
+      [
+        "h2",
+        "参照した公的資料"
+      ]
+    ],
+    "canonical": "https://delipit.jp/money-guide.html",
+    "description": "軽貨物ドライバー向けに、売上・事業経費・所得・生活費として使えるお金の違いと、明細照合の方法を説明。",
+    "robots": "index,follow",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 1246,
+    "links": [
+      "index.html",
+      "driver-support.html",
+      "#part1",
+      "#part2",
+      "#part3",
+      "#part4",
+      "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2090.htm",
+      "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice_shinsei.htm",
+      "driver-support.html",
+      "operator-disclosure.html",
+      "privacy.html"
+    ],
+    "images": 2,
+    "missing_alt": 0,
+    "missing_image_dimensions": 0,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/money-guide.html",
+      "bytes": 8137,
+      "same_as_main": true,
+      "sha256": "3230dda83f1c3f8fa6115e695c0ba0aeb70e7c11386fcc004e0ba29d80999745",
+      "seconds": 3.92,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "news-v120.html",
+    "url": "https://delipit.jp/news-v120.html",
+    "title": "DELIPIT V1.2.0 正式公開 — 複数委託先・複数報酬方式に対応しました | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "DELIPIT V1.2.0 正式公開 — 複数委託先・複数報酬方式に対応しました"
+      ],
+      [
+        "h2",
+        "1社でも、複数社でも"
+      ],
+      [
+        "h2",
+        "売上の決まり方を選べます"
+      ],
+      [
+        "h2",
+        "荷物種別も、必要な分だけ"
+      ],
+      [
+        "h2",
+        "届けた数をキャリアへ"
+      ]
+    ],
+    "canonical": "https://delipit.jp/news-v120.html",
+    "description": "2026年10月27日、DELIPIT V1.2.0を正式公開。複数委託先、個数×単価・日次報酬・案件報酬・併用、動的な荷物種別に対応しました。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 953,
+    "links": [
+      "index.html",
+      "index.html#v120-news",
+      "https://app.delipit.jp/",
+      "quickstart.html",
+      "delipit.html",
+      "privacy.html",
+      "terms.html",
+      "index.html#contact"
+    ],
+    "images": 1,
+    "missing_alt": 0,
+    "missing_image_dimensions": 1,
+    "adsense": true,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/news-v120.html",
+      "bytes": 5611,
+      "same_as_main": true,
+      "sha256": "8a1e543df62088d817ee77812a6a56a5f7b121f6e171e009881e95a85d4fffca",
+      "seconds": 3.9,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "operator-disclosure.html",
+    "url": "https://delipit.jp/operator-disclosure.html",
+    "title": "運営者情報・開示請求について | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "運営者情報・開示請求について"
+      ],
+      [
+        "h2",
+        "運営・連絡先"
+      ],
+      [
+        "h2",
+        "1. 一般のお問い合わせ"
+      ],
+      [
+        "h2",
+        "2. 個人情報の開示・訂正・利用停止・削除等"
+      ],
+      [
+        "h2",
+        "3. 運営者情報の請求"
+      ],
+      [
+        "h2",
+        "送信時のお願い"
+      ]
+    ],
+    "canonical": "https://delipit.jp/operator-disclosure.html",
+    "description": "DELIPITとDELIPIT SAFEの運営者情報、個人情報に関する請求、お問い合わせ方法をご案内します。",
+    "robots": null,
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 1277,
+    "links": [
+      "index.html",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "index.html",
+      "index.html",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "index.html",
+      "safe.html",
+      "safe-terms.html",
+      "safe-privacy.html",
+      "index.html#contact",
+      "mailto:info@delipit.jp",
+      "index.html#contact",
+      "index.html?request=privacy#contact",
+      "index.html?request=operator#contact",
+      "privacy.html",
+      "safe-privacy.html",
+      "driver-note.html",
+      "driver-news.html",
+      "terms.html",
+      "privacy.html"
+    ],
+    "images": 2,
+    "missing_alt": 0,
+    "missing_image_dimensions": 2,
+    "adsense": false,
+    "stale": [
+      "をご覧ください。SAFEの正式規約22条とPrivacy9項目は現在未承認・未施行です。"
+    ],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/operator-disclosure.html",
+      "bytes": 5763,
+      "same_as_main": true,
+      "sha256": "17e4c65c99a289f5b1294e8ec5cbbff535b7e0973f0c5fbf3b9fe4d34b4be594",
+      "seconds": 4.12,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "pitcrew.html",
+    "url": "https://delipit.jp/pitcrew.html",
+    "title": "PIT CREW | PITO & RONA | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "一人仕事に、小さな相棒を。"
+      ],
+      [
+        "h2",
+        "PITで待ってる、小さなCREW。"
+      ],
+      [
+        "h2",
+        "RUNを見守る、小さなドローンCREW。"
+      ],
+      [
+        "h2",
+        "役割は違っても、見ているのは同じ。"
+      ],
+      [
+        "h2",
+        "PITOとRONAは、GAME MODEで待っています。"
+      ]
+    ],
+    "canonical": "https://delipit.jp/pitcrew.html",
+    "description": "DELIPITのPIT CREW、PITOとRONA。配送という一人仕事をそばで見守る、小さな相棒たちを紹介します。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 1400,
+    "links": [
+      "index.html",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "https://app.delipit.jp/",
+      "index.html",
+      "delipit.html#story",
+      "delipit.html#features",
+      "manual.html",
+      "gamification.html",
+      "pitcrew.html",
+      "gamification.html",
+      "https://app.delipit.jp/",
+      "mailto:info@delipit.jp",
+      "https://x.com/DELIPIT_JP",
+      "index.html",
+      "gamification.html",
+      "pitcrew.html",
+      "manual.html",
+      "terms.html",
+      "privacy.html"
+    ],
+    "images": 13,
+    "missing_alt": 0,
+    "missing_image_dimensions": 13,
+    "adsense": true,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/pitcrew.html",
+      "bytes": 14810,
+      "same_as_main": true,
+      "sha256": "6f2c0f778229d8b0b0b4ab9803c1b311cbb63f463e5e7cad4030d0d3b5181c66",
+      "seconds": 4.06,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "privacy.html",
+    "url": "https://delipit.jp/privacy.html",
+    "title": "プライバシーポリシー | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "プライバシーポリシー"
+      ],
+      [
+        "h2",
+        "1. 取得することがある情報"
+      ],
+      [
+        "h2",
+        "2. 利用目的"
+      ],
+      [
+        "h2",
+        "3. 配送実績などのデータ"
+      ],
+      [
+        "h2",
+        "4. 広告について"
+      ],
+      [
+        "h2",
+        "5. Google Analyticsによる利用状況の計測"
+      ],
+      [
+        "h2",
+        "6. Cookie等の利用"
+      ],
+      [
+        "h2",
+        "7. お問い合わせフォームの外部サービス利用"
+      ],
+      [
+        "h2",
+        "8. 第三者提供"
+      ],
+      [
+        "h2",
+        "9. 安全管理"
+      ],
+      [
+        "h2",
+        "10. 外部リンク"
+      ],
+      [
+        "h2",
+        "11. 本ポリシーの変更"
+      ]
+    ],
+    "canonical": "https://delipit.jp/privacy.html",
+    "description": "DELIPITのプライバシーポリシーです。アクセス解析、広告、利用データ等の取扱いについてご案内します。",
+    "robots": "index,follow",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 3400,
+    "links": [
+      "index.html",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "https://app.delipit.jp/",
+      "index.html",
+      "index.html#products",
+      "safe.html",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "https://myadcenter.google.com/",
+      "https://www.aboutads.info/",
+      "https://policies.google.com/privacy",
+      "https://policies.google.com/technologies/ads",
+      "https://web3forms.com/privacy",
+      "safe-privacy.html",
+      "mailto:info@delipit.jp",
+      "https://x.com/DELIPIT_JP"
+    ],
+    "images": 1,
+    "missing_alt": 0,
+    "missing_image_dimensions": 1,
+    "adsense": true,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/privacy.html",
+      "bytes": 16621,
+      "same_as_main": true,
+      "sha256": "4792416d8166b2bfc71edd5d83c57876fc44ce83839ec7f45401f27dc44f0aff",
+      "seconds": 4.04,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "quickstart.html",
+    "url": "https://delipit.jp/quickstart.html",
+    "title": "DELIPIT クイックスタート | 3ステップで始める",
+    "headings": [
+      [
+        "h1",
+        "まずは、3ステップ。"
+      ],
+      [
+        "h2",
+        "月の設定をする。"
+      ],
+      [
+        "h2",
+        "その日の実績を記録する。"
+      ],
+      [
+        "h2",
+        "MONTHを見る。"
+      ],
+      [
+        "h2",
+        "複数委託先・異なる報酬方式を使う場合"
+      ]
+    ],
+    "canonical": "https://delipit.jp/manual.html",
+    "description": "DELIPITの使い方。初回設定、配送入力、MONTH、YEAR、お金の管理、GAME、GUIDE、バックアップまで分かりやすく案内します。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 891,
+    "links": [
+      "index.html",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "https://app.delipit.jp/",
+      "index.html",
+      "index.html#products",
+      "safe.html",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "manual.html",
+      "field-workflow.html",
+      "mailto:info@delipit.jp",
+      "https://x.com/DELIPIT_JP",
+      "index.html",
+      "terms.html",
+      "privacy.html"
+    ],
+    "images": 5,
+    "missing_alt": 0,
+    "missing_image_dimensions": 5,
+    "adsense": true,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/quickstart.html",
+      "bytes": 19255,
+      "same_as_main": true,
+      "sha256": "ae0c68c5839460c1046805ed0307bbe98dfa79347734adcdf2277b2312f429a5",
+      "seconds": 4.0,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "safe-guide.html",
+    "url": "https://delipit.jp/safe-guide.html",
+    "title": "SAFEの使い方 | DELIPIT SAFE",
+    "headings": [
+      [
+        "h1",
+        "初めての方へ・使い方"
+      ],
+      [
+        "h2",
+        "1. 初回設定"
+      ],
+      [
+        "h2",
+        "2. 日常点検 → 業務前点呼・業務開始"
+      ],
+      [
+        "h2",
+        "3. 業務中の記録"
+      ],
+      [
+        "h2",
+        "4. 業務後点呼・業務終了"
+      ],
+      [
+        "h2",
+        "5. 記録確認 → PDF出力"
+      ],
+      [
+        "h2",
+        "6. 暗号化バックアップを保管する"
+      ]
+    ],
+    "canonical": "https://delipit.jp/safe-guide.html",
+    "description": "DELIPIT SAFE 1.0.0の初回設定から日々の記録、PDF出力、暗号化バックアップまでの使い方。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 1730,
+    "links": [
+      "index.html",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "index.html",
+      "index.html",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "safe.html",
+      "safe-guide.html",
+      "safe-information.html",
+      "safe-terms.html",
+      "safe-privacy.html",
+      "https://safe.delipit.jp/",
+      "safe-information.html#legal",
+      "safe-information.html#legal",
+      "safe-privacy.html",
+      "safe-information.html#contact",
+      "safe.html",
+      "safe-guide.html",
+      "safe-information.html",
+      "safe-terms.html",
+      "safe-privacy.html",
+      "safe.html",
+      "driver-note.html",
+      "driver-news.html",
+      "terms.html",
+      "privacy.html"
+    ],
+    "images": 2,
+    "missing_alt": 0,
+    "missing_image_dimensions": 2,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/safe-guide.html",
+      "bytes": 8183,
+      "same_as_main": true,
+      "sha256": "71838bd75c3f8b41d062b8cba57fc7b83da589a128f3603665a7f795ca5da4da",
+      "seconds": 4.05,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "safe-information.html",
+    "url": "https://delipit.jp/safe-information.html",
+    "title": "保存・位置情報・法令の案内 | DELIPIT SAFE",
+    "headings": [
+      [
+        "h1",
+        "ご利用案内"
+      ],
+      [
+        "h2",
+        "まず確認すること"
+      ],
+      [
+        "h2",
+        "記録と保存"
+      ],
+      [
+        "h2",
+        "運営表示・お問い合わせ"
+      ],
+      [
+        "h2",
+        "重要なお知らせ — 2026年10月19日 / V43.7"
+      ],
+      [
+        "h2",
+        "よくある質問"
+      ]
+    ],
+    "canonical": "https://delipit.jp/safe-information.html",
+    "description": "DELIPIT公式サイトの保存・位置情報・法令の案内。SAFEテスト版の確認済み事項と、正式条件・運営情報の確認中事項を区別します。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 4715,
+    "links": [
+      "index.html",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "index.html",
+      "index.html",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "safe.html",
+      "safe-guide.html",
+      "safe-information.html",
+      "safe-terms.html",
+      "safe-privacy.html",
+      "safe-privacy.html#backup",
+      "safe-guide.html",
+      "safe-privacy.html#backup",
+      "safe-privacy.html#providers",
+      "safe-terms.html",
+      "https://laws.e-gov.go.jp/law/402M50000800022",
+      "https://www.mlit.go.jp/jidosha/jidosha_tk2_000172.html",
+      "https://www.mlit.go.jp/jidosha/jidosha_tk2_000162.html",
+      "https://www.mlit.go.jp/jidosha/anzen/03safety/resourse/data/construction_kamotsu.pdf",
+      "https://laws.e-gov.go.jp/law/326AC0000000185",
+      "https://laws.e-gov.go.jp/law/326M50000800104",
+      "operator-disclosure.html",
+      "mailto:info@delipit.jp",
+      "https://delipit.jp/#contact",
+      "https://web3forms.com/privacy",
+      "safe.html",
+      "safe-guide.html",
+      "safe-information.html",
+      "safe-terms.html",
+      "safe-privacy.html",
+      "safe.html",
+      "safe-terms.html",
+      "index.html#contact",
+      "driver-note.html",
+      "driver-news.html",
+      "terms.html",
+      "privacy.html"
+    ],
+    "images": 2,
+    "missing_alt": 0,
+    "missing_image_dimensions": 2,
+    "adsense": false,
+    "stale": [
+      "DELIPIT公式サイト内のSAFE専用案内です。TEST BUILD / NOT RC。SAFE V43.7の確認済み運営方針と、既存の実装・法令案内を掲載しています。正式な一般公開の承認完了を示すものではありません。",
+      "TEST BUILD / NOT RC",
+      "確認日：2026-10-18 · TEST BUILD / NOT RC",
+      "正式規約22条は最終候補で、未承認・未施行です。現在は同意要求を無効にし、既存記録の閲覧・出力・Backupを妨げる制限は追加していません。11月1日はローンチ目標であり、要件未達時は延期してTEST BUILD / NOT RCを維持します。",
+      "SAFEの正式規約22条は未承認・未施行です。同意要求も無効です。"
+    ],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/safe-information.html",
+      "bytes": 18160,
+      "same_as_main": true,
+      "sha256": "0807dbc1419b767ad7293ca1ef41de31b416973b924523c39a825e60b7457eba",
+      "seconds": 4.05,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "safe-privacy.html",
+    "url": "https://delipit.jp/safe-privacy.html",
+    "title": "SAFEプライバシー案内 | DELIPIT SAFE",
+    "headings": [
+      [
+        "h1",
+        "SAFEプライバシー案内"
+      ],
+      [
+        "h2",
+        "1. 運営者・お問い合わせ"
+      ],
+      [
+        "h2",
+        "2. 取り扱う情報"
+      ],
+      [
+        "h2",
+        "3. 利用目的"
+      ],
+      [
+        "h2",
+        "4. 外部通信・処理事業者"
+      ],
+      [
+        "h2",
+        "5. 解析・広告・Cookie等"
+      ],
+      [
+        "h2",
+        "6. Backup／Restore・共有"
+      ],
+      [
+        "h2",
+        "7. 保存期間・処理場所"
+      ],
+      [
+        "h2",
+        "8. 利用者の権利と対応方法"
+      ],
+      [
+        "h2",
+        "9. 変更・連絡先"
+      ]
+    ],
+    "canonical": "https://delipit.jp/safe-privacy.html",
+    "description": "DELIPIT公式サイトのSAFEプライバシー案内。SAFEテスト版の確認済み事項と、正式条件・運営情報の確認中事項を区別します。",
+    "robots": "noindex,follow,noarchive",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 5017,
+    "links": [
+      "index.html",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "index.html",
+      "index.html",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "safe.html",
+      "safe-guide.html",
+      "safe-information.html",
+      "safe-terms.html",
+      "safe-privacy.html",
+      "privacy.html",
+      "mailto:info@delipit.jp",
+      "https://delipit.jp/#contact",
+      "https://openai.com/policies/chatgpt-sites-data-processing-addendum/",
+      "https://delipit.jp/safe-guide.html#backup",
+      "mailto:info@delipit.jp",
+      "mailto:info@delipit.jp",
+      "driver-note.html",
+      "driver-news.html",
+      "terms.html",
+      "privacy.html"
+    ],
+    "images": 2,
+    "missing_alt": 0,
+    "missing_image_dimensions": 2,
+    "adsense": false,
+    "stale": [
+      "DELIPIT公式サイト内のSAFE専用案内です。TEST BUILD / NOT RC。SAFE V43.7の確認済み運営方針と、既存の実装・法令案内を掲載しています。正式な一般公開の承認完了を示すものではありません。",
+      "TEST BUILD / NOT RC",
+      "以下の9項目は正式施行前の案です。所有者の全文承認と法的表示の確認が完了するまで、施行済みのPrivacyとして扱いません。",
+      "SAFEはREVERIEを運営ブランドとする個人事業主が提供し、SORAが開発・問い合わせを担当します。REVERIEは法人名ではなく、SORAは法的氏名の表示ではありません。運営者の法令上必要な情報は適用法令に従い提供します。表示及び請求への回答方法は正式施行前に確認します。お問い合わせは"
+    ],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/safe-privacy.html",
+      "bytes": 17342,
+      "same_as_main": true,
+      "sha256": "f706954f38ba1d097cf9b06d17705f0b2e58ca26b629721a73e312be6b1e3575",
+      "seconds": 4.0,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "safe-terms.html",
+    "url": "https://delipit.jp/safe-terms.html",
+    "title": "SAFE規約案内・提供範囲 | DELIPIT SAFE",
+    "headings": [
+      [
+        "h1",
+        "SAFE規約案内・提供範囲"
+      ],
+      [
+        "h2",
+        "1. 名称・目的・対象"
+      ],
+      [
+        "h2",
+        "2. 実施した事実を記録する"
+      ],
+      [
+        "h2",
+        "3. 記録・帳票・バックアップ"
+      ],
+      [
+        "h2",
+        "4. 正式な契約条件の確認状況"
+      ],
+      [
+        "h2",
+        "5. 運営表示・問い合わせ"
+      ],
+      [
+        "h2",
+        "正式利用規約22条全文案（未承認・未施行）"
+      ],
+      [
+        "h2",
+        "第1条 サービス名称・定義"
+      ],
+      [
+        "h2",
+        "第2条 運営主体"
+      ],
+      [
+        "h2",
+        "第3条 利用対象"
+      ],
+      [
+        "h2",
+        "第4条 規約の適用・同意"
+      ],
+      [
+        "h2",
+        "第5条 サービス内容と提供範囲"
+      ],
+      [
+        "h2",
+        "第6条 基本無料の利用条件"
+      ],
+      [
+        "h2",
+        "第7条 将来の広告導入"
+      ],
+      [
+        "h2",
+        "第8条 利用者の責任"
+      ],
+      [
+        "h2",
+        "第9条 法令遵守と業務記録"
+      ],
+      [
+        "h2",
+        "第10条 SELF点呼"
+      ],
+      [
+        "h2",
+        "第11条 端末保存・暗号化・認証"
+      ],
+      [
+        "h2",
+        "第12条 Backup／Restore"
+      ],
+      [
+        "h2",
+        "第13条 データ消失・端末故障のリスク"
+      ],
+      [
+        "h2",
+        "第14条 禁止行為"
+      ],
+      [
+        "h2",
+        "第15条 変更・停止・終了"
+      ],
+      [
+        "h2",
+        "第16条 知的財産権"
+      ],
+      [
+        "h2",
+        "第17条 免責と責任の範囲"
+      ],
+      [
+        "h2",
+        "第18条 プライバシーとの関係"
+      ],
+      [
+        "h2",
+        "第19条 規約変更と通知"
+      ],
+      [
+        "h2",
+        "第20条 問い合わせ先"
+      ],
+      [
+        "h2",
+        "第21条 準拠法・紛争への対応"
+      ],
+      [
+        "h2",
+        "第22条 適用開始日"
+      ],
+      [
+        "h2",
+        "重要なお知らせ — 2026年10月19日 / V43.7"
+      ]
+    ],
+    "canonical": "https://delipit.jp/safe-terms.html",
+    "description": "DELIPIT公式サイトのSAFE規約案内・提供範囲。SAFEテスト版の確認済み事項と、正式条件・運営情報の確認中事項を区別します。",
+    "robots": "noindex,follow,noarchive",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 7432,
+    "links": [
+      "index.html",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "index.html",
+      "index.html",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "safe.html",
+      "safe-guide.html",
+      "safe-information.html",
+      "safe-terms.html",
+      "safe-privacy.html",
+      "safe-information.html#legal",
+      "safe-guide.html#backup",
+      "mailto:info@delipit.jp",
+      "https://delipit.jp/#contact",
+      "https://web3forms.com/privacy",
+      "https://delipit.jp/terms.html",
+      "safe.html",
+      "safe-guide.html",
+      "safe-information.html",
+      "safe-terms.html",
+      "safe-privacy.html",
+      "safe.html",
+      "driver-note.html",
+      "driver-news.html",
+      "terms.html",
+      "privacy.html"
+    ],
+    "images": 2,
+    "missing_alt": 0,
+    "missing_image_dimensions": 2,
+    "adsense": false,
+    "stale": [
+      "DELIPIT公式サイト内のSAFE専用案内です。TEST BUILD / NOT RC。SAFE V43.7の確認済み運営方針と、既存の実装・法令案内を掲載しています。正式な一般公開の承認完了を示すものではありません。",
+      "TEST BUILD / NOT RC",
+      "TEST BUILD / NOT RC。ここでは確認済みの提供範囲と利用上の注意を案内します。正式な契約条件・運営者の法的表示の整備は未完了です。既存記録の閲覧・バックアップを、新しい同意操作で制限しません。",
+      "正式利用規約22条全文案（未承認・未施行）",
+      "SAFEの提供主体は、REVERIEを運営ブランド・屋号とする個人事業主です。SORAは開発者・問い合わせ担当の対外活動名であり、いずれも法人名又は法的氏名を意味しません。お問い合わせは info@delipit.jp で受け付けます。法令により開示を要する事業者情報については、適用法令に従い案内します。法令上必要な表示・請求対応方法の適合性は、正式施行前に確認します。",
+      "正式規約22条は最終候補で、未承認・未施行です。現在は同意要求を無効にし、既存記録の閲覧・出力・Backupを妨げる制限は追加していません。11月1日はローンチ目標であり、要件未達時は延期してTEST BUILD / NOT RCを維持します。"
+    ],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/safe-terms.html",
+      "bytes": 25496,
+      "same_as_main": true,
+      "sha256": "101642433bb8b69d1490f691d9d48af45ff078dba9e8502a417397b9b5635c6c",
+      "seconds": 4.01,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "safe.html",
+    "url": "https://delipit.jp/safe.html",
+    "title": "DELIPIT SAFE — 運行記録・安全管理補助 | DELIPIT SAFE",
+    "headings": [
+      [
+        "h1",
+        "安全を、毎日の流れに。"
+      ],
+      [
+        "h2",
+        "日々の確認から、記録・保管まで。"
+      ],
+      [
+        "h2",
+        "記録のために、仕事を止めない。"
+      ],
+      [
+        "h2",
+        "使い方も、記録の意味も。"
+      ],
+      [
+        "h2",
+        "ホーム画面から、いつもの安全確認へ。"
+      ],
+      [
+        "h2",
+        "FUUが状態を伝え、RONAが次を案内する。"
+      ],
+      [
+        "h2",
+        "業務記録を、端末内で守る。"
+      ],
+      [
+        "h2",
+        "ひとりで働くドライバーの、安全管理に。"
+      ],
+      [
+        "h2",
+        "配送の現場から、ドライバーへ。"
+      ],
+      [
+        "h2",
+        "よくある質問"
+      ],
+      [
+        "h2",
+        "正式公開・更新について"
+      ],
+      [
+        "h2",
+        "DRIVE SAFE. STAY READY."
+      ]
+    ],
+    "canonical": "https://delipit.jp/safe.html",
+    "description": "四輪以上の貨物軽自動車運送事業向け。点呼・日常点検・業務記録・7帳票・暗号化端末保存を支援。正式公開版 1.0.0。",
+    "robots": "index,follow,max-image-preview:large",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 4100,
+    "links": [
+      "index.html",
+      "index.html",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "index.html#about",
+      "index.html#contact",
+      "index.html#products",
+      "index.html",
+      "index.html#products",
+      "delipit.html",
+      "manual.html",
+      "safe.html",
+      "safe-guide.html",
+      "driver-note.html",
+      "driver-news.html",
+      "index.html#about",
+      "index.html#contact",
+      "https://safe.delipit.jp/",
+      "safe-guide.html",
+      "#safe-features",
+      "safe-guide.html",
+      "safe-guide.html",
+      "safe-information.html",
+      "safe-guide.html",
+      "safe-privacy.html",
+      "safe-information.html",
+      "driver-note.html",
+      "driver-news.html",
+      "https://safe.delipit.jp/",
+      "index.html#contact",
+      "mailto:info@delipit.jp",
+      "safe-terms.html",
+      "safe-privacy.html",
+      "https://safe.delipit.jp/",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "terms.html",
+      "privacy.html"
+    ],
+    "images": 13,
+    "missing_alt": 0,
+    "missing_image_dimensions": 13,
+    "adsense": false,
+    "stale": [
+      "SAFEはWebアプリです。対応端末ではホーム画面に追加して利用できます。正式公開前のTEST BUILDであり、利用環境によって操作・保存条件が異なります。",
+      "状態に合わせた表情・案内を使い分けています。公開テスト中のため表示条件や表現は調整される場合があります。"
+    ],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/safe.html",
+      "bytes": 42378,
+      "same_as_main": true,
+      "sha256": "9dc81d69cf53388d06c8f52808c3312d0002934e839a40f4ca54968d480c9902",
+      "seconds": 4.1,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "safety-guide.html",
+    "url": "https://delipit.jp/safety-guide.html",
+    "title": "軽貨物の安全管理｜点呼・日常点検・記録の基本 | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "軽貨物の安全管理｜点呼・日常点検・記録の基本"
+      ],
+      [
+        "h2",
+        "図で見る、このガイドの流れ"
+      ],
+      [
+        "h2",
+        "一人で働いていても対象"
+      ],
+      [
+        "h2",
+        "点呼と日常点検"
+      ],
+      [
+        "h2",
+        "記録の保存"
+      ],
+      [
+        "h2",
+        "安全管理者と講習"
+      ],
+      [
+        "h2",
+        "記録アプリは義務を代行しない"
+      ],
+      [
+        "h2",
+        "参照した公的資料"
+      ]
+    ],
+    "canonical": "https://delipit.jp/safety-guide.html",
+    "description": "軽貨物事業者の安全管理について、国土交通省の制度案内に基づき、選任・点呼・記録を確認する入口。",
+    "robots": "index,follow",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 1159,
+    "links": [
+      "index.html",
+      "driver-support.html",
+      "#part1",
+      "#part2",
+      "#part3",
+      "#part4",
+      "#part5",
+      "https://www.mlit.go.jp/jidosha/jidosha_tk2_000172.html",
+      "https://www.mlit.go.jp/jidosha/jidosha_tk2_000162.html",
+      "https://www.mlit.go.jp/jidosha/jidosha_tk2_000173.html",
+      "driver-support.html",
+      "operator-disclosure.html",
+      "privacy.html"
+    ],
+    "images": 2,
+    "missing_alt": 0,
+    "missing_image_dimensions": 0,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/safety-guide.html",
+      "bytes": 8093,
+      "same_as_main": true,
+      "sha256": "5095f4b4011790764048f5235b239c96f1dc0c1a3e93c5a4cc0bca4d041290a4",
+      "seconds": 3.96,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "start-guide.html",
+    "url": "https://delipit.jp/start-guide.html",
+    "title": "軽貨物の始め方｜初心者向け6ステップ | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "軽貨物ドライバーの始め方初心者向け6ステップ"
+      ],
+      [
+        "h2",
+        "図で見る、このガイドの流れ"
+      ],
+      [
+        "h2",
+        "仕事の種類と報酬を知る"
+      ],
+      [
+        "h2",
+        "契約内容を確認する"
+      ],
+      [
+        "h2",
+        "事業用の車と黒ナンバーを準備する"
+      ],
+      [
+        "h2",
+        "安全管理の準備をする"
+      ],
+      [
+        "h2",
+        "税金と売上管理の準備をする"
+      ],
+      [
+        "h2",
+        "初稼働の前日に確認する"
+      ],
+      [
+        "h2",
+        "よく出る言葉の意味"
+      ],
+      [
+        "h2",
+        "公式情報・参考資料"
+      ]
+    ],
+    "canonical": "https://delipit.jp/start-guide.html",
+    "description": "軽貨物ドライバーの始め方を初心者向けに6ステップで解説。仕事内容、契約、黒ナンバー、安全管理、税金、初稼働の準備まで。",
+    "robots": "index,follow",
+    "viewport": "width=device-width,initial-scale=1",
+    "chars": 2567,
+    "links": [
+      "index.html",
+      "driver-support.html",
+      "#step1",
+      "#step2",
+      "#step3",
+      "#step4",
+      "#step5",
+      "#step6",
+      "contract-guide.html",
+      "safety-guide.html",
+      "money-guide.html",
+      "driver-note-07.html",
+      "https://www.mlit.go.jp/jidosha/jidosha_tk2_000172.html",
+      "https://laws.e-gov.go.jp/law/402M50000800021",
+      "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2090.htm",
+      "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice.htm",
+      "driver-faq.html",
+      "driver-support.html",
+      "operator-disclosure.html",
+      "privacy.html"
+    ],
+    "images": 2,
+    "missing_alt": 0,
+    "missing_image_dimensions": 0,
+    "adsense": false,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/start-guide.html",
+      "bytes": 13927,
+      "same_as_main": true,
+      "sha256": "c26cd56f85512c1019ace3851581d5f0b4345ca5a9d254ff34be77aefd5d775b",
+      "seconds": 5.22,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  },
+  {
+    "path": "terms.html",
+    "url": "https://delipit.jp/terms.html",
+    "title": "利用規約 | DELIPIT",
+    "headings": [
+      [
+        "h1",
+        "利用規約"
+      ],
+      [
+        "h2",
+        "1. サービスについて"
+      ],
+      [
+        "h2",
+        "2. 利用上の責任"
+      ],
+      [
+        "h2",
+        "3. データの管理"
+      ],
+      [
+        "h2",
+        "4. 禁止事項"
+      ],
+      [
+        "h2",
+        "5. サービスの変更・停止"
+      ],
+      [
+        "h2",
+        "6. 保証および免責"
+      ],
+      [
+        "h2",
+        "7. 知的財産"
+      ],
+      [
+        "h2",
+        "8. 規約の変更"
+      ],
+      [
+        "h2",
+        "9. 準拠法"
+      ]
+    ],
+    "canonical": "https://delipit.jp/terms.html",
+    "description": "DELIPITの利用規約です。サービスの利用条件、データ管理、禁止事項、免責事項などを定めています。",
+    "robots": "index,follow",
+    "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+    "chars": 1291,
+    "links": [
+      "index.html",
+      "index.html#products",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "https://app.delipit.jp/",
+      "index.html",
+      "index.html#products",
+      "safe.html",
+      "driver-note.html",
+      "driver-news.html",
+      "quickstart.html",
+      "manual.html",
+      "pitcrew.html",
+      "mailto:info@delipit.jp",
+      "https://x.com/DELIPIT_JP"
+    ],
+    "images": 1,
+    "missing_alt": 0,
+    "missing_image_dimensions": 1,
+    "adsense": true,
+    "stale": [],
+    "live": {
+      "status": 200,
+      "final_url": "https://delipit.jp/terms.html",
+      "bytes": 10598,
+      "same_as_main": true,
+      "sha256": "5c8dd03d21bb112d7d4906eb4d59aa7e5de8dbb208bce128b327ec6922e9c9c5",
+      "seconds": 5.22,
+      "last_modified": "Sat, 31 Oct 2026 23:03:44 GMT"
+    }
+  }
+]
