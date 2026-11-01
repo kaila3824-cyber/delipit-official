@@ -128,3 +128,33 @@ Google公式は十分な独自コンテンツと明確なナビゲーション�
 - SAFE側の別作業では、表示用候補だけで正確な見出しを直し、3ページの活性化後表示から「未施行」を検査し、承認済み本文のハッシュが不変であることを確認するのが妥当。今回はSAFE本体、正式文書本文、同意履歴、利用者データを変更していない。
 
 **次のゲート：** 同条件の変更前後各3回以上のLCP/CLS/TBT、iPhone実機の画像文字とレイアウト、SAFE表示矛盾の別作業での解消を確認してからREADYを再判定する。
+
+## 2026-11-02：ローカルLighthouse同条件比較（PR #19 続報）
+
+**本番反映判定：HOLD。** ローカル計測ではWebP候補のLCP改善を確認した。PRはDraft、mainへのマージ・本番公開は未実施。以下は本番PageSpeedやiPhone実機の値ではない。前節の「各3回未実施」は、この続報の実行前時点の記録である。
+
+### 再現条件と生データ
+
+- ソース：最新main 0842a789113cb0ddaa9e945a7c1d49783b374789 を before、同mainにPR #19 head 39823b82ae57eb5d8e221e2b240bf18594fc0562 のサイト差分を重ねたものを after。両者を同一Python静的サーバーの /before/、/after/ に置き、before→afterを3組、順番に実行した。
+- Lighthouse 12.8.2、Chromium 141.0.7390.0（同一バイナリ）。モバイル390×844、deviceScaleFactor 3、formFactor mobile、simulate方式、RTT 150ms、downlink 1638.4Kbps、CPU slowdown 4倍。各実行で新規Chromeを起動し、Lighthouseのストレージ初期化を有効にした。計測はperformanceカテゴリのみ。ローカルHTTPサーバーで実転送後にLighthouseが通信・CPUをシミュレーションするラボ値。
+- 両バージョンで外部Google広告スクリプトは取得失敗（status -1）。本番の広告読み込みを含むTBTや実ユーザーのINPは再現できない。サイト自身のHTML・CSS・画像は各回HTTP 200で取得でき、LighthouseのrunWarningsは0件。
+
+| 指標 | main 1 / 2 / 3 | PR #19 1 / 2 / 3 | 中央値 main → PR | 範囲 main / PR |
+| --- | --- | --- | --- | --- |
+| LCP | 4,431 / 4,353 / 4,429 ms | 2,328 / 2,328 / 2,329 ms | 4,429 → 2,328 ms（約2,101 ms短縮、約47%） | 4,353–4,431 / 2,328–2,329 ms |
+| CLS | 0 / 0 / 0 | 0 / 0 / 0 | 0 → 0 | 0 / 0 |
+| TBT | 0 / 44 / 0 ms | 0 / 0 / 0 ms | 0 → 0 ms | 0–44 / 0 ms |
+| ヒーロー画像転送量 | 587,629 bytes ×3 | 153,065 bytes ×3 | 587,629 → 153,065 bytes（434,564 bytes減、約74%） | 変動なし / 変動なし |
+| ページ総転送量（Lighthouse） | 652,204 bytes ×3 | 217,863 bytes ×3 | 652,204 → 217,863 bytes | 変動なし / 変動なし |
+| Performance score | 85 / 85 / 85 | 98 / 98 / 98 | 85 → 98 | 変動なし / 変動なし |
+
+LCP要素は各版とも採用ヒーロー画像で、表示ボックス390px幅で374×約409pxと同じ。Lighthouseのnetwork-requestsではmainがJPEG実体587,438 bytes、PRがWebP実体152,874 bytes。WebPの取得が同じURLから一回のみで、JPEGの同時取得はない。ファイルサイズ差とLCPの差には関連があるが、個別のpreload、priority、形式変換の寄与をこの比較だけで分離できない。TBT中央値0は改善の証拠と解釈しない。
+
+### 画像・差分・SAFEの確認
+
+- 同一Chromiumの390px DOM再確認：PRはWebPがcurrentSrc、画像はcompleteで1199×1312px、preloadはWebPを指し、fetchPriorityはhigh、loadingはeager。JPEGフォールバックの試験ページでsourceを無効にすると、currentSrcは保持したJPEGになり画像は完了。フォールバック用試験ページはWebP対応Chromium上で強制選択したため、preloadされたWebPも取得した。WebP非対応ブラウザでのpreload挙動までは確認できない。
+- before/after/fallbackの表示ボックスは同じ374×約409px、横はみ出し・ヘッダー重なりなし。前節の375/390/430px確認も維持。画像内文字のiPhone Safari実機での読みやすさは確認できない。
+- 最新main再取得後も0842a789のまま。PR差分6ファイル（ヒーローWebP、index、SAFE旧資料3ページ、監査記録）。git diff --checkはPASS、git merge-treeは競合なし。記事本文・記事URL・共通CSS・既存JPEG・規約本文・アプリ本体はPR差分に含まれない。ページ全体の本番動作と実機表示は未確認。
+- SAFEの未施行見出しは別件。対象はSAFE側の公開用表示生成と活性化後の3ページの見出しであり、承認済みの利用規約・Privacy・運営方針の本文やハッシュ、同意履歴・利用者データではない。別作業の検証条件：正しい現行見出しだけを表示候補で置換し、terms/privacy/operator-policyの適用日と見出しの矛盾がないこと、3つの承認済み本文ハッシュ不変、同意処理・履歴不変を確認する。今回はSAFEに変更なし。
+
+ローカルのLCP改善は確認できたが、外部広告が読み込まれる本番と同条件でのPageSpeed検証、iPhone実機、SAFE表示矛盾、旧PHP等の監査残件があるため、公開・AdSense再申請はHOLDのまま。外部計測できる隔離URLを用意した場合は同条件3回以上を再計測する。
