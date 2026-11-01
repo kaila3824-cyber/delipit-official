@@ -223,6 +223,6 @@ SORAからPR #19隔離版について次の3項目すべてPASSとの申告を�
 
 原因が特定できていないため、デザインや広告コードを推測で変更していない。修正後の同条件3回再測定は未実施、CLS≤0.1の安定性は未確認。次は公開URLを計測できるChrome DevTools Performanceで低速モバイル設定のトレースを保存し、`LayoutShift`イベントの時刻、affected nodes、広告やホスト挿入の前後を確認する。原因が確定した場合のみ最小修正を行い、外部PageSpeedを3回以上再測定する。
 
-最新`origin/main`は`0842a789113cb0ddaa9e945a7c1d49783b374789`で、PR作業版とのmerge-treeに競合マーカーはない。差分はヒーローWebP、トップの読み込み指定、監査文書、SAFE旧資料3ページの案内のみで、PR #18の統合はない。主要6カードの遷移先ファイルは全て存在する。`picture`のWebP source、JPEG `img`、preload、優先度指定は維持している。これらはソース上の再確認であり、今回の追加分について公開上の操作試験を行ったことは意味しない。
+最新`origin/main`は`0842a789113cb0ddaa9e945a7c1d49783b374789`で、PR作業版とのmerge-treeに競合マーカーはない。差分はヒーローWebP、トップの読み込み指定、監査文書、SAFE旧資料3ページの案内のみで、PR #18の統合はない。主要6カードの遷移先ファイルは全て存在する。公開隔離URL上でも6遷移先をリダイレクト追跡でHTTP 200・`text/html`、WebPをHTTP 200・`image/webp`（152,874 bytes）、JPEGをHTTP 200・`image/jpeg`（587,438 bytes）と確認した。`picture`のWebP source、JPEG `img`、preload、優先度指定は維持している。この追加確認はHTTP応答とソースの検証であり、iPhoneでの全記事操作試験を意味しない。
 
 **PR #19リリース判定：HOLD。** SORA申告のiPhone Safari実機Acceptanceは3/3 PASSだが、外部PageSpeedのCLS 1.000が3回中2回で原因未確定。PRはDraftのまま、マージ・本番公開・AdSense再申請は行わない。
