@@ -155,6 +155,7 @@ LCP要素は各版とも採用ヒーロー画像で、表示ボックス390px幅
 - 同一Chromiumの390px DOM再確認：PRはWebPがcurrentSrc、画像はcompleteで1199×1312px、preloadはWebPを指し、fetchPriorityはhigh、loadingはeager。JPEGフォールバックの試験ページでsourceを無効にすると、currentSrcは保持したJPEGになり画像は完了。フォールバック用試験ページはWebP対応Chromium上で強制選択したため、preloadされたWebPも取得した。WebP非対応ブラウザでのpreload挙動までは確認できない。
 - before/after/fallbackの表示ボックスは同じ374×約409px、横はみ出し・ヘッダー重なりなし。前節の375/390/430px確認も維持。画像内文字のiPhone Safari実機での読みやすさは確認できない。
 - 最新main再取得後も0842a789のまま。PR差分6ファイル（ヒーローWebP、index、SAFE旧資料3ページ、監査記録）。git diff --checkはPASS、git merge-treeは競合なし。記事本文・記事URL・共通CSS・既存JPEG・規約本文・アプリ本体はPR差分に含まれない。ページ全体の本番動作と実機表示は未確認。
+- PR版の35 HTMLでローカル参照721件を静的照合し、参照先欠落0件。トップの主要6カードは順に start-guide.html、contract-guide.html、driver-note-07.html、money-guide.html、safety-guide.html、driver-faq.html を指し、6ファイルが存在し本文を含む。HTTPでの各記事操作・フォーム送信・外部リンクは今回再検証していない。
 - SAFEの未施行見出しは別件。対象はSAFE側の公開用表示生成と活性化後の3ページの見出しであり、承認済みの利用規約・Privacy・運営方針の本文やハッシュ、同意履歴・利用者データではない。別作業の検証条件：正しい現行見出しだけを表示候補で置換し、terms/privacy/operator-policyの適用日と見出しの矛盾がないこと、3つの承認済み本文ハッシュ不変、同意処理・履歴不変を確認する。今回はSAFEに変更なし。
 
 ローカルのLCP改善は確認できたが、外部広告が読み込まれる本番と同条件でのPageSpeed検証、iPhone実機、SAFE表示矛盾、旧PHP等の監査残件があるため、公開・AdSense再申請はHOLDのまま。外部計測できる隔離URLを用意した場合は同条件3回以上を再計測する。
