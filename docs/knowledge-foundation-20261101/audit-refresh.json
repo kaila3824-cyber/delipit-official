@@ -1,0 +1,296 @@
+[
+  {
+    "path": "assets/gamification.html",
+    "url": "https://delipit.jp/assets/gamification.html",
+    "status": 200,
+    "sha256": "66c5ee6231c68c757efcb900eff3b680d204a626fb1cf84939914280861f12c4",
+    "same_as_baseline": true
+  },
+  {
+    "path": "assets/index.html",
+    "url": "https://delipit.jp/assets/index.html",
+    "status": 200,
+    "sha256": "622a2b555e8fb5d0c47830ff4d1a63d2152b26e977148fe9100e17e804962358",
+    "same_as_baseline": true
+  },
+  {
+    "path": "assets/manual.html",
+    "url": "https://delipit.jp/assets/manual.html",
+    "status": 200,
+    "sha256": "83d98bb27deddabab65f406768f31d91bd7add215b5a3de1cc9be034b859afb1",
+    "same_as_baseline": true
+  },
+  {
+    "path": "assets/pitcrew.html",
+    "url": "https://delipit.jp/assets/pitcrew.html",
+    "status": 200,
+    "sha256": "4fbee7d8df22941b881fb05f8d9414e136fbf4cfcfb7488dcd98d921c56f213a",
+    "same_as_baseline": true
+  },
+  {
+    "path": "assets/privacy.html",
+    "url": "https://delipit.jp/assets/privacy.html",
+    "status": 200,
+    "sha256": "4ecc15fc7d85ad32fa5acc7cac9cc44da0f5ec7913e5bbad2df063987102754b",
+    "same_as_baseline": true
+  },
+  {
+    "path": "assets/quickstart.html",
+    "url": "https://delipit.jp/assets/quickstart.html",
+    "status": 200,
+    "sha256": "614b927c18dbb8dad68e1fa1b8781f45ba1f00bdef262d1ba272210fe2f80637",
+    "same_as_baseline": true
+  },
+  {
+    "path": "assets/terms.html",
+    "url": "https://delipit.jp/assets/terms.html",
+    "status": 200,
+    "sha256": "6b9e631d8e0fb57a0481c062162d8236764e61e778fb85ecfb77793a4ab03359",
+    "same_as_baseline": true
+  },
+  {
+    "path": "contract-guide.html",
+    "url": "https://delipit.jp/contract-guide.html",
+    "status": 200,
+    "sha256": "af4dc867cb778e00dec7bad51f4d9cda5aff91ad9c3c33103fe3be68f47d8a1d",
+    "same_as_baseline": true
+  },
+  {
+    "path": "delipit.html",
+    "url": "https://delipit.jp/delipit.html",
+    "status": 200,
+    "sha256": "423e20e451cdd56ea8c43e47bbe3a76e1112e2e08574da07045912b7fb688982",
+    "same_as_baseline": true
+  },
+  {
+    "path": "driver-faq.html",
+    "url": "https://delipit.jp/driver-faq.html",
+    "status": 200,
+    "sha256": "fdd0a09fdcbb66bf71b8b029afeeb873c99a37b6f073763280164fff441653cf",
+    "same_as_baseline": true
+  },
+  {
+    "path": "driver-news.html",
+    "url": "https://delipit.jp/driver-news.html",
+    "status": 200,
+    "sha256": "fa80f9c44a2e505fbf61e17853dd836ce74ea7d28384ac19d35f653eb131c0f0",
+    "same_as_baseline": true
+  },
+  {
+    "path": "driver-note-01.html",
+    "url": "https://delipit.jp/driver-note-01.html",
+    "status": 200,
+    "sha256": "0140bf64d682bda191a9fb7a60d7d4d1d68a4a545f421d9044c84c22db8be8b6",
+    "same_as_baseline": true
+  },
+  {
+    "path": "driver-note-02.html",
+    "url": "https://delipit.jp/driver-note-02.html",
+    "status": 200,
+    "sha256": "59237cc390507ee1ee7747df32b210bbcc5f4590cdfbb3fafa0b5b96b0d627ae",
+    "same_as_baseline": true
+  },
+  {
+    "path": "driver-note-03.html",
+    "url": "https://delipit.jp/driver-note-03.html",
+    "status": 200,
+    "sha256": "8c16fd75734c31b48ec3a3bf55b68400e3f7d43a330736b88a159055b99203e1",
+    "same_as_baseline": true
+  },
+  {
+    "path": "driver-note-04.html",
+    "url": "https://delipit.jp/driver-note-04.html",
+    "status": 200,
+    "sha256": "fd4454254394cd28d39cceb5754e6e9ed6c0ca3fafc65d4ed036ac9a852b66a8",
+    "same_as_baseline": true
+  },
+  {
+    "path": "driver-note-05.html",
+    "url": "https://delipit.jp/driver-note-05.html",
+    "status": 200,
+    "sha256": "0dbbdd6aeeabc2a99bfb454795233e7d2e5a26110e815661dc7e2d8ae0dcc01b",
+    "same_as_baseline": true
+  },
+  {
+    "path": "driver-note-06.html",
+    "url": "https://delipit.jp/driver-note-06.html",
+    "status": 200,
+    "sha256": "b3d5c47082c7819e3c79787ea5ff078816e7fdc7c9785514e7133a9b79c1bee3",
+    "same_as_baseline": true
+  },
+  {
+    "path": "driver-note-07.html",
+    "url": "https://delipit.jp/driver-note-07.html",
+    "status": 200,
+    "sha256": "3c3127c06996c439d0408bd44d1019fb1d845f8e01aa51fad164a8249293d7e4",
+    "same_as_baseline": true
+  },
+  {
+    "path": "driver-note-08.html",
+    "url": "https://delipit.jp/driver-note-08.html",
+    "status": 200,
+    "sha256": "deaccf27c77fa05112867263b18434d24322ff01329226cd4091389ab5545ccd",
+    "same_as_baseline": true
+  },
+  {
+    "path": "driver-note-09.html",
+    "url": "https://delipit.jp/driver-note-09.html",
+    "status": 200,
+    "sha256": "46fbbddfec44e3d621936f760ea4d8c25cd0033738e7157f754ed15e06fda18d",
+    "same_as_baseline": true
+  },
+  {
+    "path": "driver-note-10.html",
+    "url": "https://delipit.jp/driver-note-10.html",
+    "status": 200,
+    "sha256": "f85b379648aa6224d3ccd1a02e167dda6d44c90c4fe0f2876983defa7dbd5a2d",
+    "same_as_baseline": true
+  },
+  {
+    "path": "driver-note-11.html",
+    "url": "https://delipit.jp/driver-note-11.html",
+    "status": 200,
+    "sha256": "af7d767ccbccb2352959d053e2ef6423ce494c741e54865fd258671174e795e8",
+    "same_as_baseline": true
+  },
+  {
+    "path": "driver-note.html",
+    "url": "https://delipit.jp/driver-note.html",
+    "status": 200,
+    "sha256": "daa069dbf7bf3038f167e6a98f3c6dc76113cd3464519d97409840898dde6414",
+    "same_as_baseline": true
+  },
+  {
+    "path": "driver-support.html",
+    "url": "https://delipit.jp/driver-support.html",
+    "status": 200,
+    "sha256": "4baca05abf387d29d6ef10b634137ba16d2e2c999ac8be1d6ecd07e753aa655a",
+    "same_as_baseline": true
+  },
+  {
+    "path": "field-workflow.html",
+    "url": "https://delipit.jp/field-workflow.html",
+    "status": 200,
+    "sha256": "74870b9a57ffa881f1ae0ed7aae830b4560e72a34db10f77f9d66f91bd641309",
+    "same_as_baseline": true
+  },
+  {
+    "path": "gamification.html",
+    "url": "https://delipit.jp/gamification.html",
+    "status": 200,
+    "sha256": "bf25404108c1d0871ebad2feabd7567519b1a89df8013dd0d627c3c2118c33e1",
+    "same_as_baseline": true
+  },
+  {
+    "path": "index.html",
+    "url": "https://delipit.jp/",
+    "status": 200,
+    "sha256": "d1474ac0d96f8e9aa1fe38598221f1fd88769fd780df88e1990b449334be8a48",
+    "same_as_baseline": true
+  },
+  {
+    "path": "manual.html",
+    "url": "https://delipit.jp/manual.html",
+    "status": 200,
+    "sha256": "4bc13899f25b3e233d9f8cdf4ed4a1f74768b107dcd2b6c8b0306f343783488e",
+    "same_as_baseline": true
+  },
+  {
+    "path": "money-guide.html",
+    "url": "https://delipit.jp/money-guide.html",
+    "status": 200,
+    "sha256": "3230dda83f1c3f8fa6115e695c0ba0aeb70e7c11386fcc004e0ba29d80999745",
+    "same_as_baseline": true
+  },
+  {
+    "path": "news-v120.html",
+    "url": "https://delipit.jp/news-v120.html",
+    "status": 200,
+    "sha256": "8a1e543df62088d817ee77812a6a56a5f7b121f6e171e009881e95a85d4fffca",
+    "same_as_baseline": true
+  },
+  {
+    "path": "operator-disclosure.html",
+    "url": "https://delipit.jp/operator-disclosure.html",
+    "status": 200,
+    "sha256": "17e4c65c99a289f5b1294e8ec5cbbff535b7e0973f0c5fbf3b9fe4d34b4be594",
+    "same_as_baseline": true
+  },
+  {
+    "path": "pitcrew.html",
+    "url": "https://delipit.jp/pitcrew.html",
+    "status": 200,
+    "sha256": "6f2c0f778229d8b0b0b4ab9803c1b311cbb63f463e5e7cad4030d0d3b5181c66",
+    "same_as_baseline": true
+  },
+  {
+    "path": "privacy.html",
+    "url": "https://delipit.jp/privacy.html",
+    "status": 200,
+    "sha256": "4792416d8166b2bfc71edd5d83c57876fc44ce83839ec7f45401f27dc44f0aff",
+    "same_as_baseline": true
+  },
+  {
+    "path": "quickstart.html",
+    "url": "https://delipit.jp/quickstart.html",
+    "status": 200,
+    "sha256": "ae0c68c5839460c1046805ed0307bbe98dfa79347734adcdf2277b2312f429a5",
+    "same_as_baseline": true
+  },
+  {
+    "path": "safe-guide.html",
+    "url": "https://delipit.jp/safe-guide.html",
+    "status": 200,
+    "sha256": "71838bd75c3f8b41d062b8cba57fc7b83da589a128f3603665a7f795ca5da4da",
+    "same_as_baseline": true
+  },
+  {
+    "path": "safe-information.html",
+    "url": "https://delipit.jp/safe-information.html",
+    "status": 200,
+    "sha256": "0807dbc1419b767ad7293ca1ef41de31b416973b924523c39a825e60b7457eba",
+    "same_as_baseline": true
+  },
+  {
+    "path": "safe-privacy.html",
+    "url": "https://delipit.jp/safe-privacy.html",
+    "status": 200,
+    "sha256": "f706954f38ba1d097cf9b06d17705f0b2e58ca26b629721a73e312be6b1e3575",
+    "same_as_baseline": true
+  },
+  {
+    "path": "safe-terms.html",
+    "url": "https://delipit.jp/safe-terms.html",
+    "status": 200,
+    "sha256": "101642433bb8b69d1490f691d9d48af45ff078dba9e8502a417397b9b5635c6c",
+    "same_as_baseline": true
+  },
+  {
+    "path": "safe.html",
+    "url": "https://delipit.jp/safe.html",
+    "status": 200,
+    "sha256": "9dc81d69cf53388d06c8f52808c3312d0002934e839a40f4ca54968d480c9902",
+    "same_as_baseline": true
+  },
+  {
+    "path": "safety-guide.html",
+    "url": "https://delipit.jp/safety-guide.html",
+    "status": 200,
+    "sha256": "5095f4b4011790764048f5235b239c96f1dc0c1a3e93c5a4cc0bca4d041290a4",
+    "same_as_baseline": true
+  },
+  {
+    "path": "start-guide.html",
+    "url": "https://delipit.jp/start-guide.html",
+    "status": 200,
+    "sha256": "c26cd56f85512c1019ace3851581d5f0b4345ca5a9d254ff34be77aefd5d775b",
+    "same_as_baseline": true
+  },
+  {
+    "path": "terms.html",
+    "url": "https://delipit.jp/terms.html",
+    "status": 200,
+    "sha256": "5c8dd03d21bb112d7d4906eb4d59aa7e5de8dbb208bce128b327ec6922e9c9c5",
+    "same_as_baseline": true
+  }
+]

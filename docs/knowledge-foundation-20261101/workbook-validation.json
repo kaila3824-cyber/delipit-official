@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "sheets": 4,
+  "topic_rows": 120,
+  "source_rows": 65,
+  "article_outlines": 12,
+  "formula_totals": [
+    120,
+    26,
+    72,
+    8,
+    14,
+    13,
+    44,
+    63
+  ],
+  "formula_edit_restore": "PASS",
+  "rendered_sheets": 4,
+  "source": "data/knowledge-base/*.json",
+  "checked_on": "2026-11-01"
+}

@@ -1,0 +1,186 @@
+{
+  "result": "PASS",
+  "as_of": "2026-11-01",
+  "topics": 120,
+  "categories": 12,
+  "sources": 65,
+  "article_outlines": 12,
+  "statuses": {
+    "CONDITIONAL": 72,
+    "VERIFIED": 26,
+    "NEEDS REVIEW": 8,
+    "UNCONFIRMED": 14
+  },
+  "review_queue_count": 22,
+  "review_queue": [
+    {
+      "id": "Q01-04",
+      "recorded_status": "NEEDS REVIEW",
+      "effective_review_state": "NEEDS REVIEW",
+      "next_review_on": "2026-12-01",
+      "action": "条件・施行時点と一次文書の該当箇所を追加確認"
+    },
+    {
+      "id": "Q01-06",
+      "recorded_status": "UNCONFIRMED",
+      "effective_review_state": "UNCONFIRMED",
+      "next_review_on": "2026-12-01",
+      "action": "契約管理者・メーカー・管轄又は一次文書を特定して事実を確認"
+    },
+    {
+      "id": "Q01-10",
+      "recorded_status": "NEEDS REVIEW",
+      "effective_review_state": "NEEDS REVIEW",
+      "next_review_on": "2026-12-01",
+      "action": "条件・施行時点と一次文書の該当箇所を追加確認"
+    },
+    {
+      "id": "Q03-09",
+      "recorded_status": "UNCONFIRMED",
+      "effective_review_state": "UNCONFIRMED",
+      "next_review_on": "2026-12-01",
+      "action": "契約管理者・メーカー・管轄又は一次文書を特定して事実を確認"
+    },
+    {
+      "id": "Q03-10",
+      "recorded_status": "NEEDS REVIEW",
+      "effective_review_state": "NEEDS REVIEW",
+      "next_review_on": "2026-12-01",
+      "action": "条件・施行時点と一次文書の該当箇所を追加確認"
+    },
+    {
+      "id": "Q04-04",
+      "recorded_status": "UNCONFIRMED",
+      "effective_review_state": "UNCONFIRMED",
+      "next_review_on": "2026-11-15",
+      "action": "契約管理者・メーカー・管轄又は一次文書を特定して事実を確認"
+    },
+    {
+      "id": "Q04-05",
+      "recorded_status": "NEEDS REVIEW",
+      "effective_review_state": "NEEDS REVIEW",
+      "next_review_on": "2026-12-01",
+      "action": "条件・施行時点と一次文書の該当箇所を追加確認"
+    },
+    {
+      "id": "Q04-08",
+      "recorded_status": "UNCONFIRMED",
+      "effective_review_state": "UNCONFIRMED",
+      "next_review_on": "2026-12-01",
+      "action": "契約管理者・メーカー・管轄又は一次文書を特定して事実を確認"
+    },
+    {
+      "id": "Q05-10",
+      "recorded_status": "UNCONFIRMED",
+      "effective_review_state": "UNCONFIRMED",
+      "next_review_on": "2026-12-01",
+      "action": "契約管理者・メーカー・管轄又は一次文書を特定して事実を確認"
+    },
+    {
+      "id": "Q06-06",
+      "recorded_status": "NEEDS REVIEW",
+      "effective_review_state": "NEEDS REVIEW",
+      "next_review_on": "2026-12-01",
+      "action": "条件・施行時点と一次文書の該当箇所を追加確認"
+    },
+    {
+      "id": "Q08-04",
+      "recorded_status": "UNCONFIRMED",
+      "effective_review_state": "UNCONFIRMED",
+      "next_review_on": "2026-11-15",
+      "action": "契約管理者・メーカー・管轄又は一次文書を特定して事実を確認"
+    },
+    {
+      "id": "Q08-07",
+      "recorded_status": "UNCONFIRMED",
+      "effective_review_state": "UNCONFIRMED",
+      "next_review_on": "2026-11-15",
+      "action": "契約管理者・メーカー・管轄又は一次文書を特定して事実を確認"
+    },
+    {
+      "id": "Q08-08",
+      "recorded_status": "UNCONFIRMED",
+      "effective_review_state": "UNCONFIRMED",
+      "next_review_on": "2026-11-15",
+      "action": "契約管理者・メーカー・管轄又は一次文書を特定して事実を確認"
+    },
+    {
+      "id": "Q09-06",
+      "recorded_status": "UNCONFIRMED",
+      "effective_review_state": "UNCONFIRMED",
+      "next_review_on": "2026-12-01",
+      "action": "契約管理者・メーカー・管轄又は一次文書を特定して事実を確認"
+    },
+    {
+      "id": "Q10-02",
+      "recorded_status": "UNCONFIRMED",
+      "effective_review_state": "UNCONFIRMED",
+      "next_review_on": "2026-12-01",
+      "action": "契約管理者・メーカー・管轄又は一次文書を特定して事実を確認"
+    },
+    {
+      "id": "Q10-03",
+      "recorded_status": "UNCONFIRMED",
+      "effective_review_state": "UNCONFIRMED",
+      "next_review_on": "2026-12-01",
+      "action": "契約管理者・メーカー・管轄又は一次文書を特定して事実を確認"
+    },
+    {
+      "id": "Q10-05",
+      "recorded_status": "UNCONFIRMED",
+      "effective_review_state": "UNCONFIRMED",
+      "next_review_on": "2026-12-01",
+      "action": "契約管理者・メーカー・管轄又は一次文書を特定して事実を確認"
+    },
+    {
+      "id": "Q10-06",
+      "recorded_status": "UNCONFIRMED",
+      "effective_review_state": "UNCONFIRMED",
+      "next_review_on": "2026-12-01",
+      "action": "契約管理者・メーカー・管轄又は一次文書を特定して事実を確認"
+    },
+    {
+      "id": "Q10-07",
+      "recorded_status": "UNCONFIRMED",
+      "effective_review_state": "UNCONFIRMED",
+      "next_review_on": "2026-12-01",
+      "action": "契約管理者・メーカー・管轄又は一次文書を特定して事実を確認"
+    },
+    {
+      "id": "Q10-10",
+      "recorded_status": "NEEDS REVIEW",
+      "effective_review_state": "NEEDS REVIEW",
+      "next_review_on": "2026-12-01",
+      "action": "条件・施行時点と一次文書の該当箇所を追加確認"
+    },
+    {
+      "id": "Q11-06",
+      "recorded_status": "NEEDS REVIEW",
+      "effective_review_state": "NEEDS REVIEW",
+      "next_review_on": "2026-11-15",
+      "action": "条件・施行時点と一次文書の該当箇所を追加確認"
+    },
+    {
+      "id": "Q11-07",
+      "recorded_status": "NEEDS REVIEW",
+      "effective_review_state": "NEEDS REVIEW",
+      "next_review_on": "2026-12-01",
+      "action": "条件・施行時点と一次文書の該当箇所を追加確認"
+    }
+  ],
+  "checks": [
+    "unique IDs and normalized question titles",
+    "12 categories with three experience levels",
+    "valid source dependencies and local existing URLs",
+    "dates and explicit publication block",
+    "conditional and unknown answer fields",
+    "review deadline boundary before/on/after",
+    "all article plans are outlines only"
+  ],
+  "limitation": "構造検証。根拠の意味、法令適用、SORA Acceptanceを自動認定しない",
+  "future_review_simulation": {
+    "as_of": "2026-12-01",
+    "review_queue_count": 110,
+    "source_records_mutated": false
+  }
+}

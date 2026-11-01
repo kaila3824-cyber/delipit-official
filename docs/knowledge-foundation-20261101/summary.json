@@ -1,0 +1,27 @@
+{
+  "topics": 120,
+  "categories": 12,
+  "sources": 65,
+  "statuses": {
+    "CONDITIONAL": 72,
+    "VERIFIED": 26,
+    "NEEDS REVIEW": 8,
+    "UNCONFIRMED": 14
+  },
+  "coverage": {
+    "PARTIAL": 44,
+    "MISSING": 63,
+    "ANSWERED": 13
+  },
+  "priority": {
+    "P0": 46,
+    "P1": 61,
+    "P2": 13
+  },
+  "audience": {
+    "初心者": 37,
+    "現役": 59,
+    "ベテラン": 24
+  },
+  "overlooked": 35
+}
