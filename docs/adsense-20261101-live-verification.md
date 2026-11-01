@@ -159,3 +159,34 @@ LCP要素は各版とも採用ヒーロー画像で、表示ボックス390px幅
 - SAFEの未施行見出しは別件。対象はSAFE側の公開用表示生成と活性化後の3ページの見出しであり、承認済みの利用規約・Privacy・運営方針の本文やハッシュ、同意履歴・利用者データではない。別作業の検証条件：正しい現行見出しだけを表示候補で置換し、terms/privacy/operator-policyの適用日と見出しの矛盾がないこと、3つの承認済み本文ハッシュ不変、同意処理・履歴不変を確認する。今回はSAFEに変更なし。
 
 ローカルのLCP改善は確認できたが、外部広告が読み込まれる本番と同条件でのPageSpeed検証、iPhone実機、SAFE表示矛盾、旧PHP等の監査残件があるため、公開・AdSense再申請はHOLDのまま。外部計測できる隔離URLを用意した場合は同条件3回以上を再計測する。
+
+## 2026-11-02：外部アクセス可能な隔離受入（PR #19 続報）
+
+**最終判定：HOLD。** 変更前後を同じ条件で比較したローカルLighthouseのLCP中央値は4,429→2,328ms、CLS 0→0、TBT 0→0ms（各3回）。PR #19のヒーロー配信候補はローカルで改善した。一方、外部PageSpeedの隔離版はCLS 1.000が3回中2回、LCPは3回とも5秒を超えた。公開前の重大な未解決事項として扱う。前節までの「外部PageSpeed未実施」は、この続報以前の状態を記したもの。
+
+### 隔離URLと配信内容
+
+- 既存のDELIPIT確認用Siteは所有者限定・別の試作内容のため、変更していない。新規の専用Site https://delipit-pr19-lcp-review-20261102.inthesky08.chatgpt.site/ にPR #19版を複製して配信。Sites source commit 486aa55493ec9ce9790fe7fb42f0526f460e51d8、version 1、deployment appgdep_6ae7c1c411a88191bb31322a885312ad（succeeded）。本番 delipit.jp とGitHub main/PRの公開状態は変更なし。
+- プレビューは検索重複を避けるため全HTMLのrobots metaをnoindex,nofollow、robots.txtをDisallow: /とし、リポジトリの開発用メタデータを配信から除外した。この差と別ホスト/CDNのため、バイト単位でPR原本と同一のページではない。ヒーロー画像・CSS・記事本文・リンクは維持し、正式な規約本文は編集していない。PSIのSEO 69はプレビューの意図的なnoindexを含み、本番SEO判定に転用しない。
+- 外部HTTPでトップ200/text/html、WebP 200/image/webp、JPEGを取得。公開画像のSHA-256は隔離元のWebP/JPEGとそれぞれ一致した。主要6カードの行き先は6件とも200/text/html。公開ブラウザでトップの本文と記事リンクを表示確認。公開DOMではWebP currentSrc、1199×1312px読み込み完了、WebP preload、fetchpriority high、loading eager。ローカルChromium再検証で375/390/430pxの横はみ出し・ヘッダー重なりなし。iPhone Safari実機は未確認。
+
+### 外部PageSpeed Insights（隔離版、mobile）
+
+| 回 | Performance | LCP | CLS | TBT | 出典 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 1 | 75 | 5.157秒 | 0 | 約1ms（UI表示0ms） | https://pagespeed.web.dev/analysis/https-delipit-pr19-lcp-review-20261102-inthesky08-chatgpt-site/rx0qevakru?form_factor=mobile |
+| 2 | 43 | 5.175秒 | 1.000 | 40ms | https://pagespeed.web.dev/analysis/https-delipit-pr19-lcp-review-20261102-inthesky08-chatgpt-site/3adrlg6zwg?form_factor=mobile |
+| 3 | 44 | 5.492秒 | 1.000 | 約39ms（UI表示40ms） | https://pagespeed.web.dev/analysis/https-delipit-pr19-lcp-review-20261102-inthesky08-chatgpt-site/s42z9onii2?form_factor=mobile |
+| 中央値 | 44 | 5.175秒 | 1.000 | 約39ms | 3回のラボ計測 |
+
+- 3回ともLighthouse 13.6.0、エミュレートMoto G Power、Slow 4G、HeadlessChromium 153.0.8010.36のmobile診断。フィールドデータはNo Dataで、INPは確認できない。
+- 2回目のLayout shift culpritsは body のスコア1.000を示した。原因（サイトCSS、外部スクリプト、ホスト/CDN、計測環境のいずれか）は未確定。3回目のLCP要素は採用ヒーロー画像で、LCP breakdownはresource load delay約90ms、load duration約230ms、element render delay約2,000ms。画像圧縮だけでLCP 5秒超を解消できるとは断定しない。
+- 別ホスト・異なるLighthouse版・異なる広告/キャッシュ/ネットワーク条件のため、過去の本番PageSpeed 7.3/7.1秒と隔離版5.157/5.175/5.492秒の差を本番改善率と扱わない。ローカルの同条件比較のみがPR前後差を示す。
+
+### 残る受入条件
+
+1. 隔離版のCLS 1.000をトレースで特定し、原因の再現・修正・同条件での再測定を行う。LCP 5秒超の表示遅延も、画像転送以外の要因を調査する。PRはDraftを維持。
+2. SORAのiPhone Safariで隔離URLを開き、採用画像内の文字・PITO/RONAが読めること、横スクロールやヘッダー重なりがないこと、CTAと主要6カードから記事へ進めることを確認する。実機結果は未取得。
+3. 最新main 0842a789とPR差分6ファイルを再照合。git merge-treeは競合なし、git diff --check PASS。SAFEの「未施行」は別件で、正式本文・同意履歴・データは本PRで変更しない。
+
+隔離サイトは試験用の別URLであり、公式サイトの本番公開・AdSense再申請を意味しない。
