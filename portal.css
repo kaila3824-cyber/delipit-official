@@ -90,3 +90,18 @@ body{background:#0b0d0e}
   .steps p{font-size:15px}
 }
 @media(max-width:375px){.hero .eyebrow{font-size:10px}.problem-grid a{min-height:138px}.problem-grid strong{font-size:15px}}
+
+/* Adopted SORA hero image: show the complete artwork without repeating its lettering. */
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.hero-media{width:min(840px,calc(100% - 48px));margin:22px auto 0}
+.hero-art{display:block;width:100%;height:auto}
+.hero-action{width:min(840px,calc(100% - 48px));padding-top:14px;padding-bottom:8px}
+.hero-action .primary{max-width:none;min-height:52px;font-size:16px}
+.hero-action+.problems{padding-top:22px}
+@media(max-width:620px){
+  .hero-media,.hero-action{width:calc(100% - 16px)}
+  .hero-media{margin-top:10px}
+  .hero-action{padding-top:10px;padding-bottom:0}
+  .hero-action .primary{min-height:50px;padding:12px 17px}
+  .hero-action+.problems{padding-top:22px}
+}
