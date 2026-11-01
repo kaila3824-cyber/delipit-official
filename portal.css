@@ -22,3 +22,86 @@ html{scroll-padding-top:22px}header{position:relative}body{line-height:1.7}.hero
 .contact-status{min-height:1.6em}.contact-status.error{color:#ff9d9d}.contact-status.success{color:var(--gold)}
 .contact-privacy,.contact-note,.contact-alt{font-size:14px;color:var(--muted)}.contact-privacy a,.contact-alt a{color:var(--gold);text-decoration:underline}.contact-alt{margin-top:20px}.contact-alt-links{display:flex;gap:24px;margin-top:12px}.contact-alt-links a{min-height:44px;display:inline-flex;align-items:center}
 @media(max-width:620px){.contact-accordion summary{padding:14px 18px}.accordion-title{font-size:22px}.contact-form{padding:16px}.contact-accordion .accordion-body{padding:0 14px 18px}}
+
+/* 2026-11-01 top refinement: clear PIT identity with a compact reading rhythm. */
+body{background:#0b0d0e}
+.hero{position:relative;isolation:isolate;overflow:hidden;margin-top:18px;margin-bottom:8px;padding:38px 42px 0;border:1px solid #665233;border-radius:14px;background:radial-gradient(circle at 82% 38%,#5d401c48,transparent 42%),linear-gradient(118deg,#1a1c1a 0%,#101414 58%,#171915 100%)}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;opacity:.28;background:linear-gradient(105deg,transparent 0 69%,#a8864c18 69.1% 69.3%,transparent 69.4%),repeating-linear-gradient(90deg,transparent 0 79px,#b8964a11 80px 81px)}
+.hero::after{content:"";position:absolute;left:0;top:0;width:126px;height:3px;background:linear-gradient(90deg,#ffe7a7,#b88434)}
+.hero .eyebrow{color:#eecb81;letter-spacing:.14em;margin-bottom:12px}
+.hero .eyebrow span{color:#7b765f;padding:0 5px}
+.hero-audience{display:inline-block;font-size:14px;line-height:1.6;font-weight:700;color:#e7ded0;margin-bottom:13px}
+.hero h1{font-size:clamp(32px,4vw,51px);line-height:1.32;letter-spacing:0}
+.hero h1 em{font-style:normal;color:#f0c774}
+.hero .intro{max-width:525px;font-size:16px;line-height:1.72;color:#e1ded4;margin:17px 0 20px}
+.hero .caption{font-size:14px;line-height:1.6;margin-top:14px;color:#c4c7bd}
+.hero .primary{max-width:310px}
+.hero .crew{height:294px;align-self:end}
+.hero .pito{height:264px;width:210px;left:4%;top:20px}
+.hero .rona{height:202px;width:205px;right:2%;top:68px}
+.hero .crew-circle{inset:18px 0 4px;background:radial-gradient(ellipse,#c1953c1f,transparent 72%)}
+.hero-edge{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #746044;padding:11px 0;color:#c9ae79;font-size:10px;font-weight:700;letter-spacing:.18em}
+.problems{border:0;padding-top:30px}
+.problems .section-heading{margin-bottom:8px}
+.problems .section-lead{margin:0 0 18px}
+.problem-grid a{position:relative;background:#161a1b;border-color:#454b46;transition:background .15s,border-color .15s}
+.problem-grid a::before{content:"";position:absolute;inset:0 auto 0 0;width:3px;background:#a8874e;opacity:.7}
+.problem-grid a:focus-visible{outline-offset:3px}
+.problem-grid strong{line-height:1.5}
+.problem-grid small{color:#d8d7d0}
+.beginner{background:linear-gradient(120deg,#252217,#181a16);border-color:#76613e}
+.topics{border-top:1px solid var(--line);padding-top:38px}
+.problems+.beginner{margin-top:0}
+.beginner+.topics{margin-top:0}
+.topic-grid a{background:transparent;border:0;border-top:1px solid #444a42;border-radius:0;padding:17px 16px 18px 4px}
+.topic-grid a:hover{background:#161a18}
+.topic-grid strong{margin-top:4px}
+.section-lead,.steps p,.article-list h3,.story-grid p,.tool-grid p,.about>p:not(.eyebrow){line-height:1.7}
+@media(max-width:900px){.hero{padding:30px 28px 0}.hero .crew{height:250px}.hero .pito{height:222px;width:176px}.hero .rona{height:175px;width:176px;top:55px}}
+@media(max-width:620px){
+  .hero{width:calc(100% - 24px);margin-top:10px;margin-bottom:0;padding:19px 17px 0;grid-template-columns:1fr;gap:0;border-radius:10px;background:radial-gradient(circle at 74% 88%,#8a612c35,transparent 43%),linear-gradient(125deg,#1d1e1a,#101414 72%)}
+  .hero .eyebrow{font-size:11px;line-height:1.4;margin-bottom:9px}
+  .hero-audience{font-size:14px;margin-bottom:8px}
+  .hero h1{font-size:clamp(28px,7.6vw,33px);line-height:1.34;letter-spacing:-.025em}
+  .hero .intro{font-size:16px!important;line-height:1.65;margin:11px 0 14px!important}
+  .hero .primary{max-width:none;min-height:48px;font-size:16px}
+  .hero .caption{font-size:13px;line-height:1.55;margin-top:10px;text-align:left}
+  .hero .crew{height:100px;width:205px;justify-self:end;margin:0 10px 0 0}
+  .hero .crew-circle{inset:0 14px 1px}
+  .hero .pito{height:97px;width:75px;left:25px;top:1px}
+  .hero .rona{height:84px;width:95px;right:12px;top:10px}
+  .hero-edge{padding:8px 0;font-size:9px}
+  .problems{padding-top:24px;padding-bottom:30px}
+  .problems .section-lead{font-size:14px;margin-bottom:13px}
+  .problem-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .problem-grid a{min-height:126px;padding:11px 12px 10px;overflow:hidden}
+  .problem-grid strong{font-size:16px;line-height:1.42;margin:5px 0 8px;overflow-wrap:anywhere}
+  .problem-grid span,.problem-grid small{font-size:13px;line-height:1.4}
+  .problem-grid small{margin-top:auto}
+  .coming{margin-top:17px;font-size:13px}
+  .beginner{width:calc(100% - 36px);margin-bottom:28px;padding:18px}
+  .beginner .section-lead{font-size:15px}
+  .topics{padding-top:28px;padding-bottom:26px}
+  .topic-grid{gap:0 10px}
+  .topic-grid a{min-height:84px;padding:10px 7px 12px 3px}
+  .topic-grid small{font-size:13px;line-height:1.5}
+  .topic-grid strong{font-size:16px;line-height:1.4}
+  .section-lead{font-size:16px}
+  .steps p{font-size:15px}
+}
+@media(max-width:375px){.hero .eyebrow{font-size:10px}.problem-grid a{min-height:138px}.problem-grid strong{font-size:15px}}
+
+/* Adopted SORA hero image: show the complete artwork without repeating its lettering. */
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.hero-media{width:min(840px,calc(100% - 48px));margin:22px auto 0}
+.hero-art{display:block;width:100%;height:auto}
+.hero-action{width:min(840px,calc(100% - 48px));padding-top:14px;padding-bottom:8px}
+.hero-action .primary{max-width:none;min-height:52px;font-size:16px}
+.hero-action+.problems{padding-top:22px}
+@media(max-width:620px){
+  .hero-media,.hero-action{width:calc(100% - 16px)}
+  .hero-media{margin-top:10px}
+  .hero-action{padding-top:10px;padding-bottom:0}
+  .hero-action .primary{min-height:50px;padding:12px 17px}
+  .hero-action+.problems{padding-top:22px}
+}
