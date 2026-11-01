@@ -67,6 +67,14 @@ sitemap掲載31 URLをブラウザで巡回し、各ページの本文・H1・ca
 - 原画像JPEGは保持し、同じ1199×1312pxのWebP（約153KB）を優先配信する隔離候補を作成。ロゴ・文字・PITO/RONAは視覚確認済み。配信後のLCP改善量は未測定。
 - 計測結果：[トップ1回目](https://pagespeed.web.dev/analysis/https-delipit-jp/9h5tdigisw?form_factor=mobile)、[トップ2回目](https://pagespeed.web.dev/analysis/https-delipit-jp/hy915de45z?form_factor=mobile)、[開業ガイド](https://pagespeed.web.dev/analysis/https-delipit-jp-start-guide-html/arawib6zev?form_factor=mobile)。
 
+### PR #19 継続調査と隔離改善
+
+- 2回目のモバイルLighthouseでLCP要素は採用ヒーロー画像の `<img class="hero-art">`。画像配信診断はJPEG **573.7 KiB**、推定節約 **488.1 KiB**。LCP breakdownの表示はresource load delay 40 ms、load duration 80 ms、element render delay **1,140 ms**。これは診断の部分時間であり、全体LCP 7.1秒と単純に合算・同一視しない。画像転送だけで全遅延の解消は保証できない。
+- 既存WebP候補は1199×1312、約153 KB。原JPEG 587,438 bytesは保持。WebPへの切替は `<picture>` 内、`width`・`height`・`fetchpriority="high"` は既存設定。追加でWebPのhead preloadと画像の `loading="eager"` を指定し、CSSと並行して優先取得できる候補にした。プリロードと実際の `<source>` は同一URLを指す。画像内容やCSSの表示構図は変更していない。
+- **変更後のPageSpeed比較は未実施**。PRは未マージ・未配信で、既存の確認用Siteは所有者限定のため、外部のPageSpeed Insightsが同じページを計測できない。異なるホストや広告条件を本番前後の同条件比較とは扱わない。隔離候補を外部計測可能な同一URLへ配信できた段階で、同じモバイル設定・広告状態で複数回計測し、LCP/CLS/TBTを分布で比較する。フィールドINPは双方ともNo Dataのため確認できない。効果が確認できるまでマージ・本番反映しない。
+- SAFE旧資料は3ページともnoindex、Privacy・規約には旧版注意文が既にある。旧「ご利用案内」の冒頭だけが正式公開前の表現だったため、本文・正式文書に触れず、履歴である旨と現行SAFEへの案内に変更した。ページ内に残るTEST BUILD等は2026年10月19日の履歴として扱う。正式SAFEの「未施行」併記と運営方針取得不能はポータルから直せず、SAFE側の所有者確認事項として残す。
+- 最新main `8c649dffe2bdeb87eff087d9e6ac59bb96a831e9` とPR #19のhead `497628f6d756c882c8c62b6756a8966a335faca1` を2026年11月1日に再照合。PR差分はWebP、トップの画像マークアップ、旧資料3件のmetadata、監査記録の6ファイル。追加変更もトップと旧「ご利用案内」の注意文に限る。mainへの上書き・記事URL・正式規約本文への変更なし。
+
 ## SAFEの正式表示照合
 
 - SAFEトップは `DELIPIT SAFE 1.0.0` と規約版V99・適用開始日2026-11-01、承認済み3文書のリンクとハッシュを表示。利用規約とPrivacyの本文ページは表示できた。
