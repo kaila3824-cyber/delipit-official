@@ -63,6 +63,7 @@ sitemap掲載31 URLをブラウザで巡回し、各ページの本文・H1・ca
 
 - トップのモバイル2回：Performance **40 / 66**、LCP **7.3 / 7.1秒**、CLS **1.000 / 0**、FCP **3.9 / 2.9秒**。フィールドデータは「No Data」。変動が大きいのでCLSの原因は確定できない。画像JPEGは573.7KiB、Lighthouseは約488KiBの節約余地を提示。Google広告の第三者コードも転送・主スレッド時間に影響するが、コードは変更しない。
 - `start-guide.html` のモバイル1回：Performance **100**、LCP **0.8秒**、CLS **0**。単発のラボ値で全ページの速度を代表しない。
+- トップのデスクトップ1回：Performance **96**、LCP **1.3秒**、CLS **0**。同じ計測URLのデスクトップ表示。Best Practicesの非推奨API警告はGoogle広告の `lidar.js` に由来し、サイトの独自コードとは確認されなかった。
 - 原画像JPEGは保持し、同じ1199×1312pxのWebP（約153KB）を優先配信する隔離候補を作成。ロゴ・文字・PITO/RONAは視覚確認済み。配信後のLCP改善量は未測定。
 - 計測結果：[トップ1回目](https://pagespeed.web.dev/analysis/https-delipit-jp/9h5tdigisw?form_factor=mobile)、[トップ2回目](https://pagespeed.web.dev/analysis/https-delipit-jp/hy915de45z?form_factor=mobile)、[開業ガイド](https://pagespeed.web.dev/analysis/https-delipit-jp-start-guide-html/arawib6zev?form_factor=mobile)。
 
