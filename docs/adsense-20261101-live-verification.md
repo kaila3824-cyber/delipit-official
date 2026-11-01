@@ -226,3 +226,34 @@ SORAからPR #19隔離版について次の3項目すべてPASSとの申告を�
 最新`origin/main`は`0842a789113cb0ddaa9e945a7c1d49783b374789`で、PR作業版とのmerge-treeに競合マーカーはない。差分はヒーローWebP、トップの読み込み指定、監査文書、SAFE旧資料3ページの案内のみで、PR #18の統合はない。主要6カードの遷移先ファイルは全て存在する。公開隔離URL上でも6遷移先をリダイレクト追跡でHTTP 200・`text/html`、WebPをHTTP 200・`image/webp`（152,874 bytes）、JPEGをHTTP 200・`image/jpeg`（587,438 bytes）と確認した。`picture`のWebP source、JPEG `img`、preload、優先度指定は維持している。この追加確認はHTTP応答とソースの検証であり、iPhoneでの全記事操作試験を意味しない。
 
 **PR #19リリース判定：HOLD。** SORA申告のiPhone Safari実機Acceptanceは3/3 PASSだが、外部PageSpeedのCLS 1.000が3回中2回で原因未確定。PRはDraftのまま、マージ・本番公開・AdSense再申請は行わない。
+
+### CLS根本原因の追加調査・修正受入（2026-11-02 JST）
+
+前節の「原因未確定」「再測定未実施」「HOLD」は追加調査前の履歴であり、以下の結果に更新する。Chrome DevToolsから生のPerformance Traceをエクスポートする経路は利用できなかったため、公開隔離SiteのHTML先頭に一時的な`PerformanceObserver`（`layout-shift`、`buffered:true`）を入れ、PageSpeed Insightsの同一モバイル条件で発生イベントの時刻、スコア、affected nodesと前後の矩形をLighthouseのconsole errors監査に記録させた。診断コードはPR #19に入れておらず、最終測定前に隔離Siteからも除去した。
+
+診断版の[PageSpeedレポート](https://pagespeed.web.dev/analysis/https-delipit-pr19-lcp-review-20261102-inthesky08-chatgpt-site/4fkprdzbnx?form_factor=mobile)（取得時刻2026-11-01 23:12:51 UTC）では、`t=1326ms`に`value=1`、`hadRecentInput=false`のLayoutShiftイベントを観測した。主なaffected nodesは次の通り。
+
+| 要素 | 直前の矩形（x, y, 幅, 高さ） | 直後の矩形（x, y, 幅, 高さ） |
+| --- | --- | --- |
+| `body` | 8, 8, 404, 815 px | 0, 0, 412, 823 px |
+| `section#problems` | 0, 0, 0, 0 px | 18, 563.5, 376, 259.5 px |
+| `.hero-action.wrap` | 0, 0, 0, 0 px | 8, 502.3125, 396, 61.1875 px |
+
+CSS適用前のブラウザ既定の`body`余白8pxと未配置のカード入口が、CSS適用後の完成レイアウトへ切り替わる時にシフトしていた。元のHTMLは先頭で外部`portal.css`を読み込んでいた。診断版の`body`矩形、移動の時刻、外部CSSを先行適用する介入でCLSが消えたことから、**初期CSS適用時のレイアウト切替**を原因と判定する。白画面が長い回との時間的な関係はあるが、白画面そのものや広告スクリプトをCLSの原因とは判定しない。生のDevTools Traceに含まれるCSSの個別タスク・実行スタックは取得できず、その細部は確認できない。
+
+最小修正としてトップ`index.html`の外部CSS参照1箇所を、**同じ`portal.css`の24,095 bytesをHTML先頭の`style`に置く**形に変更した。CSSルールの内容・順番・採用済みデザイン・ヒーロー画像・広告コードは変更しない。CSSファイルは他ページ用に残す。隔離版のHTMLはrobotsのnoindexを除きPR候補と一致する。診断コードを残した中間検証では独立3回のCLSが0/0/0（LCP 5,280/3,983/3,274ms、TBT 23.5/10/10.5ms）だった。直後の別レポートIDに同じLighthouse取得時刻・値が再利用された一回は集計から除外した。
+
+診断コードを除去したPR相当の隔離版（Site version 5、deployment `appgdep_6ae7c8c6fc3c8191a2fba61a601ea58e`、配信成功）の外部PageSpeed mobileを別の取得時刻で3回測定した。いずれもLighthouse 13.6.0／Moto G Power／Slow 4G／HeadlessChromium 153、同じ公開URL、同じ画像・広告コード、noindexの隔離条件。フィールドINPはNo Data。
+
+| 回 | 取得時刻（UTC） | LCP | CLS | TBT | レポート |
+| --- | --- | ---: | ---: | ---: | --- |
+| 修正後1 | 2026-11-01 23:19:18 | 5,664.79ms | 0 | 70ms | [PageSpeed 1](https://pagespeed.web.dev/analysis/https-delipit-pr19-lcp-review-20261102-inthesky08-chatgpt-site/6cc0urs021?form_factor=mobile) |
+| 修正後2 | 2026-11-01 23:20:40 | 2,262.69ms | 0 | 0ms | [PageSpeed 2](https://pagespeed.web.dev/analysis/https-delipit-pr19-lcp-review-20261102-inthesky08-chatgpt-site/i22k411wv1?form_factor=mobile) |
+| 修正後3 | 2026-11-01 23:22:00 | 3,985.39ms | 0 | 24ms | [PageSpeed 3](https://pagespeed.web.dev/analysis/https-delipit-pr19-lcp-review-20261102-inthesky08-chatgpt-site/sjmk3e6kk1?form_factor=mobile) |
+| **中央値** | 3回 | **3,985.39ms** | **0** | **24ms** | LCP範囲2,262.69～5,664.79ms |
+
+修正前の同じ隔離URL・同じモバイル設定はLCP 5,157/5,175/5,492ms（中央値5,175ms）、CLS 0/1/1（中央値1）、TBT約1/40/39ms（中央値約39ms）。測定日は同日だが広告とネットワーク条件の揺らぎがあり、LCP中央値の短縮約1,190msを一定の改善量と断定しない。**CLSは修正後の独立3回すべて0で、各回0.1以下のゲートを満たした。** LCPは1回5.665秒と変動が大きく、フィールドでの安定性は確認できない。
+
+最新`origin/main` `0842a789113cb0ddaa9e945a7c1d49783b374789`とのmerge-treeに競合マーカーなし。PR #18を取り込んでいない。採用ヒーローのWebPとJPEGは公開隔離SiteでHTTP 200、各152,874／587,438 bytes。主要6カードの遷移先6件は全てリダイレクト追跡後HTTP 200・`text/html`。`picture`のWebP/JPEG、preload、`fetchpriority=high`、記事本文・URL、SAFE正式文書は維持。CSS完全一致により既存デザインのルールに差はない。SORAのiPhone Safari 3/3 PASSは修正前の実機評価であり、CSSの配信位置のみを変えた今回の版について新しい実機申告を受けたとは扱わない。
+
+**PR #19の技術受入判定：READY（候補）。** CLSの原因と最小修正を隔離版で検証し、3回すべて0となった。PRはDraftのまま維持し、SORAの明示的なマージ・本番公開承認があるまで反映しない。これはAdSense再申請READYの判定ではない。LCPのばらつきとSAFE「未施行」表示・旧PHP・管理画面などの別ゲートは引き続き監査対象。
