@@ -190,3 +190,7 @@ LCP要素は各版とも採用ヒーロー画像で、表示ボックス390px幅
 3. 最新main 0842a789とPR差分6ファイルを再照合。git merge-treeは競合なし、git diff --check PASS。SAFEの「未施行」は別件で、正式本文・同意履歴・データは本PRで変更しない。
 
 隔離サイトは試験用の別URLであり、公式サイトの本番公開・AdSense再申請を意味しない。
+
+### 隔離版の検索除外修正（同日）
+
+初回配信の再点検で、トップ以外のHTMLに異なる形式の既存robots metaが残っていた。隔離Site内の42 HTMLをすべてnoindex,nofollowに統一し、version 2／deployment appgdep_6ae7c395e0308191b2ee86c3fd814dc8 を配信成功。外部で start-guide.html のnoindexを確認した。トップのindex.htmlは初回からnoindexで、version 1と2のGit blob SHAは同じ 5b065f57421c87cbb0e3dd4ef6ed3a330bf1c4ae。上記PageSpeed3回の対象トップの内容・指標にこの修正は影響しない。隔離Siteのsource commitは aa1d9a2a0ac2413daad5119c53c96d883e34105c。PR #19本体のHTMLと正式文書は変更していない。
