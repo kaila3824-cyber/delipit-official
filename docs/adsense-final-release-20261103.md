@@ -46,3 +46,11 @@
 5. 全ゲートPASS、SORA承認後にだけDraft PRをマージし、正式配信・再検証する。AdSense再申請は別操作とし、本PRでは実行しない。
 
 参考： [GitHub PagesのPHP非対応](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)、[Cloudflare Single Redirects](https://developers.cloudflare.com/rules/url-forwarding/)、[Google AdSenseのページ準備](https://support.google.com/adsense/answer/7299563)、[GoogleのCMP要件](https://support.google.com/adsense/answer/13554116)。
+
+## 2026-11-03 追記：Cloudflare実機受入と公開情報修正
+
+- SORAのiPhone実機確認：Cloudflare apex A 4件をProxied化、旧PHP 2 URLから `/driver-news.html` への転送表示、公式トップ正常。301はCloudflare設定上指定済みだが、GET/HEADのHTTPステータス実測は未完了。
+- この文書の旧PHP「HOLD／転送なし」は設定前の履歴であり、現在のブラウザ受入結果を表さない。
+- 本PR内で `privacy.html` と `operator-disclosure.html` の「確認中」文言を、請求受付と個別回答の具体的な手順へ更新。法的適合性の確定を意味しない。
+- GitHub Actions `Check public PHP files` はPR head 4e15daa でsuccess。
+- AdSense画面で「有用性の低いコンテンツ」のポリシー違反が確認された。コンテンツ全体の審査合格は保証できない。再審査は所有者が別途実施する。
