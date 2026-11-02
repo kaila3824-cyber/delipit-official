@@ -257,3 +257,8 @@ CSS適用前のブラウザ既定の`body`余白8pxと未配置のカード入�
 最新`origin/main` `0842a789113cb0ddaa9e945a7c1d49783b374789`とのmerge-treeに競合マーカーなし。PR #18を取り込んでいない。採用ヒーローのWebPとJPEGは公開隔離SiteでHTTP 200、各152,874／587,438 bytes。主要6カードの遷移先6件は全てリダイレクト追跡後HTTP 200・`text/html`。`picture`のWebP/JPEG、preload、`fetchpriority=high`、記事本文・URL、SAFE正式文書は維持。CSS完全一致により既存デザインのルールに差はない。SORAのiPhone Safari 3/3 PASSは修正前の実機評価であり、CSSの配信位置のみを変えた今回の版について新しい実機申告を受けたとは扱わない。
 
 **PR #19の技術受入判定：READY（候補）。** CLSの原因と最小修正を隔離版で検証し、3回すべて0となった。PRはDraftのまま維持し、SORAの明示的なマージ・本番公開承認があるまで反映しない。これはAdSense再申請READYの判定ではない。LCPのばらつきとSAFE「未施行」表示・旧PHP・管理画面などの別ゲートは引き続き監査対象。
+
+
+## 2026-11-02 最終再監査
+
+最新main `c3c66781121af20ebf41be8055d10d372e9d794d` の本番を再監査。AdSense再申請判定は **HOLD**。全35ページ表と修正案は [`adsense-20261102-final-readiness.md`](adsense-20261102-final-readiness.md) を参照。以前のPR #19保留判定はマージ前の履歴である。
