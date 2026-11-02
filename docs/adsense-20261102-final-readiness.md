@@ -66,7 +66,7 @@
 
 SAFE main `549a7ca6340f9abd8db502c23a714e80a4085c4f` の `dist/client/terms.html` と `privacy.html` には `<h2>所有者承認済み本文（未施行）</h2>` が残る。一方、`scripts/prepare-legal-activation.mjs` は施行時に notice の日付を差し替えるが、見出しについては旧候補文字列 `所有者承認済み本文を基にしたCloudflare向け候補・未施行の全文候補` だけを `replaceAll` する。実際の見出しと一致せず、「未施行」が残る。公開HTMLでこの組合せを再現した。原因は表示生成時の置換対象の不一致と判定する。
 
-本番の `/legal-release-config.js` は `version: V99`、`effectiveDate: 2026-11-01`、`enforcementStartAt: 2026-11-01T00:00:00+09:00`、`enforcementEnabled: true`、`legalReviewComplete: true`、`releaseGatePassed: true`。3文書の bodyHash は `release/OWNER_PUBLICATION_APPROVAL.json` の承認値と全件一致。これは公開設定と承認資料の照合であり、利用者端末の `delipit-safe-consent-v1` に保存された実際の同意履歴や同意日時を読み取った結果ではない。個別履歴は**確認できない**。SAFE側の別件で公開用見出しのみを正しい現行表示に修正し、3文書の原文・ハッシュ・同意処理・履歴を不変として検証する。PR #20にSAFEコード変更を混ぜない。
+本番の `/legal-release-config.js` は `version: V99`、`effectiveDate: 2026-11-01`、`enforcementStartAt: 2026-11-01T00:00:00+09:00`、`enforcementEnabled: true`、`legalReviewComplete: true`、`releaseGatePassed: true`。3文書の bodyHash は `release/OWNER_PUBLICATION_APPROVAL.json` の承認値と全件一致。公開 `/legal/terms.txt`、`privacy.txt`、`operator.txt` も各200/text/plainで取得し、SHA-256が承認値と3/3一致した。これは公開設定・本文と承認資料の照合であり、利用者端末の `delipit-safe-consent-v1` に保存された実際の同意履歴や同意日時を読み取った結果ではない。個別履歴は**確認できない**。SAFE側の別件で公開用見出しのみを正しい現行表示に修正し、3文書の原文・ハッシュ・同意処理・履歴を不変として検証する。PR #20にSAFEコード変更を混ぜない。
 - PORTALの `operator-disclosure.html` は運営ブランド、担当者、メール、フォームを表示するが、法的な運営主体の表示方法は「確認中」。正式 `privacy.html` の開示回答方法にも「候補／確認中」がある。これらの正式本文の無断改定はしない。
 
 ## AdSense管理画面とGoogle公式基準
