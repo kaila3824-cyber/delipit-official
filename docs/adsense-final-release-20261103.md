@@ -22,9 +22,9 @@
 
 ## 配信境界と旧PHP修正手順
 
-`CNAME` は `delipit.jp`、公開応答に `x-github-request-id` があり、GitHub Pagesの静的配信を確認。GitHub公式文書によるとPagesはサーバー側PHPを実行しない。Cloudflare管理画面はログイン画面で、当該ゾーン、DNSのプロキシ状態、他CDN・リバースプロキシの有無は**確認できない**。Cloudflare Single Redirectsは対象DNSレコードがCloudflareでプロキシされる場合にのみ使用できる。
+`CNAME` は `delipit.jp`、公開応答に `x-github-request-id` があり、GitHub Pagesの静的配信を確認。GitHub公式文書によるとPagesはサーバー側PHPを実行しない。Cloudflare管理画面にはこちらからログインできない。SORA申告（2026-11-03）ではapexのAレコード4件はすべてDNS only、wwwのCNAMEはDNS only、analyticsとSAFEはProxied、appはDNS only。各レコード値・TTL、SSL mode、既存Rulesは未確認。切替の影響・受入・復旧は `cloudflare-apex-301-rollout-20261103.md` に記録。Cloudflare Single Redirectsは対象DNSレコードがCloudflareでプロキシされる場合にのみ使用できる。
 
-**承認対象の設定案（既存の前段がCloudflareでプロキシ済みの場合のみ）**：対象ホスト `delipit.jp`、URI path equals `/driver-news.php` または `/assets/driver-news.php`、静的転送先 `https://delipit.jp/driver-news.html`、301、query stringを引き継がない。他パス・他ホストは対象外。まず現在のDNS・ルール一覧・優先順位をスクリーンショットと設定エクスポートで記録し、競合ルールがないことを確認する。設定が使えない場合は既存の配信事業者側の同等のexact-pathルールを検討し、DNS移行は別途承認事項とする。
+**承認対象の設定案（apexをCloudflareでProxied化した後に有効）**：対象ホスト `delipit.jp`、URI path equals `/driver-news.php` または `/assets/driver-news.php`、静的転送先 `https://delipit.jp/driver-news.html`、301、query stringを引き継がない。他パス・他ホストは対象外。まず現在のDNS・ルール一覧・優先順位をスクリーンショットと設定エクスポートで記録し、競合ルールがないことを確認する。設定が使えない場合は既存の配信事業者側の同等のexact-pathルールを検討し、DNS移行は別途承認事項とする。
 
 設定後 `python scripts/check_legacy_php_release.py --live` でGET/HEAD計4件の301/308、Location、転送先200/text/htmlを確認する。ブラウザ、主要35ページ、アプリ2ドメインへの副作用も測る。**受入後にのみ**旧PHPファイルを公開成果物から除外する別差分を用意し、再度4件の転送が持続することを確認する。ロールバックは追加したexact-pathルールのみ無効化し、保存した元設定に戻す。旧ファイル削除を先に実施しない。meta refreshはHTTP転送ではない。
 
@@ -37,7 +37,7 @@
 
 ## 所有者の確認とリリースゲート
 
-1. 既存DNSと前段配信の管理画面を確認し、対象2パスのHTTPルール設定案・復旧手順を承認する。Cloudflareに未接続またはDNS onlyなら、Cloudflareルールは発効しない。管理画面へのログイン状態がないため自動適用しない。
+1. SORA申告のDNS-only apex 4 Aの実際の値・TTL、SSL/Edge証明書、既存Rulesを記録し、`cloudflare-apex-301-rollout-20261103.md` の対象2パスのHTTPルール・apex Proxied切替・復旧手順を承認する。DNS onlyのままではCloudflareルールは発効しない。管理画面へのログイン状態がないため自動適用しない。
 2. Privacy／運営者表示の「確認中」事項について、表示する確定事実、回答手順、改定承認者・改定日を決める。未確認の氏名・住所・法的適合性は推測しない。
 3. AdSenseの現在の不承認理由、サイト状態、ads.txt認識、広告配信地域とCMP設定、Search Consoleのsitemap処理・主要URLインデックスを管理画面で確認する。接続手段がない項目は確認できない。
 管理画面接続状況（2026-11-03）：Cloudflareはログイン画面でゾーン設定未取得。AdSenseはGoogleログイン画面、Search Consoleも未ログイン。Windsor.aiには `sc-domain:delipit.jp` 接続が表示されたが、Free枠1アカウントに対しGA4とSearch Consoleの2アカウントが接続され、読取りが停止している。返却値をインデックス状況の実測として扱わない。既存接続の解除・有料化は行わない。
