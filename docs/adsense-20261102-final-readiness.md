@@ -2,7 +2,7 @@
 
 ## 追記：PR #20 本番リリース受入（2026年11月2日 13:31 JST）
 
-**本番リリース：PASS。** 下記の当初監査にある「16アンカーは本番未反映」という記述は、PR #20 merge `4f139fc3b71fcbaa89f1f2fdb19b2715f6722a72` の反映前の履歴である。今回取得した `origin/main` はこのSHAと一致し、本番の公開35 HTMLすべてが `200 / text/html` で、各レスポンス本文が同SHAのファイルとバイト単位で一致した。主要6カードの遷移先（`start-guide.html`、`contract-guide.html`、`driver-note-07.html`、`money-guide.html`、`safety-guide.html`、`driver-faq.html`）もすべて200でH1と本文リンクが存在し、トップの導線は維持。静的リンク検査は `HTML=35 sitemap=31 internal_links=625 problems=0`。
+**本番リリース：PASS。** 下記の当初監査にある「16アンカーは本番未反映」という記述は、PR #20 merge `4f139fc3b71fcbaa89f1f2fdb19b2715f6722a72` の反映前の履歴である。今回取得した `origin/main` はこのSHAと一致し、本番の公開35 HTMLすべてが `200 / text/html` で、各レスポンス本文が同SHAのファイルとバイト単位で一致した。主要6カードの遷移先（`start-guide.html`、`contract-guide.html`、`driver-note-07.html`、`money-guide.html`、`safety-guide.html`、`driver-faq.html`）もすべて200。トップのカード6件を本番ブラウザで実際に押し、各ページのH1、本文表示、トップへの戻りリンクを6/6で確認した。静的リンク検査は `HTML=35 sitemap=31 internal_links=625 problems=0`。
 
 修正した16箇所は、`delipit.html` 3、`gamification.html` 1、`manual.html` 2、`operator-disclosure.html` 2、`pitcrew.html` 1、`privacy.html` 2、`quickstart.html` 2、`terms.html` 2の計15リンクを存在しない `index.html#products` から `index.html#tools` へ変更し、`news-v120.html` の1リンクを存在しない `#v120-news` からトップへ戻るリンクに変更したもの。公開HTMLで旧アンカーの残存0、`#tools` のID実在を確認。ブラウザでは `delipit.html` のPRODUCTSを押すと `https://delipit.jp/index.html#tools` に移り、対象見出しが表示領域上端から約22pxに見える。`news-v120.html` の「トップへ戻る」もトップに移動。残りの同型リンクは公開HTMLのhref・ターゲットIDを全件確認した（クリック操作は代表例）。
 
