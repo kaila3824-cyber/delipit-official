@@ -96,10 +96,18 @@ body{background:#0b0d0e}
 .hero-media{width:min(840px,calc(100% - 48px));margin:22px auto 0}
 .hero-art{display:block;width:100%;height:auto}
 .hero-action{width:min(840px,calc(100% - 48px));padding-top:14px;padding-bottom:8px}
-.hero-action .primary{max-width:none;min-height:52px;font-size:16px}.hero-action .secondary{display:flex;align-items:center;justify-content:space-between;gap:16px;border:1px solid var(--gold);color:var(--gold);font-size:16px;font-weight:750;padding:14px 20px;border-radius:5px;min-height:52px;margin-top:10px}
+.hero-action .primary,.hero-entry .primary{max-width:none;min-height:52px;font-size:16px}
+.hero-entry{width:min(840px,calc(100% - 48px));margin:22px auto 0}
+.hero-entry h1{margin:0 0 12px;font-size:clamp(22px,3vw,30px);line-height:1.35}
+.hero-entry-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.hero-entry .secondary{background:transparent;border:1px solid var(--gold);color:var(--gold)!important}
+.hero-entry .secondary:hover{background:#e3bc6a1a}
 .hero-action+.problems{padding-top:22px}
 @media(max-width:620px){
-  .hero-media,.hero-action{width:calc(100% - 16px)}
+  .hero-media,.hero-action,.hero-entry{width:calc(100% - 16px)}
+  .hero-entry{margin-top:12px}
+  .hero-entry-links{grid-template-columns:1fr;gap:8px}
+  .hero-entry .primary{min-height:48px;padding:10px 14px}
   .hero-media{margin-top:10px}
   .hero-action{padding-top:10px;padding-bottom:0}
   .hero-action .primary{min-height:50px;padding:12px 17px}
@@ -126,7 +134,15 @@ body{background:#0b0d0e}
 </style></head><body>
 <a class="skip" href="#main">本文へ移動</a>
 <header><div class="wrap header-row"><a class="brand" href="./" aria-label="DELIPIT PORTAL ホーム"><img src="assets/delipit-logo.webp" width="150" height="50" alt="DELIPIT"><span>DRIVER'S PORTAL</span></a><nav class="desktop" aria-label="メイン"><a href="#problems">悩みから探す</a><a href="#field">記事・ガイド</a><a href="#stories">NOTE / NEWS</a><a href="#tools">無料ツール</a></nav><details class="menu"><summary>メニュー <span aria-hidden="true">☰</span></summary><nav aria-label="モバイルメニュー"><a href="#problems">今の悩みから探す</a><a href="#field">記事・ガイド</a><a href="#stories">DRIVER NOTE / NEWS</a><a href="#tools">無料ツール</a><a href="operator-disclosure.html">運営者情報</a><a href="#contact">お問い合わせ</a><b>始める</b><a href="start-guide.html">軽貨物の始め方</a><a href="contract-guide.html">契約のチェック</a><b>お金・税金</b><a href="money-guide.html">売上と手取りのしくみ</a><a href="tax-guide.html">確定申告・青色申告</a><a href="invoice-guide.html">インボイスの登録判断</a><b>現場・安全</b><a href="safety-guide.html">安全管理の基本</a><a href="safe-information.html">安全情報</a><a href="driver-support.html">困ったときのサポート</a><b>車・保険・もしも</b><a href="vehicle-guide.html">車両の選び方・維持費</a><a href="insurance-guide.html">保険・労災</a><a href="accident-guide.html">事故・トラブル対応</a><a href="health-guide.html">健康管理</a><a href="closing-guide.html">廃業・休業の手続き</a><b>読む</b><a href="driver-note.html">DRIVER NOTE</a><a href="driver-news.html">DRIVER NEWS</a><a href="driver-faq.html">よくある質問</a></nav></details></div></header>
-<main id="main"><section class="hero-media" aria-labelledby="portal-title"><h1 id="portal-title" class="visually-hidden">軽貨物ドライバーの疑問が解決できる場所。</h1><picture><source srcset="assets/portal-hero-sora-20261101.webp" type="image/webp"><img class="hero-art" src="assets/portal-hero-sora-20261101.jpg" width="1199" height="1312" loading="eager" fetchpriority="high" decoding="async" alt="夕景のPITガレージに停まる軽貨物車両と、PITO・RONA。上部にDELIPITロゴ、軽貨物ドライバー向け総合情報サイト、軽貨物ドライバーの疑問が解決できる場所と記されています。"></picture></section><div class="hero-action wrap"><details class="finder"><summary class="primary">知りたいことを探す <span aria-hidden="true">▾</span></summary><nav aria-label="知りたいことから探す"><b>始める</b><a href="start-guide.html">軽貨物の始め方</a><a href="contract-guide.html">契約のチェック</a><b>お金・税金</b><a href="money-guide.html">売上と手取りのしくみ</a><a href="tax-guide.html">確定申告・青色申告</a><a href="invoice-guide.html">インボイスの登録判断</a><b>現場・安全</b><a href="safety-guide.html">安全管理の基本</a><a href="safe-information.html">安全情報</a><a href="driver-support.html">困ったときのサポート</a><b>車・保険・もしも</b><a href="vehicle-guide.html">車両の選び方・維持費</a><a href="insurance-guide.html">保険・労災</a><a href="accident-guide.html">事故・トラブル対応</a><a href="health-guide.html">健康管理</a><a href="closing-guide.html">廃業・休業の手続き</a><b>読む</b><a href="driver-note.html">DRIVER NOTE</a><a href="driver-news.html">DRIVER NEWS</a><a href="driver-faq.html">よくある質問</a></nav></details><a class="secondary" href="https://app.delipit.jp/">DELIPITアプリを無料で開く <span aria-hidden="true">→</span></a></div>
+<main id="main">
+<section class="hero-entry" aria-labelledby="portal-title">
+  <h1 id="portal-title">軽貨物ドライバーの仕事ガイド</h1>
+  <div class="hero-entry-links">
+    <a class="primary" href="#problems">開業・仕事のガイドを読む <span aria-hidden="true">↓</span></a>
+    <a class="primary secondary" href="https://app.delipit.jp/">配送・売上管理アプリを無料で開く <span aria-hidden="true">→</span></a>
+  </div>
+</section>
+<div class="hero-media"><picture><source srcset="assets/portal-hero-sora-20261101.webp" type="image/webp"><img class="hero-art" src="assets/portal-hero-sora-20261101.jpg" width="1199" height="1312" loading="eager" fetchpriority="high" decoding="async" alt="夕景のPITガレージに停まる軽貨物車両と、PITO・RONA。"></picture></div><div class="hero-action wrap"><details class="finder"><summary class="primary">知りたいことを探す <span aria-hidden="true">▾</span></summary><nav aria-label="知りたいことから探す"><b>始める</b><a href="start-guide.html">軽貨物の始め方</a><a href="contract-guide.html">契約のチェック</a><b>お金・税金</b><a href="money-guide.html">売上と手取りのしくみ</a><a href="tax-guide.html">確定申告・青色申告</a><a href="invoice-guide.html">インボイスの登録判断</a><b>現場・安全</b><a href="safety-guide.html">安全管理の基本</a><a href="safe-information.html">安全情報</a><a href="driver-support.html">困ったときのサポート</a><b>車・保険・もしも</b><a href="vehicle-guide.html">車両の選び方・維持費</a><a href="insurance-guide.html">保険・労災</a><a href="accident-guide.html">事故・トラブル対応</a><a href="health-guide.html">健康管理</a><a href="closing-guide.html">廃業・休業の手続き</a><b>読む</b><a href="driver-note.html">DRIVER NOTE</a><a href="driver-news.html">DRIVER NEWS</a><a href="driver-faq.html">よくある質問</a></nav></details></div>
 <section class="wrap problems" id="problems"><div class="section-heading"><div><p class="eyebrow">FIND YOUR ANSWER</p><h2>今、何に困っていますか？</h2></div></div><p class="section-lead">今の悩みに近い項目を選ぶと、解説記事を直接読めます。</p><div class="problem-grid">
 <a href="start-guide.html"><span>始める</span><strong>黒ナンバーの取得方法</strong><small>開業・届出のガイドを読む →</small></a>
 <a href="contract-guide.html"><span>契約する</span><strong>業務委託契約の注意点</strong><small>業務委託のガイドを読む →</small></a>
